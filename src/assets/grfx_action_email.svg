@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <linearGradient id="prefix__c" x1="53.843%" x2="77.43%" y1="40.728%" y2="93.564%">
+            <stop offset="0%" stop-color="#BA397B"/>
+            <stop offset="56.351%" stop-color="#F16F4F"/>
+            <stop offset="100%" stop-color="#FFB166"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="120.448%" x2="-13.028%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#BA397B"/>
+            <stop offset="56.351%" stop-color="#F16F4F"/>
+            <stop offset="100%" stop-color="#FFB166"/>
+        </linearGradient>
+        <linearGradient id="prefix__f" x1="66.523%" x2="15.412%" y1="45.816%" y2="64.625%">
+            <stop offset="0%" stop-color="#BA397B"/>
+            <stop offset="56.351%" stop-color="#F16F4F"/>
+            <stop offset="100%" stop-color="#FFB166"/>
+        </linearGradient>
+        <linearGradient id="prefix__g" x1="0%" x2="97.385%" y1="36.4%" y2="62.889%">
+            <stop offset="0%" stop-color="#BA397B"/>
+            <stop offset="56.351%" stop-color="#F16F4F"/>
+            <stop offset="100%" stop-color="#FFB166"/>
+        </linearGradient>
+        <filter id="prefix__a" width="146.2%" height="357.1%" x="-23.1%" y="-128.6%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+        </filter>
+        <rect id="prefix__b" width="50" height="38" x="0" y="0" rx="5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H100V100H0z"/>
+        <g transform="translate(11 14)">
+            <ellipse cx="31.5" cy="54.5" fill="#115B79" fill-rule="nonzero" filter="url(#prefix__a)" opacity=".45" rx="19.5" ry="3.5"/>
+            <g transform="rotate(-9 58.766 -3.912)">
+                <mask id="prefix__e" fill="#fff">
+                    <use xlink:href="#prefix__b"/>
+                </mask>
+                <use fill="url(#prefix__c)" fill-rule="nonzero" xlink:href="#prefix__b"/>
+                <path fill="url(#prefix__d)" fill-rule="nonzero" d="M19.573 17.689L0 38 -1.481 0.811z" mask="url(#prefix__e)"/>
+                <path fill="url(#prefix__f)" fill-rule="nonzero" d="M52.383 16.505L32.81 36.816 31.329 -0.373z" mask="url(#prefix__e)" transform="matrix(-1 0 0 1 83.712 0)"/>
+                <path fill="url(#prefix__g)" fill-rule="nonzero" d="M.621 2.44l18.396 17.248c4.029 3.778 10.357 3.574 14.135-.455l.022-.023L49 2.22c8.069-2.089 7.253-3.355-2.449-3.797-9.7-.443-25.17-.218-46.41.675l.48 3.342z" mask="url(#prefix__e)"/>
+            </g>
+        </g>
+    </g>
+</svg>

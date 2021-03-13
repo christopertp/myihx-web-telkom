@@ -1,0 +1,28 @@
+.question {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.label > span {
+  flex-grow: 1;
+  font-size: 0.8rem;
+}
+
+.right {
+  text-align: right;
+}
+
+.slider {
+  margin-top: 5rem;
+}
+
+.button {
+  margin-top: 0.5rem;
+  width: 100%;
+}

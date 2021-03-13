@@ -1,0 +1,135 @@
+.all {
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  flex: 1;
+  min-height: 27rem;
+  padding: 2rem;
+}
+
+.all > a {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    'promo small'
+    'promo header'
+    'main main';
+  padding: 1.25rem 0 1.25rem 1rem;
+}
+
+.all > a > img:first-of-type {
+  grid-area: promo;
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+.all > a > img:last-of-type {
+  grid-area: main;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.all > a > small {
+  grid-area: small;
+  color: #999999;
+  font-size: 0.9rem;
+}
+
+.all > a > h3 {
+  grid-area: header;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.article {
+  display: flex;
+  margin-top: -1rem;
+}
+
+.article > nav {
+  margin-right: 1rem;
+}
+
+.header {
+  background: #ee3124 url(/assets/bg_product_internet.jpg) no-repeat center;
+  background-size: cover;
+  margin: -4rem var(--neg-side-margin) 0;
+  padding: 3rem var(--side-margin) 6rem;
+  z-index: 1;
+}
+
+.header > a {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+}
+
+.header > a > svg {
+  height: 1rem;
+  opacity: 0.75;
+}
+
+.header > a > svg:last-child {
+  display: none;
+}
+
+.header > h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 48em) {
+  .all {
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 -1rem -1rem;
+    padding: 1.5rem 1rem 1rem;
+  }
+  .all > a {
+    padding: 1rem 0;
+    border-bottom: 0.0625rem solid #e5e6e6;
+  }
+  .all > a > div > small {
+    font-size: 0.8125rem;
+  }
+  .all > a > div > h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 0.275rem;
+  }
+  .article {
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .article > nav {
+    margin: 0 -1rem;
+  }
+  .header {
+    background: #ffffff;
+    color: #000001;
+    margin: -1rem -1rem 0;
+    padding: 1rem 1rem 0.75rem;
+  }
+  .header > a {
+    color: transparent;
+    font-size: 0;
+    margin-bottom: 1rem;
+  }
+  .header > a > svg:first-child {
+    display: none;
+  }
+  .header > a > svg:last-child {
+    display: block;
+    height: 1.5rem;
+  }
+  .header > h1 {
+    color: inherit;
+    font-size: 1.5rem;
+  }
+}

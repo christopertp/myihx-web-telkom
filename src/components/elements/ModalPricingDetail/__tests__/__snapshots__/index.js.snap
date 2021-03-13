@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ModalPricingDetail render 1`] = `
+<React.Fragment>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <section>
+      <h3>
+        Rp
+        0
+         
+        <small>
+          /month
+        </small>
+      </h3>
+      <p>
+        View pricing details
+      </p>
+      <Button
+        className=""
+        disabled={false}
+        onClick={[Function]}
+        to=""
+        type="button"
+        variant="red"
+      >
+        Subscribe
+      </Button>
+    </section>
+    <section>
+      <p>
+        Biaya Indihome
+      </p>
+      <p>
+        Rp
+        0
+      </p>
+      <p>
+        Sewa STB
+      </p>
+      <p>
+        Rp
+        0
+      </p>
+      <p>
+        Limited time app discount
+      </p>
+      <p>
+        -Rp
+        0
+      </p>
+    </section>
+  </Modal>
+</React.Fragment>
+`;

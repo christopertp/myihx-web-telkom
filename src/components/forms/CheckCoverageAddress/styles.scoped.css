@@ -1,0 +1,33 @@
+.root > button {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.root > label:not(:first-of-type), .half {
+  margin-top: 1.5rem;
+}
+
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+.half {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half > div { flex: 1; }
+.half > div:first-child { margin-right: 0.75rem; }
+
+@media only screen and (max-width: 48em) {
+  .root {
+    width: 100%;
+  }
+
+  .root > label:not(:first-of-type), .half {
+    margin-top: 1rem;
+  }
+}

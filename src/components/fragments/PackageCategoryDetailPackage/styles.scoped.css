@@ -1,0 +1,49 @@
+.desktoplist > h3,
+.mobilelist > h3 {
+  margin: 1rem 0;
+}
+
+.desktoplist {
+  margin: 2rem 0;
+}
+
+.desktoplist > h3 {
+  margin: 2rem 0 3rem 0;
+}
+
+.list {
+  display: grid;
+  gap: 3rem 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.list > div:empty {
+  background-color: #dddbdd;
+  box-shadow: none;
+  height: 34rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .desktoplist > h3,
+  .mobilelist > h3 {
+    font-size: 0.75rem;
+    font-weight: lighter;
+  }
+  .list {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    margin: 1.625rem 0;
+  }
+  .list-mob {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .list-mob > div:empty {
+    background-color: #dddbdd;
+    box-shadow: none;
+    height: 10.25rem;
+    width: 100%;
+  }
+}

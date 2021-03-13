@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/History Bill 1`] = `
+<React.Fragment>
+  <React.Fragment>
+    <header>
+      <h3>
+        Your Payments
+      </h3>
+      <IconButton
+        className=""
+        name="email"
+        onClick={[Function]}
+        title=""
+        to=""
+        type="button"
+      />
+    </header>
+    <Link
+      to="/receipt/202004"
+    >
+      <small>
+        24 June 2020
+      </small>
+      <p>
+        Rp
+        388.000
+      </p>
+      <p>
+        June 2020
+      </p>
+    </Link>
+    <Link
+      to="/receipt/202003"
+    >
+      <small>
+        
+      </small>
+      <p>
+        Rp
+        123.000
+      </p>
+      <p>
+        June 2020
+      </p>
+    </Link>
+  </React.Fragment>
+  <ModalBillDownload
+    onClose={[Function]}
+    open={false}
+  />
+  <Notif />
+  <Overlay />
+</React.Fragment>
+`;
+
+exports[`src/pages/History BlankState 1`] = `
+<React.Fragment>
+  <img
+    alt="blank history"
+    src="/assets/grfx_undefined.svg"
+  />
+  <p />
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="button"
+    variant="red"
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/History render 1`] = `
+<Provider>
+  <header>
+    <Link
+      to="/"
+    >
+      <Arrow
+        fill="#FFFFFF"
+        size={24}
+      />
+      <Arrow
+        fill="#EE3124"
+        size={24}
+      />
+      Home
+    </Link>
+    <h1>
+      History
+    </h1>
+  </header>
+  <article>
+    <HistoryInboxMenu
+      links={
+        Array [
+          Object {
+            "page": "bill",
+            "text": "Bill",
+            "to": "/history/bill",
+          },
+          Object {
+            "page": "",
+            "text": "Purchase",
+            "to": "",
+          },
+          Object {
+            "page": "",
+            "text": "Activity",
+            "to": "",
+          },
+        ]
+      }
+    />
+    <section>
+      <Bill />
+    </section>
+  </article>
+</Provider>
+`;

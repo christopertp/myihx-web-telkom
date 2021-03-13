@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Bullet render 1`] = `
+<div
+  className=""
+>
+  <div
+    style={
+      Object {
+        "background": "#ee3124",
+        "height": "0.75rem",
+        "width": "0.75rem",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ModalConfirmation render 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={false}
+>
+  <h1>
+    
+  </h1>
+  <p>
+    
+  </p>
+  <footer>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      Yes
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      No
+    </Button>
+  </footer>
+</Modal>
+`;

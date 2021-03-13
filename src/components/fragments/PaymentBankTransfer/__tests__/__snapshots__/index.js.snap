@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/PaymentBankTransfer BankDetail 1`] = `
+<section>
+  <IconButton
+    className=""
+    name="close_red"
+    onClick={[Function]}
+    title=""
+    to="/"
+    type="button"
+  />
+  <header>
+    <img
+      alt="logo bank"
+      src=""
+    />
+  </header>
+  <section>
+    <Heading
+      className=""
+    >
+      Account Number
+    </Heading>
+    <input
+      readOnly={true}
+      type="text"
+      value="396525"
+    />
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      COPY
+    </Button>
+  </section>
+  <section>
+    <Heading
+      className=""
+    >
+      Transfer Amount
+    </Heading>
+    <strong>
+      Rp 
+      392.5
+    </strong>
+    <Heading
+      className=""
+    >
+      Payment Code
+    </Heading>
+    <strong />
+  </section>
+  <Timer />
+  <section>
+    <Heading
+      className=""
+    >
+      Lihat cara pembayaran
+    </Heading>
+    <HowToPay />
+  </section>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/"
+    type="button"
+    variant="red"
+  >
+    TUTUP
+  </Button>
+</section>
+`;
+
+exports[`src/components/fragments/PaymentBankTransfer HowToPay 1`] = `
+Array [
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    style={
+      Object {
+        "height": "3.5rem",
+      }
+    }
+    to=""
+    variant="bordered"
+  >
+    <header
+      onClick={[Function]}
+    >
+      <h6>
+        MOBILE
+      </h6>
+      <IconButton
+        className=""
+        name="chevron_red_down"
+        onClick={[Function]}
+        title=""
+        to=""
+        type="button"
+      />
+    </header>
+    <ul>
+      <li>
+        <Bullet
+          className=""
+          color={
+            Array [
+              "#ee3124",
+              "#cccccc",
+            ]
+          }
+          connect={false}
+          size="0.75rem"
+        />
+        <h5>
+          dolor ipsum
+        </h5>
+        <p
+          style={
+            Object {
+              "paddingBottom": "0.7rem",
+            }
+          }
+        >
+          dolor ipsum
+        </p>
+      </li>
+    </ul>
+  </Card>,
+]
+`;
+
+exports[`src/components/fragments/PaymentBankTransfer ListBank 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle="Pilih Bank yang dituju"
+  title="Pilih Bank"
+>
+  <section>
+    <section
+      onClick={[Function]}
+    >
+      <strong />
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </section>
+  </section>
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/PaymentBankTransfer Timer 1`] = `
+<div>
+  <img
+    alt="time"
+    src="/assets/ic_selection_time.svg"
+  />
+  <span>
+    Complete payment by
+  </span>
+  <span>
+    
+    :
+    
+    :
+    
+  </span>
+</div>
+`;
+
+exports[`src/components/fragments/PaymentBankTransfer render 1`] = `
+<React.Fragment>
+  <ListBank />
+  <Notif />
+</React.Fragment>
+`;

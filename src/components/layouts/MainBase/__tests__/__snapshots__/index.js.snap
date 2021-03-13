@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/layouts/MainBase render 1`] = `
+<React.Fragment>
+  <Header
+    onClickLogin={[Function]}
+  />
+  <main
+    className=""
+  />
+  <Footer />
+  <Toolbar
+    onClickLogin={[Function]}
+  />
+  <ModalLogin
+    onClose={[Function]}
+    open={false}
+  />
+</React.Fragment>
+`;

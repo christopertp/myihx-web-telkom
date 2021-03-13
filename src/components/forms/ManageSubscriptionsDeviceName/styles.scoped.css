@@ -1,0 +1,31 @@
+.root > footer {
+  display: flex;
+  margin-top: 2rem;
+}
+.root > footer > button {
+  flex: 1;
+}
+.root > footer > button:nth-child(1) {
+  margin-right: 0.75rem;
+}
+.root > h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}

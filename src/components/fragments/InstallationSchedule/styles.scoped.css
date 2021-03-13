@@ -1,0 +1,66 @@
+.root { margin-top: 1.5rem; }
+.root > header {
+  background: linear-gradient(0deg, #f2f2f2 0%, #ffffff 100%);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 1, 0.15);
+  display: grid;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  padding: 1rem;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+}
+
+.root > header > figure, .root > header > span:first-child {
+  align-items: center;
+  background: linear-gradient(45deg, #333435, #808285);
+  border-radius: 0.5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/4;
+  height: 5.25rem;
+  justify-content: center;
+  margin-right: 0.75rem;
+  width: 5.25rem;
+}
+.root > header > span { margin: 0.125rem; }
+.root > header > figure > h2 { font-size: 2rem; line-height: 1.5rem; }
+.root > header > figure > p { font-size: 0.875rem; }
+.root > header > h3 {
+  color: var(--text-color);
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  margin-top: auto;
+  transition: color 0.25s;
+}
+
+.root > header > p {
+  color: var(--slate-grey);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-bottom: auto;
+}
+
+.reschedule-link {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: auto;
+  padding: 0;
+  text-transform: none;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > header > figure, .root > header > span:first-child {
+    height: 3.75rem;
+    width: 3.75rem;
+  }
+
+  .root > header > figure > h2 { line-height: 1.5rem; }
+  .root > header > figure > p { font-size: 0.75rem; }
+  .root > header > h3 { font-size: 1rem; }
+  .root > header > p { font-size: 0.75rem; }
+
+  .reschedule-link { font-size: 0.8125rem; }
+}

@@ -1,0 +1,117 @@
+.footer { text-align: center; }
+.footer > h5 {
+  color: var(--slate-grey);
+  font-size: 1rem;
+  font-weight: normal
+}
+
+.footer > a {
+  color: var(--primary-color);
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.good-to-know { margin-bottom: 2rem; }
+.good-to-know > ul { margin-top: 0.5rem; }
+.good-to-know > ul > li {
+  display: grid;
+  grid-template-columns: fit-content(100%) auto;
+  grid-template-rows: auto auto;
+}
+
+.good-to-know > ul > li > div {
+  grid-row: 1/4;
+  padding-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.good-to-know > ul > li > div > div { left: 0 }
+.good-to-know > ul > li > p {
+  color: var(--text-color);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.modal-404 > img { height: 6.25rem; }
+.modal-404 > h3 { margin-bottom: 1rem; }
+
+.package { padding: 1rem 0; }
+
+.package > button {
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0.0625rem;
+  margin: auto;
+  padding: 0.25rem 0;
+}
+
+.package-article {
+  overflow-y: hidden;
+  transition: height 0.3s ease-in-out;
+  width: 100%;
+}
+
+.success-date {
+  background-color: #f2f2f2;
+  margin-top: 1.25rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.success-date > h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.success-date > p {
+  color: #66686a;
+}
+
+.success-date + a {
+  margin: 1.25rem 0 0;
+}
+
+@media only screen and (max-width: 48em) {
+  .card {
+    font-size: 0.9rem;
+  }
+
+  .card::before {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+  
+  .card.checked::after {
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+  }
+
+  .footer > h5 { font-size: 0.75rem; }
+  .footer > a { font-size: 0.8125rem; }
+  
+  .good-to-know > ul > li > div { padding-top: 0.3125rem; }
+  .good-to-know > ul > li > p { font-size: 0.75rem; }
+
+  .modal-rating > img { height: 10em; }
+  .modal-rating > p { 
+    font-size: 0.8rem; 
+    line-height: 1.5;
+  }
+  .modal-rating > div { margin: 2rem 0; }
+  .modal-rating > div > figure {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .modal-rating > div > h4 { font-size: 1rem; }
+
+  .package > button { font-size: 0.8125rem; }
+
+  .question {
+    font-size: 0.65rem;
+  }
+
+  .success-date > h3 { font-size: 1rem; }
+  .success-date > p { font-size: 0.75rem; }
+  .success-date + a { margin: auto 0 1.5rem; }
+}

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Promo render 1`] = `
+<Provider>
+  <PromoDetail />
+</Provider>
+`;
+
+exports[`src/pages/Promo render promo detail active tab 1`] = `
+<section>
+  <header>
+    <Link
+      to="/inbox"
+    >
+      <Arrow
+        fill="#EE3124"
+        size={24}
+      />
+    </Link>
+    <h1>
+      Promo
+    </h1>
+    <h1>
+      Wujudkan Semarak Kebahagiaan
+    </h1>
+    <p>
+      30% off Minipack IndiKids dan IndiSport
+    </p>
+    <img
+      alt="Dummy Image"
+      src="/assets/banner_1_lines.png"
+    />
+  </header>
+  <Tabs
+    activeTab={0}
+    className=""
+    setActiveTab={[MockFunction]}
+    value={
+      Array [
+        "Promo Detail",
+        "Terms & Condition",
+      ]
+    }
+  />
+  <React.Fragment>
+    <div>
+      <h1>
+        Most Popular for Family of 4:Unlimited 50Mbps Internet & USee TV
+      </h1>
+      <small>
+        21 June 2020, 10:00
+      </small>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ntaining Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </div>
+    <div>
+      <h1>
+        MiniPack IndiKids
+      </h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown ntaining Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+      <img
+        alt="Dummy Image"
+        src="/assets/banner_1_lines.png"
+      />
+      <Button
+        className=""
+        disabled={false}
+        onClick={null}
+        to=""
+        type="button"
+        variant="red"
+      >
+        Get Offer
+      </Button>
+    </div>
+  </React.Fragment>
+</section>
+`;
+
+exports[`src/pages/Promo render promo detail passive tab 1`] = `
+<section>
+  <header>
+    <Link
+      to="/inbox"
+    >
+      <Arrow
+        fill="#EE3124"
+        size={24}
+      />
+    </Link>
+    <h1>
+      Promo
+    </h1>
+    <h1>
+      Wujudkan Semarak Kebahagiaan
+    </h1>
+    <p>
+      30% off Minipack IndiKids dan IndiSport
+    </p>
+    <img
+      alt="Dummy Image"
+      src="/assets/banner_1_lines.png"
+    />
+  </header>
+  <Tabs
+    activeTab={1}
+    className=""
+    setActiveTab={[MockFunction]}
+    value={
+      Array [
+        "Promo Detail",
+        "Terms & Condition",
+      ]
+    }
+  />
+  <div>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Get Offer
+    </Button>
+  </div>
+</section>
+`;

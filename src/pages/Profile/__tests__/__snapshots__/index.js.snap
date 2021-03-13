@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Profile ChangePassword 1`] = `
+<WhiteCardPlain
+  back="/profile"
+  close=""
+  help={false}
+  icon=""
+  size="medium"
+  subtitle="Enter your current password to change password"
+  title="Change Password"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="profileChangePassword"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "currentPassword": "",
+        "newPassword": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Profile Edit 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle=""
+  title="Edit Profile"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="profileEdit"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "address": "",
+        "birthDate": "",
+        "fullName": "",
+        "gender": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Profile User 1`] = `
+<article>
+  <ProfileUserNav />
+  <ProfileUserMenu />
+</article>
+`;
+
+exports[`src/pages/Profile render 1`] = `
+<Provider>
+  <User />
+</Provider>
+`;

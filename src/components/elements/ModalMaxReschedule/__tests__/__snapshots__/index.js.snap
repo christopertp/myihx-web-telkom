@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ModalMaxReschedule render 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={false}
+>
+  <img
+    alt="Maximum attempt"
+    src="/assets/grfx_status_failed.svg"
+  />
+  <h2>
+    Sorry, you can’t reschedule anymore
+  </h2>
+  <p>
+    You have exceeded reschedule installation limit. Please contact our customer service for further information.
+  </p>
+  <Button
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="red"
+  >
+    Close
+  </Button>
+  <a
+    href="tel:147"
+  >
+    Contact Us
+  </a>
+</Modal>
+`;

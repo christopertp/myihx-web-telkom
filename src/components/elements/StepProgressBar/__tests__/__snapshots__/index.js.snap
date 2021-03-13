@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/StepProgressBar render 1`] = `
+<ul
+  className=""
+>
+  <React.Fragment>
+    <li />
+    <span />
+  </React.Fragment>
+  <React.Fragment>
+    <li />
+    <span />
+  </React.Fragment>
+  <React.Fragment>
+    <li />
+    <span />
+  </React.Fragment>
+</ul>
+`;

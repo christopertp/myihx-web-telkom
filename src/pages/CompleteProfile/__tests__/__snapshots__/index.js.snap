@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/CompleteProfile Progress 1`] = `
+<WhiteCardPlain
+  back="/profile"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle=""
+  title="Complete Profile"
+>
+  <section>
+    <Card
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      variant="hover"
+    >
+      <h3>
+        Your profile is 
+        0
+        % complete!
+      </h3>
+      <span>
+        Complete your profile secure your account and get 5% off your next bill!
+      </span>
+      <StepProgressBar
+        className=""
+        complete={0}
+        steps={5}
+      />
+      <Button
+        className=""
+        disabled={false}
+        onClick={null}
+        to=""
+        type="button"
+        variant="red"
+      >
+        Claim Reward
+      </Button>
+    </Card>
+    <Task />
+  </section>
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/CompleteProfile Task 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Task
+  </Heading>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/profile/edit"
+    variant="hover"
+  >
+    <img
+      alt="profile"
+      src="/assets/ic_profile.svg"
+    />
+    <span>
+      Complete profile information
+    </span>
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/complete-profile/verify-email"
+    variant="hover"
+  >
+    <img
+      alt="email"
+      src="/assets/ic_email.svg"
+    />
+    <span>
+      Verify e-mail address
+    </span>
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/shop/internet"
+    variant="hover"
+  >
+    <img
+      alt="shop"
+      src="/assets/ic_shop.svg"
+    />
+    <span>
+      Subscribe to Indihome package
+    </span>
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/complete-profile/verify-id"
+    variant="hover"
+  >
+    <img
+      alt="id_drivers"
+      src="/assets/ic_id_drivers.svg"
+    />
+    <span>
+      Verify ID
+    </span>
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/complete-profile/verify-location"
+    variant="hover"
+  >
+    <img
+      alt="loc"
+      src="/assets/ic_loc.svg"
+    />
+    <span>
+      Verify Location
+    </span>
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+</section>
+`;
+
+exports[`src/pages/CompleteProfile Verify 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle=""
+  title=""
+/>
+`;
+
+exports[`src/pages/CompleteProfile render 1`] = `<Progress />`;

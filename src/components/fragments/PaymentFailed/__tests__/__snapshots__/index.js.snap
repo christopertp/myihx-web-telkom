@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/PaymentFailed render 1`] = `
+<section>
+  <IconButton
+    className=""
+    name="close_red"
+    onClick={[Function]}
+    title=""
+    to="/"
+    type="button"
+  />
+  <header>
+    <img
+      alt="failed"
+      src="/assets/grfx_status_failed.svg"
+    />
+    <h1>
+      Transaction Cancelled
+    </h1>
+    <p>
+      Sorry order has been cancelled due to timeout.
+    </p>
+  </header>
+</section>
+`;

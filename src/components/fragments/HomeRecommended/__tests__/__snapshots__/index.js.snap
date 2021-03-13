@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/HomeRecommended render 1`] = `
+<section>
+  <h4>
+    Recommended for you
+  </h4>
+  <ul>
+    <img
+      alt="recommended"
+    />
+  </ul>
+</section>
+`;
+
+exports[`src/components/fragments/HomeRecommended render loading 1`] = `
+<section>
+  <h4>
+    Recommended for you
+  </h4>
+  <ul>
+    <li
+      className="loading"
+    />
+  </ul>
+</section>
+`;

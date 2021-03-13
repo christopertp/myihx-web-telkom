@@ -1,0 +1,37 @@
+.root > button {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.root > label:not(:first-of-type) {
+  margin-top: 1.5rem;
+}
+
+.root > input {
+  margin-top: 0.5rem;
+}
+
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+.ref-box {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 1, 0.075);
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  word-wrap: break-word;
+}
+
+.ref-box > label {
+  color: #333435;
+  font-weight: bolder;
+  font-size: 1rem;
+  letter-spacing: normal;
+  line-height: 1.5rem;
+  text-transform: none !important;
+}

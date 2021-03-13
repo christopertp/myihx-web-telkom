@@ -1,0 +1,109 @@
+.address {
+  margin-bottom: 1.5rem;
+}
+
+.address > p {
+  color: #333333;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+
+.address > span {
+  display: block;
+  height: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+
+.buttons { display: flex; }
+
+.buttons > *:first-child {
+  margin-right: 1rem;
+  flex: 1;
+}
+
+.buttons > *:last-child { flex: 1; }
+
+.date {
+  background-color: #f2f2f2;
+  margin: 0 -1.5rem 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.issue {
+  margin-bottom: 1.5rem;
+}
+
+.issue > div {
+  color: #333333;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+
+.issue > div > span {
+  display: block;
+  height: 1rem;
+  width: 60%;
+}
+
+.modal-404 > img { height: 6.25rem; }
+.modal-404 > h3 { margin-bottom: 1rem; }
+
+.modal-timeout > h3 {
+  color: #191a1a;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.modal-timeout > p {
+  color: #191a1a;
+  margin: 0.5rem 0 2.25rem;
+  text-align: center;
+}
+
+.modal-timeout > button { width: 100%; }
+
+.success-date {
+  background-color: #f2f2f2;
+  margin-top: 1.25rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.success-date > h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.success-date > p {
+  color: #66686a;
+}
+
+.success-date + a {
+  margin: 1.25rem 0 0;
+}
+
+.timer {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .address { margin-bottom: 1.625rem; }
+  .address > p { font-size: 0.9rem; }
+
+  .issue { margin-bottom: 2rem; }
+  .issue > div { font-size: 0.9rem; }
+
+  .success-date > h3 { font-size: 1rem; }
+  .success-date > p { font-size: 0.75rem; }
+  .success-date + a { margin: auto 0 1.5rem; }
+}

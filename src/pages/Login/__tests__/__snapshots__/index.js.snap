@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Login Password 1`] = `
+<WhiteCard
+  back="/login"
+  icon="password"
+  subtitle=""
+  title="Masukkan Kata Sandi Anda"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="loginPassword"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "password": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCard>
+`;
+
+exports[`src/pages/Login Request 1`] = `
+<WhiteCard
+  back="/login"
+  icon="verify"
+  subtitle=""
+  title="Pilih Metode Verifikasi"
+>
+  <OtpRequest
+    isLoading={false}
+    message=""
+    mobile=""
+    onClick={[Function]}
+    type=""
+  />
+</WhiteCard>
+`;
+
+exports[`src/pages/Login User 1`] = `
+<WhiteCard
+  back="/"
+  icon="login"
+  subtitle=""
+  title="Masuk ke MyIndihome"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="loginUser"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "user": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <h4>
+      Account not yet registered
+    </h4>
+    <p>
+      Looks like this account is not yet registered! Do you want to register instead?
+    </p>
+    <div>
+      <Button
+        className=""
+        disabled={false}
+        onClick={[Function]}
+        to=""
+        type="button"
+        variant="bordered"
+      >
+        Try Again
+      </Button>
+      <Button
+        className=""
+        disabled={false}
+        onClick={null}
+        to="/register"
+        type="button"
+        variant="red"
+      >
+        Register
+      </Button>
+    </div>
+  </Modal>
+</WhiteCard>
+`;
+
+exports[`src/pages/Login Verify 1`] = `
+<WhiteCard
+  back="/login/request"
+  icon="verify"
+  subtitle="Masukkan 4 digit kode verifikasi yang telah kami kirim ke nomor  "
+  title="Masuk Menggunakan Nomor Ponsel"
+>
+  <OtpInput
+    className=""
+    disabled={false}
+    error=""
+    onSubmit={[Function]}
+  />
+  <p>
+    Kirim ulang kode dalam 
+    
+    :
+    
+  </p>
+</WhiteCard>
+`;
+
+exports[`src/pages/Login render 1`] = `
+<Provider
+  value={
+    Object {
+      "setUser": [MockFunction],
+      "setUserId": [MockFunction],
+      "setVerifyType": [MockFunction],
+      "user": "",
+      "userId": "",
+      "verifyType": "sms",
+    }
+  }
+>
+  <User />
+</Provider>
+`;

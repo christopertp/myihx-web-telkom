@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Tmoney Activate 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon="wallet"
+  size="medium"
+  subtitle="Create a new password to activate wallet"
+  title="Activate Wallet"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="tmoneyActivate"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "password": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Tmoney ChangePin 1`] = `
+<WhiteCardPlain
+  back="/tmoney"
+  close=""
+  help={false}
+  icon="verify"
+  size="medium"
+  subtitle="Enter your previous Wallet PIN to change your PIN"
+  title="Enter Wallet PIN"
+>
+  <div>
+    <InputPin
+      className=""
+      disabled={false}
+      error=""
+      length={6}
+      onSubmit={[Function]}
+    />
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="text"
+    >
+      I Forgot My PIN
+    </Button>
+  </div>
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Tmoney ErrorModal 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={true}
+>
+  <img
+    alt="warning"
+    src="/assets/grfx_warning.svg"
+  />
+  <h1>
+    Transaction Failed
+  </h1>
+  <p>
+    Please try again later.
+  </p>
+  <Button
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="red"
+  >
+    OK
+  </Button>
+</Modal>
+`;
+
+exports[`src/pages/Tmoney History 1`] = `
+Array [
+  <div>
+    <small>
+      DD MMMM YYYY hh:mm
+    </small>
+    <p>
+      Terima Transfer
+    </p>
+    <h3>
+      Rp
+      15.000
+    </h3>
+  </div>,
+  <div>
+    <small>
+      DD MMMM YYYY hh:mm
+    </small>
+    <p>
+      Isi Saldo TCASH
+    </p>
+    <h3>
+      Rp
+      1.000
+    </h3>
+  </div>,
+]
+`;
+
+exports[`src/pages/Tmoney Overlay 1`] = `null`;
+
+exports[`src/pages/Tmoney render 1`] = `
+<Provider
+  value={
+    Object {
+      "reset": false,
+      "setReset": [MockFunction],
+    }
+  }
+>
+  <Home />
+  <Overlay />
+  <ErrorModal />
+  <Reset />
+</Provider>
+`;

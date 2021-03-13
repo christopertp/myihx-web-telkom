@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/StickyPrice render 1`] = `
+<section
+  className=""
+>
+  <h3>
+    Rp
+    0
+     
+    <small>
+      /month
+    </small>
+  </h3>
+  <Link
+    onClick={null}
+    to="#"
+  >
+    View pricing details
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Link>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="button"
+    variant="red"
+  >
+    Subscribe
+  </Button>
+</section>
+`;

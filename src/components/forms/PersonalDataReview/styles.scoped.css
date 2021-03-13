@@ -1,0 +1,24 @@
+.root > label:not(:first-of-type) {
+  margin-top: 1.25rem;
+}
+
+.root > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.root > div:last-child > * {
+  flex: 1
+}
+
+.root > div:last-child > *:first-child {
+  margin-right: 1rem;
+}
+
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}

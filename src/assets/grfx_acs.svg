@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="prefix__a" x1="0%" x2="100%" y1="46.778%" y2="53.222%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__c" x1="0%" x2="97.385%" y1="0%" y2="97.385%">
+            <stop offset="0%" stop-color="#BA397B"/>
+            <stop offset="56.351%" stop-color="#F16F4F"/>
+            <stop offset="100%" stop-color="#FFB166"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFE4E9"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="prefix__b" width="161.5%" height="342.4%" x="-30.8%" y="-121.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H100V100H0z"/>
+        <g fill-rule="nonzero" transform="translate(13 11)">
+            <ellipse cx="37.375" cy="77.964" fill="url(#prefix__a)" filter="url(#prefix__b)" opacity=".2" rx="24.375" ry="6.188"/>
+            <circle cx="37" cy="37.776" r="37" fill="url(#prefix__c)"/>
+        </g>
+        <path fill="url(#prefix__d)" fill-rule="nonzero" d="M25.253 39.073c2.789-2.325 6.637-2.324 9.425.004l.207.18-2.132 2.365-.152.16c-1.554 1.553-3.932 1.5-5.429-.16l-2.131-2.365zm4.71-14.334c5.151 0 9.94 2.18 13.566 6.202.677.751.715 1.909.113 2.705l-.15.18-.097.107c-.24.234-.578.368-.89.368-.451 0-.82-.161-1.141-.518-3.003-3.332-7.035-5.165-11.342-5.165s-8.34 1.833-11.342 5.165c-.663.735-1.62.735-2.283 0-.717-.796-.717-2.047 0-2.842 3.625-4.022 8.414-6.202 13.566-6.202zm0-12.282c8.052 0 15.68 3.518 21.398 9.86.677.752.714 1.91.112 2.706l-.112.137-.12.12c-.291.261-.656.398-1.022.398-.451 0-.82-.161-1.141-.518-5.079-5.634-11.885-8.758-19.115-8.758-7.23 0-14.037 3.124-19.115 8.758-.663.735-1.62.735-2.283 0-.717-.796-.717-2.047 0-2.842 5.754-6.384 13.315-9.86 21.398-9.86zm0-12.216c10.987 0 21.329 4.753 29.173 13.391.714.793.714 2.044-.003 2.84-.356.394-.742.583-1.141.583-.451 0-.82-.161-1.142-.519C49.712 8.55 40.136 4.121 29.963 4.121c-10.206 0-19.772 4.39-26.89 12.353-.66.732-1.618.732-2.28-.003-.718-.795-.718-2.046 0-2.842C8.597 4.97 18.922.241 29.962.241z" transform="rotate(10 -68.085 201.45)"/>
+    </g>
+</svg>

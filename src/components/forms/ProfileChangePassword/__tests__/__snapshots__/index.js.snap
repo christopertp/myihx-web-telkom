@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ProfileChangePassword render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "current password",
+        "placeholder": "Enter Your Password",
+      }
+    }
+    name="currentPassword"
+  />
+  <Link
+    to={
+      Object {
+        "pathname": "/forgot-password",
+        "state": Object {
+          "back": "/profile/change-password",
+        },
+      }
+    }
+  >
+    Forgot Password
+  </Link>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "new password",
+        "placeholder": "Enter Your Password",
+      }
+    }
+    name="newPassword"
+  />
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    save changes
+  </Button>
+</form>
+`;

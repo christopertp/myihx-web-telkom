@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ActivityCards render 1`] = `
+<section>
+  <h4>
+    
+  </h4>
+  <Link
+    style={Object {}}
+    to="/installation"
+  >
+    <img
+      alt=""
+      src="/assets/grfx_action_technician.svg"
+    />
+    <div>
+      <small>
+        Order ID 
+        fa1332c6-5229-4c96-91b9-ffa47377a815
+      </small>
+      <h4>
+        New Installation
+      </h4>
+      <p>
+        You are scheduled to meet our technician
+      </p>
+    </div>
+    <img
+      alt=""
+      src="/assets/ic_chevron_white.svg"
+    />
+  </Link>
+</section>
+`;

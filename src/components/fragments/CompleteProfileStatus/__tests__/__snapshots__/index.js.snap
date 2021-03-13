@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/CompleteProfileStatus render 1`] = `
+<WhiteCardSuccessPlain
+  close="/profile"
+  icon="check"
+  subtitle="Thank you for verifying your e-mail"
+  title="Your email is successfully verified"
+>
+  <Button
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="red"
+  >
+    OK
+  </Button>
+</WhiteCardSuccessPlain>
+`;

@@ -1,0 +1,67 @@
+.button {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.card {
+  border: 0.0625rem solid #cccccc;
+  border-radius: 0.5rem;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  padding-left: 3.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  transition: all 0.35s ease-in-out;
+}
+
+.card > input[type="checkbox"] {
+  display: none;
+}
+
+.card::before {
+  background: #ffffff;
+  border: 0.0625rem solid #b2b4b5;
+  border-radius: 0.1875rem;
+  content: "";
+  cursor: pointer;
+  height: 1rem;
+  left: 1.25rem;
+  margin-top: 0.1375rem;
+  position: absolute;
+  width: 1rem;
+}
+
+.card.checked::before {
+  background-color: #ee3124;
+  border: 0.0625rem solid #ee3124;
+}
+
+.card.checked::after {
+  content: "";
+  border: solid #ffffff;
+  border-width: 0 0.125rem 0.125rem 0;
+  display: block;
+  height: 0.313rem;
+  left: 1.25rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 0.1875rem;
+}
+
+.error {
+  color: #ee4c24;
+  font-size: 0.75rem;
+}
+
+.question {
+  color: #191a1a;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}

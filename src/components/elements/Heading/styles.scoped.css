@@ -1,0 +1,13 @@
+.root {
+  color: #66686a;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 48em) {
+  .root {
+    font-size: 0.75rem;
+  }
+}

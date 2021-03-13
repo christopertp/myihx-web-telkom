@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <linearGradient id="prefix__a" x1="0%" x2="100%" y1="24.49%" y2="75.51%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__b" x1="15.278%" x2="84.722%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__c" x1="0%" x2="100%" y1="37.5%" y2="62.5%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="0%" x2="100%" y1="47.704%" y2="52.296%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__e" x1="0%" x2="100%" y1="45.5%" y2="54.5%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H48V48H0z"/>
+        <g fill-rule="nonzero" transform="translate(6 11)">
+            <path fill="url(#prefix__a)" d="M31.333.5C33.635.5 35.5 2.365 35.5 4.667v16.666c0 2.302-1.865 4.167-4.167 4.167H4.667C2.365 25.5.5 23.635.5 21.333V4.667C.5 2.365 2.365.5 4.667.5h26.666zm0 2.5H4.667C3.747 3 3 3.746 3 4.667v16.666C3 22.253 3.746 23 4.667 23h26.666c.92 0 1.667-.746 1.667-1.667V4.667C33 3.747 32.254 3 31.333 3z"/>
+            <rect width="8.333" height="10" x="21.333" y="6.333" fill="url(#prefix__b)" rx="1.667"/>
+            <rect width="5" height="2.5" x="6.333" y="16.333" fill="url(#prefix__c)" rx="1.25"/>
+            <rect width="5" height="2.5" x="13" y="16.333" fill="url(#prefix__c)" rx="1.25"/>
+            <rect width="11.667" height="2.5" x="6.333" y="6.333" fill="url(#prefix__d)" rx="1.25"/>
+            <rect width="8.333" height="2.5" x="6.333" y="11.333" fill="url(#prefix__e)" rx="1.25"/>
+        </g>
+    </g>
+</svg>

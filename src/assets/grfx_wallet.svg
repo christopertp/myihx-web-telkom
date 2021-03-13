@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="prefix__b" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#080C10"/>
+            <stop offset="100%" stop-color="#115B79"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="6.328%" x2="93.672%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F8091E"/>
+            <stop offset="100%" stop-color="#A9085A"/>
+        </linearGradient>
+        <linearGradient id="prefix__f" x1="100%" x2="33.732%" y1="15.452%" y2="65.622%">
+            <stop offset="0%" stop-color="#284050"/>
+            <stop offset="51.386%" stop-color="#0EB37E"/>
+            <stop offset="100%" stop-color="#FFCB99"/>
+        </linearGradient>
+        <linearGradient id="prefix__g" x1="-5.397%" x2="107.312%" y1="33.175%" y2="68.638%">
+            <stop offset="0%" stop-color="#284050"/>
+            <stop offset="51.386%" stop-color="#0EB37E"/>
+            <stop offset="100%" stop-color="#FFCB99"/>
+        </linearGradient>
+        <linearGradient id="prefix__h" x1="0%" x2="100%" y1="18.25%" y2="81.75%">
+            <stop offset="0%" stop-color="#F8091E"/>
+            <stop offset="100%" stop-color="#A9085A"/>
+        </linearGradient>
+        <circle id="prefix__a" cx="42" cy="42" r="42"/>
+        <path id="prefix__e" d="M13.944 34.084L51.32 20.371c3.111-1.14 6.558.456 7.7 3.567.08.22.148.444.203.672l13.023 54.523c.77 3.223-1.22 6.46-4.442 7.23-.457.109-.925.164-1.394.164H16.01c-3.314 0-6-2.686-6-6v-40.81c0-2.517 1.57-4.766 3.933-5.633z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H100V100H0z"/>
+        <g transform="translate(8 9)">
+            <mask id="prefix__c" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <use fill="url(#prefix__b)" fill-rule="nonzero" xlink:href="#prefix__a"/>
+            <g fill-rule="nonzero" mask="url(#prefix__c)" transform="rotate(-20 42.01 52.287)">
+                <use fill="url(#prefix__d)" xlink:href="#prefix__e"/>
+                <use fill="#000" fill-opacity=".388" xlink:href="#prefix__e"/>
+            </g>
+            <path fill="url(#prefix__f)" fill-rule="nonzero" d="M16.67 32.033l34.528-1.43c2.208-.091 4.071 1.624 4.162 3.831.008.173.004.345-.012.517l-1.673 19c-.175 1.991-1.793 3.547-3.789 3.645l-31.268 1.532c-2.154.105-4.004-1.515-4.182-3.664L12.849 36.36c-.183-2.202 1.453-4.135 3.655-4.318.055-.004.11-.008.166-.01z" mask="url(#prefix__c)" transform="rotate(-36 34.126 44.866)"/>
+            <path fill="url(#prefix__g)" fill-rule="nonzero" d="M18.904 31.312l39.742-.26c2.21-.014 4.012 1.765 4.026 3.974.001.115-.003.23-.012.345l-1.407 17.62c-.162 2.03-1.824 3.614-3.86 3.679l-38.272 1.222c-2.208.07-4.055-1.662-4.126-3.87l-.002-.114-.063-18.583c-.007-2.204 1.77-3.999 3.974-4.013z" mask="url(#prefix__c)" transform="rotate(-32 38.962 44.524)"/>
+            <rect width="64" height="51" x="13" y="35" fill="url(#prefix__h)" fill-rule="nonzero" mask="url(#prefix__c)" rx="6" transform="rotate(-20 45 60.5)"/>
+            <circle cx="67" cy="54" r="3" fill="url(#prefix__b)" fill-rule="nonzero" mask="url(#prefix__c)"/>
+        </g>
+        <path fill-rule="nonzero" stroke="#FFB166" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.625" d="M16 73.374L11.05 75.61 13.286 70.66 11.05 65.71 16 67.946 20.95 65.71 18.714 70.66 20.95 75.61z" transform="rotate(45 16 70.66)"/>
+        <path fill-rule="nonzero" stroke="#FFB166" stroke-linecap="round" stroke-linejoin="round" stroke-width=".625" d="M80 23.823L77.879 24.781 78.837 22.66 77.879 20.539 80 21.497 82.121 20.539 81.163 22.66 82.121 24.781z" transform="rotate(45 80 22.66)"/>
+    </g>
+</svg>

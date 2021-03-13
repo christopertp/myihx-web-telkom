@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ModalReschedule Confirm 1`] = `
+<React.Fragment>
+  <h1>
+    Confirm Reschedule
+  </h1>
+  <p>
+    Please confirm that you want to reschedule installation to
+  </p>
+  <div>
+    <h3>
+      dddd, D MMMM YYYY
+    </h3>
+    <p>
+      Estimated arrival time 
+    </p>
+  </div>
+  <p>
+    You only have 2 chances to reschedule your installation
+  </p>
+  <footer>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      Cancel
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Confirm
+    </Button>
+  </footer>
+</React.Fragment>
+`;
+
+exports[`src/components/elements/ModalReschedule Reschedule 1`] = `
+<React.Fragment>
+  <Timer
+    className=""
+    time={
+      Array [
+        "",
+        "",
+        "",
+      ]
+    }
+  />
+  <h1>
+    Reschedule Installation
+  </h1>
+  <p>
+    Select a new time and date. You only have 2 chance to reschedule your installation.
+  </p>
+  <AppointmentDate
+    className=""
+    date={Array []}
+    isLoading={false}
+    mini={false}
+    setPayload={[Function]}
+  />
+  <footer>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      Cancel
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Reschedule
+    </Button>
+  </footer>
+</React.Fragment>
+`;
+
+exports[`src/components/elements/ModalReschedule render 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={true}
+>
+  <Provider
+    value={
+      Object {
+        "onClose": [Function],
+        "payload": 0,
+        "setPayload": [MockFunction],
+        "setStep": [MockFunction],
+        "step": 0,
+      }
+    }
+  >
+    <Reschedule />
+  </Provider>
+</Modal>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/CompleteBy render 1`] = `
+<div
+  className=""
+>
+  <img
+    alt="time"
+    src="/assets/ic_selection_time.svg"
+  />
+  <span>
+    Complete by
+  </span>
+  <span>
+    
+    :
+    
+    :
+    
+  </span>
+  <span>
+    to avoid order cancellation
+  </span>
+</div>
+`;

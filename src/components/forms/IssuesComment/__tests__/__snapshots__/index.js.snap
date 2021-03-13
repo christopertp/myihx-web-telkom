@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/IssuesComment render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "MESSAGE/COMMENT",
+        "placeholder": "Enter Message",
+      }
+    }
+    name="message"
+  />
+  <small>
+    error
+  </small>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Add Comment
+  </Button>
+</form>
+`;

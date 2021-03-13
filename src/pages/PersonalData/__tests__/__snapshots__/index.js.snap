@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/PersonalData ReviewId 1`] = `
+<WhiteCardPlain
+  back="/personal-data"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle="Please make sure your picture is clear and show complete information."
+  title="Review Photo"
+>
+  <img
+    alt=""
+  />
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="personalDataReview"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "idNumber": "",
+        "motherName": "",
+        "name": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onRetake={[Function]}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+  <input
+    accept="image/png, image/jpeg, image/jpg"
+    onChange={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="file"
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/PersonalData ReviewSelfieSign 1`] = `
+<WhiteCardPlain
+  back="/personal-data"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle="Please make sure your signature picture is clear."
+  title="Review Signature Image"
+>
+  <img
+    alt=""
+    src=""
+  />
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      Reupload
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Confirm
+    </Button>
+  </div>
+  <input
+    accept="image/png, image/jpeg, image/jpg"
+    onChange={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="file"
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/PersonalData Verify 1`] = `
+<WhiteCardSuccessPlain
+  close=""
+  icon="waiting"
+  subtitle="Please wait while we’re verifying your ID. You will receive a phone call from our agent within 1x24 hours."
+  title="Verification in Progress"
+>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/"
+    type="button"
+    variant="red"
+  >
+    Back to Home
+  </Button>
+</WhiteCardSuccessPlain>
+`;
+
+exports[`src/pages/PersonalData render 1`] = `
+<Provider
+  value={
+    Object {
+      "photo": "",
+      "setPhoto": [MockFunction],
+    }
+  }
+>
+  <PersonalDataSummary
+    fetchDocument={[MockFunction]}
+    setPhoto={[MockFunction]}
+  />
+</Provider>
+`;

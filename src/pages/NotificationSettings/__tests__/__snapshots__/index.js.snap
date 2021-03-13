@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/NotificationSettings render 1`] = `
+<WhiteCardPlain
+  back="/profile"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle="Set what kind of notifications you want to receive"
+  title="Notification Settings"
+>
+  <ul>
+    <li>
+      <span>
+        New Purchase
+      </span>
+      <Switch
+        className=""
+        inputProps={
+          Object {
+            "checked": true,
+            "id": "1",
+            "onChange": [Function],
+          }
+        }
+        text={Array []}
+      />
+    </li>
+    <li>
+      <span>
+        Bill Reminder
+      </span>
+      <Switch
+        className=""
+        inputProps={
+          Object {
+            "checked": true,
+            "id": "2",
+            "onChange": [Function],
+          }
+        }
+        text={Array []}
+      />
+    </li>
+    <li>
+      <span>
+        Account Changes
+      </span>
+      <Switch
+        className=""
+        inputProps={
+          Object {
+            "checked": true,
+            "id": "3",
+            "onChange": [Function],
+          }
+        }
+        text={Array []}
+      />
+    </li>
+    <li>
+      <span>
+        Promotions
+      </span>
+      <Switch
+        className=""
+        inputProps={
+          Object {
+            "checked": true,
+            "id": "4",
+            "onChange": [Function],
+          }
+        }
+        text={Array []}
+      />
+    </li>
+    <li>
+      <Button
+        className=""
+        disabled={false}
+        onClick={[Function]}
+        to=""
+        type="submit"
+        variant="red"
+      >
+        Save
+      </Button>
+    </li>
+  </ul>
+  <ModalConfirmation
+    onAccept={[Function]}
+    onClose={[Function]}
+    onRefuse={[Function]}
+    open={false}
+    reverseBtn={true}
+    subtitle="By changing the notification settings, you may miss some notification in your app or email."
+    title="Are you sure you want to change notification "
+  />
+</WhiteCardPlain>
+`;

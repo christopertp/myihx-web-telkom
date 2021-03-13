@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ProfileChangeEM render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "Mobile Number",
+        "placeholder": "Enter Phone Number",
+        "type": "tel",
+      }
+    }
+    name="mobile"
+  />
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Next
+  </Button>
+</form>
+`;

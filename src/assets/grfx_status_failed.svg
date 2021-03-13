@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <linearGradient id="prefix__a" x1="0%" x2="100%" y1="2.092%" y2="94.717%">
+            <stop offset="0%" stop-color="#EE3124"/>
+            <stop offset="100%" stop-color="#FF9733"/>
+        </linearGradient>
+        <filter id="prefix__b" width="125.8%" height="156.9%" x="-12.9%" y="-28.5%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3.704"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H160.16V160.16H0z"/>
+        <path fill="url(#prefix__a)" fill-rule="nonzero" d="M67.893 115.115c42.373 5.005 55.48-21.02 55.48-35.216 0-31.089-26.22-32.424-41.42-44.578C70.503 26.167 66.31 0 39.647 0 12.89 0-.545 16.95 1.12 48.81c1.664 31.86 24.4 61.3 66.774 66.305z" transform="translate(9.009 32.032)"/>
+        <ellipse cx="79.88" cy="99.6" fill="#062430" fill-rule="nonzero" filter="url(#prefix__b)" opacity=".1" rx="43.043" ry="19.52"/>
+        <circle cx="79.88" cy="79.88" r="35.035" fill="#FF9733"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M92.82 64.508l2.832 2.831-12.74 12.741 12.74 12.74-2.831 2.832-12.74-12.74-12.742 12.74-2.83-2.831 12.74-12.74-12.74-12.742 2.83-2.83 12.741 12.74 12.74-12.74z"/>
+    </g>
+</svg>

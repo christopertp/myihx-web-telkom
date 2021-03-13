@@ -1,0 +1,111 @@
+.root {
+  background-color: #ffffff;
+  border-color: #f2f2f2;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.root > header > figure {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 5.375rem;
+  justify-content: center;
+  width: 5.375rem;
+}
+
+.root > header > figure {
+  background: linear-gradient(135deg, #6a120c, #b21f15, #ee4c24, #ff7e00);
+}
+
+.root > header > figure > h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.root > header > figure > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.root > footer > h4 {
+  color: #0eb37e;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.special-deal { color: #0eb37e; }
+
+.root > footer > strike {
+  color: #333435;
+}
+
+.root > footer > h3 > small {
+  bottom: 0.125rem;
+  color: #999999;
+  font-size: 0.8rem;
+  font-weight: 400;
+  position: relative;
+}
+
+@media only screen and (max-width: 48em) {
+  .root {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+
+  .root > header {
+    background: linear-gradient(0deg, #f2f2f2 0%, #ffffff 100%);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .root > header > figure {
+    grid-row: 1/3;
+    height: 3.75rem;
+    margin-right: 0.75rem;
+    width: 3.75rem;
+  }
+
+  .root > header > figure > h1 { font-size: 1.5rem; }
+  .root > header > figure > p { font-size: 0.7rem; }
+
+  .root > header > h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;;
+  }
+
+  .root > header > p {
+    font-size: 0.75rem;
+  }
+
+  .root > footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto auto;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .root > footer > strike { font-size: 0.75rem; }
+
+  .root > footer > a {
+    font-size: 0.75rem;
+    grid-column: 2;
+    grid-row: 1/4;
+    margin: auto 0 auto 0.75rem;
+  }
+}

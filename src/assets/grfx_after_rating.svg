@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59 (101010) - https://sketch.com -->
+    <title>24F63BF4-3906-42BD-A412-4509191A0939</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#080C10" offset="0%"></stop>
+            <stop stop-color="#115B79" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="42" cy="42" r="42"></circle>
+        <filter x="-29.6%" y="-121.2%" width="159.1%" height="342.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.8%" y="-179.1%" width="173.6%" height="458.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="6.64464687%" y1="0%" x2="81.8381896%" y2="96.3663294%" id="linearGradient-6">
+            <stop stop-color="#FFB500" offset="0%"></stop>
+            <stop stop-color="#FF7E00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="06---NPS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6.0-NPS-Base---After-positive-rating" transform="translate(-130.000000, -194.000000)">
+            <g id="Group-2" transform="translate(16.000000, 162.000000)">
+                <g id="Grfx/grfx_rate" transform="translate(114.000000, 31.000000)">
+                    <rect id="Rectangle" x="0" y="1" width="100" height="100"></rect>
+                    <g id="Group-3" transform="translate(2.000000, 0.000000)">
+                        <g id="Group" transform="translate(6.000000, 10.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                            <g id="Group-2" mask="url(#mask-3)" fill-rule="nonzero">
+                                <g transform="translate(6.000000, -1.000000)">
+                                    <ellipse id="Oval-Copy" stroke="none" fill="#062430" opacity="0.300000012" filter="url(#filter-4)" cx="25.375" cy="45.1875" rx="25.375" ry="6.1875"></ellipse>
+                                    <polygon id="Star" stroke="#FFB166" stroke-width="0.625" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(9.954951, 57.704951) rotate(45.000000) translate(-9.954951, -57.704951) " points="9.95495129 59.8857374 5.97747564 61.6824269 7.77416516 57.7049513 5.97747564 53.7274756 9.95495129 55.5241652 13.9324269 53.7274756 12.1357374 57.7049513 13.9324269 61.6824269"></polygon>
+                                    <polygon id="Star-Copy-6" stroke="#FFB166" stroke-width="0.625" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(55.276650, 53.651650) rotate(45.000000) translate(-55.276650, -53.651650) " points="55.2766504 54.3785791 53.9508252 54.9774756 54.5497217 53.6516504 53.9508252 52.3258252 55.2766504 52.9247217 56.6024756 52.3258252 56.0035791 53.6516504 56.6024756 54.9774756"></polygon>
+                                    <polygon id="Star-Copy-2" stroke="none" fill="#FFFFFF" transform="translate(27.517767, 2.142767) rotate(45.000000) translate(-27.517767, -2.142767) " points="27.517767 2.62738609 27.0902418 3.31738273 27.2062598 2.51400675 26.4352352 2.76776695 27.0405103 2.22692018 26.2867573 1.92570673 27.0980745 1.90045738 26.7142824 1.1852114 27.3520174 1.68737392 27.517767 0.892766953 27.6835165 1.68737392 28.3212515 1.1852114 27.9374594 1.90045738 28.7487766 1.92570673 27.9950236 2.22692018 28.6002987 2.76776695 27.8292741 2.51400675 27.9452921 3.31738273"></polygon>
+                                    <polygon id="Star-Copy-3" stroke="none" fill="#FFFFFF" transform="translate(68.142767, 53.392767) rotate(45.000000) translate(-68.142767, -53.392767) " points="68.142767 53.8773861 67.7152418 54.5673827 67.8312598 53.7640068 67.0602352 54.017767 67.6655103 53.4769202 66.9117573 53.1757067 67.7230745 53.1504574 67.3392824 52.4352114 67.9770174 52.9373739 68.142767 52.142767 68.3085165 52.9373739 68.9462515 52.4352114 68.5624594 53.1504574 69.3737766 53.1757067 68.6200236 53.4769202 69.2252987 54.017767 68.4542741 53.7640068 68.5702921 54.5673827"></polygon>
+                                    <polygon id="Star-Copy-4" stroke="none" fill="#FFFFFF" transform="translate(33.142767, 66.517767) rotate(45.000000) translate(-33.142767, -66.517767) " points="33.142767 67.0023861 32.7152418 67.6923827 32.8312598 66.8890068 32.0602352 67.142767 32.6655103 66.6019202 31.9117573 66.3007067 32.7230745 66.2754574 32.3392824 65.5602114 32.9770174 66.0623739 33.142767 65.267767 33.3085165 66.0623739 33.9462515 65.5602114 33.5624594 66.2754574 34.3737766 66.3007067 33.6200236 66.6019202 34.2252987 67.142767 33.4542741 66.8890068 33.5702921 67.6923827"></polygon>
+                                    <polygon id="Star-Copy-5" stroke="none" fill="#FFFFFF" transform="translate(78.401650, 24.901650) rotate(45.000000) translate(-78.401650, -24.901650) " points="78.4016504 25.6285791 77.7603627 26.6635741 77.9343897 25.4585101 76.7778528 25.8391504 77.6857654 25.0278803 76.5551359 24.5760601 77.7721117 24.5381861 77.1964237 23.4653171 78.1530262 24.2185609 78.4016504 23.0266504 78.6502747 24.2185609 79.6068772 23.4653171 79.0311892 24.5381861 80.248165 24.5760601 79.1175355 25.0278803 80.0254481 25.8391504 78.8689112 25.4585101 79.0429382 26.6635741"></polygon>
+                                    <polygon id="Star-Copy" stroke="#FFB166" stroke-width="0.625" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(61.093592, 19.093592) rotate(45.000000) translate(-61.093592, -19.093592) " points="61.0935922 19.9416757 59.5467961 20.6403883 60.2455087 19.0935922 59.5467961 17.5467961 61.0935922 18.2455087 62.6403883 17.5467961 61.9416757 19.0935922 62.6403883 20.6403883"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                        <ellipse id="Oval-Copy-2" fill="#062430" fill-rule="nonzero" opacity="0.300000012" filter="url(#filter-5)" cx="67.375" cy="84.1875" rx="20.375" ry="4.1875"></ellipse>
+                        <polygon id="Star" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(35.173085, 35.173085) rotate(11.000000) translate(-35.173085, -35.173085) " points="35.1730854 50.1730854 17.5395278 59.4435952 20.9072376 39.8083403 6.64138988 25.9025755 26.3563066 23.0378304 35.1730854 5.17308536 43.9898641 23.0378304 63.7047809 25.9025755 49.4389331 39.8083403 52.8066429 59.4435952"></polygon>
+                        <polygon id="Star-Copy-7" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(77.693751, 74.693751) rotate(-10.000000) translate(-77.693751, -74.693751) " points="77.6937508 83.1937508 67.7014015 88.4470397 69.6097704 77.3203953 61.52579 69.4404619 72.6975762 67.8171064 77.6937508 57.6937508 82.6899255 67.8171064 93.8617116 69.4404619 85.7777312 77.3203953 87.6861001 88.4470397"></polygon>
+                        <polygon id="Star-Copy-8" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(60.846875, 14.846875) rotate(-10.000000) translate(-60.846875, -14.846875) " points="60.8468754 19.0968754 55.8507008 21.7235199 56.8048852 16.1601976 52.762895 12.220231 58.3487881 11.4085532 60.8468754 6.34687541 63.3449627 11.4085532 68.9308558 12.220231 64.8888656 16.1601976 65.8430501 21.7235199"></polygon>
+                        <polygon id="Star-Copy-9" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(17.846875, 81.846875) rotate(-10.000000) translate(-17.846875, -81.846875) " points="17.8468754 86.0968754 12.8507008 88.7235199 13.8048852 83.1601976 9.76289502 79.220231 15.3487881 78.4085532 17.8468754 73.3468754 20.3449627 78.4085532 25.9308558 79.220231 21.8888656 83.1601976 22.8430501 88.7235199"></polygon>
+                        <polygon id="Star-Copy-10" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(84.500000, 14.500000) rotate(13.000000) translate(-84.500000, -14.500000) " points="84.5 17.25 81.2671811 18.9495935 81.8845946 15.3497967 79.2691892 12.8004065 82.8835906 12.2752033 84.5 9 86.1164094 12.2752033 89.7308108 12.8004065 87.1154054 15.3497967 87.7328189 18.9495935"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

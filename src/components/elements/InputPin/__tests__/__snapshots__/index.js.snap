@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/InputPin render 1`] = `
+<div
+  className=""
+>
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    placeholder="•"
+    type="password"
+    value=""
+  />
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    placeholder="•"
+    type="password"
+    value=""
+  />
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    placeholder="•"
+    type="password"
+    value=""
+  />
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    placeholder="•"
+    type="password"
+    value=""
+  />
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    placeholder="•"
+    type="password"
+    value=""
+  />
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    placeholder="•"
+    type="password"
+    value=""
+  />
+  
+</div>
+`;

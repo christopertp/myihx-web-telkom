@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/CheckCoverageAddress render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "PROVINCE",
+        "placeholder": "Choose your province",
+      }
+    }
+    name="provinceCode"
+    onSearch={[Function]}
+    options={Array []}
+  />
+  <section>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "disabled": true,
+            "label": "CITY",
+            "placeholder": "Choose",
+          }
+        }
+        name="cityCode"
+        onSearch={[Function]}
+        options={Array []}
+      />
+    </div>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "disabled": true,
+            "label": "DISTRICT",
+            "placeholder": "Choose",
+          }
+        }
+        name="districtCode"
+        onSearch={[Function]}
+        options={Array []}
+      />
+    </div>
+  </section>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "disabled": true,
+        "label": "NEAREST ADDRESS",
+        "placeholder": "Choose nearest address",
+      }
+    }
+    name="streetCode"
+    onSearch={[Function]}
+    options={Array []}
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "DETAILED ADDRESS",
+        "placeholder": "Enter your address",
+      }
+    }
+    name="addressDescription"
+  />
+  <section>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "label": "RT/RW (OPTIONAL)",
+            "placeholder": "Enter number",
+          }
+        }
+        name="rtRw"
+        normalize={[Function]}
+      />
+    </div>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "disabled": true,
+            "label": "ZIP CODE",
+            "placeholder": "Enter number",
+          }
+        }
+        name="postalCode"
+      />
+    </div>
+  </section>
+  
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Next
+  </Button>
+</form>
+`;

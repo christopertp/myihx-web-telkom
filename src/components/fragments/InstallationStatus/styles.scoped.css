@@ -1,0 +1,98 @@
+.root {
+  margin-top: 1.5rem;
+}
+.root > li {
+  display: grid;
+  grid-template-columns: fit-content(100%) auto;
+  grid-template-rows: auto auto;
+  max-width: 36rem;
+}
+
+.root > li > div {
+  grid-row: 1/4;
+  padding-top: 0.3125rem;
+  margin-right: 0.8125rem;
+}
+
+.root > li > button {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-right: auto;
+  margin-top: 0.3125rem;
+  padding: 0;
+  text-transform: none;
+}
+
+.root > li > h5 { font-size: 1.125rem; margin-bottom: 0.3125rem; }
+.root > li > p { padding-bottom: 1.75rem; }
+
+.modal > h2 { color: var(--text-color); font-size: 1.5rem; margin: 1rem 0 0.5rem; }
+.modal > p { color: var(--text-color); font-size: 1rem; }
+
+.process {
+  margin-top: 1.5rem;
+}
+.process > li {
+  display: grid;
+  grid-template-columns: fit-content(100%) auto;
+  grid-template-rows: auto auto;
+  max-width: 36rem;
+}
+
+.process > li > div {
+  grid-row: 1;
+  padding-top: 0.5rem;
+  margin-right: 0.8125rem;
+}
+
+.process > li > p {
+  color: var(--text-color); 
+  font-size: 1rem; 
+  margin-top: 0.25rem;
+  padding-bottom: 1rem; 
+}
+
+.modal > h2 { color: var(--text-color); font-size: 1.5rem; margin: 1rem 0 0.5rem; }
+.modal > p { color: var(--text-color); font-size: 1rem; }
+
+.process {
+  margin-top: 1.5rem;
+}
+.process > li {
+  display: grid;
+  grid-template-columns: fit-content(100%) auto;
+  grid-template-rows: auto auto;
+  max-width: 36rem;
+}
+
+.process > li > div {
+  grid-row: 1;
+  padding-top: 0.3125rem;
+  margin-right: 0.8125rem;
+}
+
+.process > li > p {
+  color: var(--text-color);
+  margin-top: 0.25rem;
+  padding-bottom: 1rem; 
+}
+
+.subtitle { color: #e5e6e6; }
+.subtitle-complete { color: var(--slate-grey); }
+.title { color: #e5e6e6; font-size: 1.2em; }
+.title-complete { color: #333333; font-size: 1.2em; }
+.title-all-complete { color: #0eb37e; font-size: 1.2em; }
+
+@media only screen and (max-width: 48em) {
+  .root > li > button { font-size: 0.8125rem; }
+  .root > li > h5 { font-size: 0.9375rem; }
+  .root > li > p { font-size: 0.75rem; }
+
+  .modal > h2 { font-size: 1.25rem; }
+  .modal > p { font-size: 0.75rem; }
+
+  .process > li > p { font-size: 0.75rem; }
+  .process > li > div { padding-top: 0.3125rem; }
+}

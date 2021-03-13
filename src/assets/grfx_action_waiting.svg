@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <linearGradient id="prefix__b" x1="50%" x2="50%" y1="38.58%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#9FBDC9"/>
+        </linearGradient>
+        <linearGradient id="prefix__c" x1="0%" x2="100%" y1="14.047%" y2="85.953%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="36.729%" x2="80.442%" y1="44.95%" y2="54.194%">
+            <stop offset="0%" stop-color="#A31D23"/>
+            <stop offset="100%" stop-color="#EC3F29"/>
+        </linearGradient>
+        <linearGradient id="prefix__e" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <filter id="prefix__a" width="133.3%" height="271.4%" x="-16.7%" y="-85.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H100V100H0z"/>
+        <g fill-rule="nonzero" transform="translate(22 6)">
+            <ellipse cx="19" cy="64.562" fill="#080C10" filter="url(#prefix__a)" opacity=".3" rx="18" ry="3.5"/>
+            <g transform="rotate(-12 24.034 2.526)">
+                <path fill="url(#prefix__b)" d="M24 2v12c0 5.433-3.61 10.023-8.563 11.5C20.389 26.978 24 31.568 24 37v12H0V37l.004-.305c.132-5.3 3.7-9.745 8.56-11.196C3.703 24.05.135 19.604.003 14.305L0 14V2h24z"/>
+                <ellipse cx="12" cy="2" fill="#407B93" rx="12" ry="2"/>
+                <ellipse cx="12" cy="49" fill="#407B93" rx="12" ry="2"/>
+                <path fill="url(#prefix__c)" d="M2 35.683c0-1.46 1.051-2.709 2.49-2.957 2.21-.38 4.713-.571 7.51-.571 2.797 0 5.3.19 7.51.571 1.439.248 2.49 1.496 2.49 2.957l-.001 7.559.001.027c0 1.957-2.37.646-6.458 3.784l-.275.216c-4.255 3.415-6.653 2.095-13.267-4z" transform="matrix(1 0 0 -1 0 81.27)"/>
+                <path fill="url(#prefix__d)" d="M5.908 19.337c3.128.39 5.649.584 7.562.584 1.299 0 2.582-.09 3.848-.27.547-.077 1.053.304 1.13.85.052.36-.097.72-.387.939-2.08 1.57-4.16 2.356-6.239 2.356-2.222 0-4.444-.896-6.665-2.689-.43-.347-.497-.976-.15-1.406.217-.27.558-.407.901-.364z"/>
+                <circle cx="11.5" cy="30.5" r="1" fill="url(#prefix__e)"/>
+                <circle cx="13" cy="28" r="1" fill="url(#prefix__e)"/>
+                <circle cx="10.5" cy="25.5" r="1" fill="url(#prefix__e)"/>
+            </g>
+        </g>
+    </g>
+</svg>

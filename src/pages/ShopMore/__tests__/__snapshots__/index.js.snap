@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ShopMore render 1`] = `
+<Provider>
+  <ShopCategoryMenu
+    links={
+      Array [
+        Object {
+          "page": "cloud-storage",
+          "text": "Cloud Storage",
+          "to": "#",
+        },
+        Object {
+          "page": "indihome-study",
+          "text": "Indihome Study",
+          "to": "#",
+        },
+        Object {
+          "page": "indihome-smart",
+          "text": "Indihome Smart",
+          "to": "#",
+        },
+        Object {
+          "page": "hbo-go",
+          "text": "HBO GO",
+          "to": "/shop/more/hbo-go",
+        },
+      ]
+    }
+    subtitle=""
+    title="More"
+  />
+  <ShopMoreHboGo />
+</Provider>
+`;

@@ -1,0 +1,312 @@
+.root > button {
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+  padding: 0;
+  text-transform: none;
+}
+
+.root > h2 {
+  color: #191a1a;
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+}
+
+.root > h3 {
+  margin-bottom: 1.1875rem;
+  margin-top: 1rem;
+}
+
+.root > h3:last-of-type {
+  margin-bottom: 0;
+  margin-top: 1.75rem;
+}
+
+.root > h4 {
+  color: #66686a;
+  font-size: 0.75rem;
+  font-weight: normal;
+  line-height: 1rem;
+  margin-top: 1.3125rem;
+}
+
+.root > label {
+  align-items: center;
+  color: #66686a;
+  display: flex;
+  font-size: 0.75rem;
+  margin-top: 1.8125rem;
+}
+
+.root > label > input {
+  appearance: none;
+  background-color: #ffffff;
+  border: 0.0625rem solid #cccccc;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  height: 1.25rem;
+  margin-right: 0.25rem;
+  position: relative;
+  transition: background-color 0.15s;
+  width: 1.25rem;
+}
+
+.root > label > input:checked {
+  background-color: #EB5757;
+  border: none;
+}
+
+.root > label > input:checked::after {
+  content: '\2713';
+  color: #ffffff;
+  line-height: 1.25rem;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.root > label > span > a {
+  color: #ee3124;
+  font-weight: bold;
+}
+
+.root > .loading {
+  height: auto;
+}
+
+.root > .loading > span {
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.root > .loading > span:first-child {
+  height: 9rem;
+}
+
+.root > .loading > span:last-child {
+  height: 7rem;
+  margin-top: 1.1875rem;
+}
+
+.root > p {
+  color: #333333;
+  font-size: 0.9375rem;
+  line-height: 1.3125rem;
+}
+
+.root > p:last-of-type {
+  color: #66686a;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.root > span {
+  display: block;
+  height: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.3125rem 0.625rem #00000033;
+  margin-bottom: 1.1875rem;
+  padding: 0.5rem 1rem;
+}
+
+.card > h3 {
+  color: #191a1a;
+  font-size: 1.25rem;
+  margin-bottom: 0.0625rem;
+}
+
+.card > h3 > small {
+  color: #b2b4b5;
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.card > span {
+  color: #66686a;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.dialog {
+  text-align: center;
+}
+
+.dialog > button {
+  margin-top: 1.3125rem;
+  width: 100%;
+}
+
+.dialog > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2.5625rem;
+}
+
+.dialog > div > button:first-child {
+  margin-right: 0.4375rem;
+}
+
+.dialog > div > button:last-child {
+  margin-left: 0.4375rem;
+}
+
+.dialog > h1 {
+  color: #191a1a;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.625rem;
+  margin-bottom: 0.5rem;
+}
+
+.dialog > p {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  line-height: 1.1875rem;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.detail > h3 {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  line-height: 1.3125rem;
+  margin-bottom: 1rem;
+}
+
+.detail > hr {
+  border: none;
+  border-top: 0.0625rem solid #e5e6e6;
+  grid-column: 1/3;
+  margin-bottom: 1rem;
+}
+
+.detail > h1 {
+  color: #191a1a;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  text-align: right;
+}
+
+.detail > h2 {
+  align-self: center;
+  color: #66686a;
+  font-size: 0.75rem;
+  font-weight: normal;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}
+
+.detail > p {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  text-align: right;
+}
+
+.footer {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1.375rem;
+}
+
+.package {
+  background: linear-gradient(0, #cfdee458, #f3f3f300);
+  border-radius: 0.5rem 0.5rem 0 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  padding: 1rem;
+  margin: -0.5rem -1rem 0.4375rem;
+}
+
+.package > aside {
+  align-items: center;
+  background: linear-gradient(135deg, #6a120c, #b21f15, #ee4c24, #ff7e00);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/3;
+  justify-content: center;
+  height: 3.75rem;
+  margin-right: 1rem;
+  width: 3.75rem;
+}
+
+.package > aside > h3 {
+  color: #ffffff;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.package > aside > span {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.package > h5 {
+  color: #333333;
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+  margin-bottom: 0.3125rem;
+}
+
+.package > span {
+  color: #191a1a;
+  font-size: 0.75rem;
+  grid-column: 2;
+  line-height: 1rem;
+}
+
+.toc > h1 {
+  color: #191a1a;
+  font-size: 1rem;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 2.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.toc > p {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  line-height: 1.3125rem;
+  margin-bottom: 0.8125rem;
+}
+
+.warning {
+  text-align: center;
+}
+
+.warning > button {
+  width: 100%;
+}
+
+.warning > h1 {
+  color: #191a1a;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  margin-bottom: 0.5rem;
+}
+
+.warning > img {
+  margin-bottom: 1rem;
+}
+
+.warning > p {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  line-height: 1.1875rem;
+  margin-bottom: 2.5rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > h2 { font-size: 1.25rem; line-height: 1.625rem; }
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Button render 1`] = `
+<button
+  className=""
+  disabled={false}
+  onClick={null}
+  type="button"
+/>
+`;
+
+exports[`src/components/elements/Button render link 1`] = `
+<Link
+  className=""
+  disabled={false}
+  to="/"
+/>
+`;

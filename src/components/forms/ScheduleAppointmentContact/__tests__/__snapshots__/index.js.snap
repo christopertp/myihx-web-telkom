@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ScheduleAppointmentContact render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "FULL NAME",
+        "placeholder": "Contact's full name",
+      }
+    }
+    name="fullName"
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "MOBILE NUMBER",
+        "placeholder": "Contact's full name",
+      }
+    }
+    name="mobileNumber"
+  />
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      Cancel
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="submit"
+      variant="red"
+    >
+      Save
+    </Button>
+  </div>
+</form>
+`;

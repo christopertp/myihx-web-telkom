@@ -1,0 +1,56 @@
+.root { margin: 1rem 0 1.5rem; }
+.root > header {
+  background: linear-gradient(0deg, #f2f2f2 0%, #ffffff 100%);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: grid;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  padding: 1rem;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto;
+}
+
+.root > header > figure, .root > header > span:first-child {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/3;
+  height: 3.5rem;
+  justify-content: center;
+  margin-right: 0.75rem;
+  width: 3.5rem;
+}
+
+.root > header > span { margin: 0.125rem; }
+.root > header > aside {
+  align-items: center;
+  display: flex;
+  grid-column: 3/3;
+  grid-row: 1/3;
+}
+
+.root > header  > aside > a { margin-left: 1rem; }
+.root > header  > aside > a > img { height: 1.5rem; width: 1.5rem; }
+.root > header > figure > img { height: 3.125rem; width: 3.125rem; }
+.root > header > h3 {
+  color: var(--text-color);
+  font-size: 1.125rem;
+  margin-top: auto;
+  text-transform: capitalize;
+  transition: color 0.25s;
+}
+
+.root > header > p {
+  color: var(--slate-grey);
+  font-size: 0.9375rem;
+  margin-bottom: auto;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > header { padding: 0.5rem 1rem; }
+  .root > header > figure > img { height: 2.5rem; width: 2.5rem; }
+  .root > header > h3 { font-size: 1rem; }
+  .root > header > p { font-size: 0.75rem; }
+}

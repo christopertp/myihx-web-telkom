@@ -1,0 +1,28 @@
+.root {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.root > img {
+  display: inline-block;
+  height: auto;
+  position: absolute;
+  width: 3rem;
+}
+
+.svg {
+  height: auto;
+  max-width: 100%;
+  transform: scaleX(-1);
+}
+
+.svg-circle-bg {
+  fill: none;
+}
+
+.svg-circle {
+  fill: none;
+  transition: stroke-dashoffset 850ms ease-in-out;
+}

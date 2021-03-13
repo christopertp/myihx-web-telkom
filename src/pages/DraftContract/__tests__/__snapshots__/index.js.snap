@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/DraftContract render 1`] = `
+<section>
+  <header>
+    <IconButton
+      className=""
+      name="back_red"
+      onClick={[Function]}
+      title=""
+      to="/"
+      type="button"
+    />
+    <h1>
+      Review Draft Contract
+    </h1>
+  </header>
+  <PdfViewer
+    className=""
+    url="url"
+  />
+  
+  <footer>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/"
+      type="button"
+      variant="bordered"
+    >
+      Decline
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Accept
+    </Button>
+  </footer>
+</section>
+`;

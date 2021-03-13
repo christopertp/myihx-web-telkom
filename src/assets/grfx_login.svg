@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="b" x1="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#080C10"/>
+            <stop offset="100%" stop-color="#115B79"/>
+        </linearGradient>
+        <path id="a" d="M41.765 71.875c23.026 0 35.11-9.646 35.11-24.116 0-23.64-16.84-18.117-26.33-25.705C43.394 16.338 41.764 0 25.78 0 9.073 0-.965 10.583.074 30.476 1.113 50.369 18.74 71.875 41.765 71.875z"/>
+        <linearGradient id="c" x1="0%" x2="99.397%" y1="0%" y2="99.397%">
+            <stop offset="0%" stop-color="#6ED1B1"/>
+            <stop offset="100%" stop-color="#FFCB99"/>
+        </linearGradient>
+        <linearGradient id="e" x1="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <path id="f" d="M0 0h51.25v53.125H0z"/>
+        <filter id="h" width="228.1%" height="150%" x="-64.1%" y="-25%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.25"/>
+        </filter>
+        <linearGradient id="i" x1="86.682%" x2="21.766%" y1="88.769%" y2="18.18%">
+            <stop offset="0%" stop-color="#080C10"/>
+            <stop offset="100%" stop-color="#115B79"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h100v100H0z"/>
+        <g transform="translate(6.25 20)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="url(#b)" fill-rule="nonzero" xlink:href="#a"/>
+            <rect width="48.75" height="75" x="14.375" y="-3.125" fill="url(#c)" fill-rule="nonzero" mask="url(#d)" rx="2.5"/>
+            <path fill="url(#e)" fill-rule="nonzero" d="M15.985-2.64L50.857 7.854c.528.159.89.645.89 1.197v65.98a1.25 1.25 0 0 1-1.427 1.238l-34.872-4.975a1.25 1.25 0 0 1-1.073-1.238v-71.5a1.25 1.25 0 0 1 1.61-1.196z" mask="url(#d)"/>
+        </g>
+        <g transform="translate(20.625 7.5)">
+            <mask id="g" fill="#fff">
+                <use xlink:href="#f"/>
+            </mask>
+            <path fill="url(#c)" fill-rule="nonzero" d="M0 9.375h43.75a5 5 0 0 1 5 5v65a5 5 0 0 1-5 5H0v-75z" mask="url(#g)"/>
+            <path fill="url(#e)" fill-rule="nonzero" d="M0 9.375L33.812 19.55a5 5 0 0 1 3.56 4.788v58.87a5 5 0 0 1-5.707 4.95L0 83.641V9.375z" mask="url(#g)"/>
+        </g>
+        <path fill="#031218" fill-rule="nonzero" d="M46.875 66.875l5.853-1.25v15z" filter="url(#h)" opacity=".3"/>
+        <circle cx="50" cy="69.375" r="3.125" fill="url(#i)" fill-rule="nonzero"/>
+    </g>
+</svg>

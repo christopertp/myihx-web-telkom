@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/LoginUser render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "autoFocus": true,
+        "label": "NOMOR PONSEL ATAU EMAIL",
+        "placeholder": "Masukkan Nomor Ponsel atau Email",
+      }
+    }
+    name="user"
+  />
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Masuk
+  </Button>
+</form>
+`;

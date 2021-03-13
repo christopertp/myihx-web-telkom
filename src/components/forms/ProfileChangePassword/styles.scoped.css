@@ -1,0 +1,18 @@
+.root > a {
+  color: #ee3124;
+  display: block;
+  font-weight: 800;
+  text-align: right;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.root > button {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > a { font-size: 0.9rem; }
+  .root > button { margin-top: 5rem; }
+}

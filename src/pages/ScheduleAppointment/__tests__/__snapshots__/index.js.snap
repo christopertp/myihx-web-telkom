@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ScheduleAppointment IssueInfo 1`] = `
+<React.Fragment>
+  <section>
+    <Heading
+      className=""
+    >
+      Issue Summary
+    </Heading>
+    <Card
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      variant="hover"
+    />
+  </section>
+  <section>
+    <Heading
+      className=""
+    >
+      Address
+    </Heading>
+    <p />
+  </section>
+</React.Fragment>
+`;
+
+exports[`src/pages/ScheduleAppointment Modals 1`] = `
+<React.Fragment>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <h3>
+      Session Time Out
+    </h3>
+    <p>
+      Sorry, your session is expired. Retry and try to finish your schedule before the timer expires.
+    </p>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Retry
+    </Button>
+  </Modal>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <img
+      alt=""
+      src="/assets/grfx_warning.svg"
+    />
+    <h3>
+      No 
+      installation
+       to be scheduled
+    </h3>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/"
+      type="button"
+      variant="red"
+    >
+      Back to Home
+    </Button>
+  </Modal>
+</React.Fragment>
+`;
+
+exports[`src/pages/ScheduleAppointment Schedule 1`] = `
+<React.Fragment>
+  <WhiteCardPlain
+    back="/"
+    close=""
+    help={false}
+    icon=""
+    size="large"
+    subtitle="Finish your schedule before the timer runs out to book a technician."
+    title="Schedule Installation"
+  >
+    <Timer
+      className=""
+      time={
+        Array [
+          "",
+          "",
+          "",
+        ]
+      }
+    />
+    <InstallationPackageInfo
+      address=""
+      isLoading={false}
+      product=""
+    />
+    <AppointmentDate
+      className=""
+      date={Array []}
+      isLoading={false}
+      mini={false}
+      setPayload={[Function]}
+    />
+    <ScheduleAppointmentContact
+      data={null}
+      open={false}
+      setModal={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "timeout",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      setPayload={[Function]}
+    />
+    <div>
+      <Button
+        className=""
+        disabled={false}
+        onClick={null}
+        to="/"
+        type="button"
+        variant="bordered"
+      >
+        Cancel
+      </Button>
+      <Button
+        className=""
+        disabled={true}
+        onClick={[Function]}
+        to=""
+        type="button"
+        variant="red"
+      >
+        Next
+      </Button>
+    </div>
+  </WhiteCardPlain>
+  <Modals
+    onRetry={[Function]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/ScheduleAppointment Success 1`] = `
+<WhiteCardSuccessPlain
+  close=""
+  icon="success"
+  subtitle="Your IndiHome will be installed on"
+  title="All set! Your installation is scheduled"
+>
+  <div>
+    <h3>
+      dddd, D MMMM YYYY
+    </h3>
+    <p>
+      Estimated arrival time 
+    </p>
+  </div>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/"
+    type="button"
+    variant="red"
+  >
+    Back to Home
+  </Button>
+</WhiteCardSuccessPlain>
+`;
+
+exports[`src/pages/ScheduleAppointment render 1`] = `
+<Provider
+  value={
+    Object {
+      "modal": "",
+      "payload": Object {
+        "timeSlot": Object {
+          "date": "",
+        },
+      },
+      "setModal": [MockFunction],
+      "setPayload": [MockFunction],
+    }
+  }
+>
+  <Schedule />
+</Provider>
+`;

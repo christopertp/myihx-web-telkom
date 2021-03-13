@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/SendFeedback render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "TOPIC",
+        "placeholder": "Choose...",
+      }
+    }
+    name="topicId"
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "MESSAGE/COMMENT",
+        "maxLength": "150",
+        "placeholder": "Enter message",
+      }
+    }
+    name="message"
+  />
+  
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Send Feedback
+  </Button>
+</form>
+`;

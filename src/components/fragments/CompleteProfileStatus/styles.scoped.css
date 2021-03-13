@@ -1,0 +1,16 @@
+.btn-status {
+  margin: 1rem 0 0;
+  width: 100%;
+}
+.subtitle-status {
+  line-height: 1.6;
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 25rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .btn-status {
+    margin: auto 0 1rem;
+  }
+}

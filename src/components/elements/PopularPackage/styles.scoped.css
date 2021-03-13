@@ -1,0 +1,124 @@
+.root {
+  background-color: #ffffff;
+  border-color: #f2f2f2;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.root > header {
+  display: flex;
+  justify-content: center;
+  margin-top: -1.5rem;
+}
+
+.root > header > li, .list-mob > li > header > figure {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 5.375rem;
+  justify-content: center;
+  width: 5.375rem;
+}
+
+.root > header > li:first-child, .list-mob > li > header > figure {
+  background: linear-gradient(135deg, #6a120c, #b21f15, #ee4c24, #ff7e00);
+}
+
+.root > header > li:nth-child(2) {
+  background: linear-gradient(135deg, #284050, #0eb37e);
+  margin: 0 0.75rem;
+}
+
+.root > header > li:nth-child(3) {
+  background: linear-gradient(135deg, #080c10, #115b79);
+}
+
+.root > header > li > h1, .list-mob > li > header > figure > h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.root > header > li > p, .list-mob > li > header > figure > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.root > article {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: inherit;
+  justify-content: space-between;
+  padding: 1rem;
+  text-align: center;
+}
+
+.root > article > h3:first-of-type {
+  font-size: 0.9rem;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+.root > article > h3:nth-of-type(2), .list-mob > li > footer > h4 {
+  color: #0eb37e;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.root > article > h3:last-of-type {
+  line-height: 1.2;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.special-deal { color: #0eb37e; }
+
+.root > article > strike, .list-mob > li > footer > strike {
+  color: #333435;
+}
+
+.root > article > h3 > small, .list-mob > li > footer > h3 > small {
+  bottom: 0.125rem;
+  color: #999999;
+  font-size: 0.8rem;
+  font-weight: 400;
+  position: relative;
+}
+
+.root > article > p {
+  color: #999999;
+  flex: 1;
+}
+
+.root > article > p:first-of-type {
+  margin-bottom: 2rem;
+}
+
+.root > article > p:nth-last-of-type(2) {
+  color: #333435;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+.root > article > p:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.root > article > img {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 100%;
+}
+
+.root > article > button {
+  width: 100%;
+}

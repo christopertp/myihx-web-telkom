@@ -1,0 +1,43 @@
+.root {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo > img {
+  flex:1;
+  width: 15.3125rem;
+}
+
+.root > p {
+  flex: 1;
+  font-size: 0.8125rem;
+  line-height: 1.325rem;
+  text-align: center;
+  margin: 3.25rem 0 3.25rem 0;
+}
+
+.social {
+  display: inherit;
+  margin-bottom: 1rem;
+}
+
+.social > a {
+  display: inline-block;
+  margin: 0 1rem 0 1rem;
+}
+
+.social > a > img {
+  display: block;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > p {
+    margin: 5rem 0 3.25rem 0;
+  }
+}

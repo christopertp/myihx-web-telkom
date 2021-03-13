@@ -1,0 +1,307 @@
+.devices {
+  grid-area: devices;
+}
+.devices > .card-empty-device,
+.devices > .card-device {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  margin-top: 0.55rem;
+  padding: 0.85rem 0.625rem;
+  position: relative;
+}
+.devices > span {
+  border-radius: 0.5rem;
+  display: block;
+  height: 4.938rem;
+  margin-top: 0.55rem;
+}
+.card-empty-device > img,
+.card-device > img:first-child {
+  align-self: center;
+  grid-column: 1;
+  grid-row: 1/3;
+  height: 3.5rem;
+  margin-right: 0.813rem;
+}
+.card-device > .more {
+  display: grid;
+  outline: none;
+}
+.card-device > .more > button > img,
+.card-device > .more > button:focus {
+  outline: none;
+}
+.card-device > .more > button {
+  align-self: center;
+  grid-column: 3;
+  grid-row: 1/3;
+}
+.card-empty-device > span,
+.card-device > span {
+  align-self: flex-end;
+  font-weight: 700;
+}
+.card-empty-device > p,
+.card-device > p {
+  color: #66686a;
+  font-size: 0.813rem;
+  grid-column: 2;
+}
+.card-device > div {
+  align-self: center;
+  grid-column: 3;
+  grid-row: 1/3;
+}
+.more-menu:focus {
+  outline: none;
+}
+.more-menu {
+  background-color: #fff;
+  border-radius: 0.438rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 1, 0.075);
+  left: 10.3rem;
+  opacity: 0;
+  position: absolute;
+  top: 4rem;
+  transition: all ease-in-out 0.25s;
+  visibility: hidden;
+  width: auto;
+  z-index: 2;
+}
+.more:hover > div {
+  opacity: 1;
+  visibility: visible;
+}
+.more-menu::before {
+  background-color: white;
+  bottom: 6rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 1, 0.075);
+  clip: rect(0rem, 1.12rem, 1.12rem, -0.25rem);
+  content: '';
+  height: 1.25rem;
+  position: absolute;
+  right: 0.74rem;
+  transform: rotate(45deg);
+  width: 1.25rem;
+  z-index: 0;
+}
+.more-menu > ul > li:nth-child(1) {
+  border-bottom: 0.063rem solid #fafafa;
+  padding: 0.938rem 1.25rem;
+}
+.more-menu > ul > li:nth-child(2) {
+  color: #ee3124;
+  padding: 0.938rem 1.25rem;
+}
+.how-to-wifiId {
+  grid-area: how-to;
+}
+.how-to-wifiId .steps {
+  margin-bottom: 1rem;
+}
+.how-to-wifiId .steps:last-child {
+  margin-bottom: 0rem;
+}
+.how-to-wifiId .steps > h3 {
+  margin-bottom: 0.55rem;
+}
+.how-to-wifiId > .steps > ul > li {
+  display: grid;
+  grid-template-columns: 2rem auto;
+  grid-template-rows: auto auto;
+  max-width: 36rem;
+}
+.how-to-wifiId > .steps > ul > li > div {
+  grid-row: 1/3;
+  margin-right: auto;
+  padding-top: 0.5rem;
+}
+.how-to-wifiId > .steps > ul > li > h5 {
+  font-size: 1.2em;
+  margin: auto 0 0.3rem;
+}
+.how-to-wifiId > .steps > ul > li > p:first-of-type {
+  margin-top: 0.3rem;
+}
+.how-to-wifiId > .steps > ul > li > p {
+  color: #66686a;
+  font-size: 0.95rem;
+  grid-column: 2;
+  margin-bottom: 0.625rem;
+  margin-top: 0rem;
+}
+.how-to-wifiId > .loading {
+  display: grid;
+  grid-template-columns: 2rem auto;
+  grid-template-rows: auto auto;
+}
+.how-to-wifiId > .loading > span:nth-child(1) {
+  border-radius: 0.2rem;
+  display: block;
+  height: 1.5rem;
+  width: 16rem;
+}
+.how-to-wifiId > .loading > span:nth-child(2) {
+  border-radius: 50%;
+  display: block;
+  grid-row: 1/3;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+.how-to-wifiId > .loading > span:nth-child(3) {
+  border-radius: 0.2rem;
+  display: block;
+  height: 1.5rem;
+  width: 18rem;
+}
+.how-to-wifiId > .loading > span:nth-child(4) {
+  border-radius: 0.2rem;
+  grid-column: 2;
+  height: 1.5rem;
+}
+
+.root {
+  align-items: baseline;
+  display: grid;
+  grid-gap: 0.625rem;
+  grid-template-areas: 'login-information devices' 'how-to devices' '. devices' 'btn-submit btn-submit';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+.field-password {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+.field-password > span {
+  border-radius: 0.2rem;
+  grid-column: 1;
+  grid-row: 2;
+  height: 1.2rem;
+  width: 10rem;
+}
+.field-password > input {
+  border: none;
+  font-size: 1rem;
+  grid-column: 1;
+  grid-row: 2;
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+.field-password > button {
+  background-color: #fff;
+  border: none;
+  color: #ee3124;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 700;
+  grid-column: 1;
+  grid-row: 3;
+  margin-top: 0.313rem;
+  text-align: start;
+  width: max-content;
+}
+.field-password > button:last-child {
+  grid-column: 2;
+  grid-row: 2/4;
+  justify-self: right;
+}
+.field-password > img,
+.devices > .card-device > div:last-child {
+  cursor: pointer;
+}
+.field-username {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.field-username > p {
+  word-break: break-word;
+}
+
+.field-username > span {
+  border-radius: 0.2rem;
+  height: 1.2rem;
+  width: 10rem;
+}
+.login-information {
+  grid-area: login-information;
+  margin-bottom: 1rem;
+  margin-top: 0.75rem;
+}
+.login-information > div {
+  margin-top: 0.7rem;
+}
+.root > .btn-submit {
+  grid-area: btn-submit;
+}
+.root > .login-information > .card-login-information small {
+  color: #66686a;
+}
+.loading > span {
+  border-radius: 0.5rem;
+  display: block;
+  height: 4.938rem;
+  margin-top: 0.55rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .card-empty-device > img,
+  .card-device > img:first-child {
+    height: 3rem;
+  }
+  .card-devices > img:last-child {
+    height: 1.2rem;
+  }
+  .card-empty-device > p,
+  .card-device > p {
+    align-self: center;
+  }
+  .devices,
+  .card-empty-devices {
+    margin-bottom: 1.5rem;
+  }
+  .more-menu {
+    left: 11.5rem;
+    top: 3.8rem;
+  }
+  .more-menu::before {
+    bottom: 5rem;
+    left: 6.9rem;
+  }
+  .more-menu > ul > li:nth-child(1),
+  .more-menu > ul > li:nth-child(2) {
+    font-size: 0.813rem;
+  }
+
+  .how-to-wifiId > .steps > ul > li > div {
+    padding-top: 0.3rem;
+  }
+  .how-to-wifiId > .steps > ul > li > h5 {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  .how-to-wifiId > .steps > ul > li > p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+  }
+  .root {
+    display: block;
+  }
+  .field-password > div:first-child > input {
+    margin-bottom: 0.9rem;
+  }
+  .login-information > div {
+    padding: 0.95rem 1rem;
+  }
+  .login-information > div:first-child {
+    margin-top: 0;
+  }
+  .root > .btn-submit {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .login-information > .card-login-information small {
+    font-size: 0.75rem;
+  }
+}

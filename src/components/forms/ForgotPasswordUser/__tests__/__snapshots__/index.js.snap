@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ForgotPasswordUser render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "MOBILE NUMBER OR EMAIL",
+        "placeholder": "Enter your mobile number or email",
+      }
+    }
+    name="user"
+  />
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Send Recovery Code
+  </Button>
+</form>
+`;

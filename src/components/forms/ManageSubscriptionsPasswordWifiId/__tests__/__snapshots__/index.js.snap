@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ManageSubscriptionsPasswordWifiId render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h3>
+    Change wifi.id password
+  </h3>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "autoFocus": true,
+        "label": "NEW PASSWORD",
+        "maxLength": 12,
+        "placeholder": "Masukkan Password Yang Baru",
+      }
+    }
+    name="passwordWifiId"
+  />
+  
+  <footer>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="submit"
+      variant="bordered"
+    >
+      Cancel
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="submit"
+      variant="red"
+    >
+      Save
+    </Button>
+  </footer>
+</form>
+`;

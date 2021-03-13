@@ -1,0 +1,228 @@
+.root {
+  background-color: #f2f2f2;
+  margin: -4rem var(--neg-side-margin) 0;
+  padding: 3rem var(--side-margin) 1rem;
+}
+
+.benefit > h3,
+.tnc > h3 {
+  margin: 1rem 0;
+}
+
+.benefit > ul {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  margin-top: 1rem;
+}
+
+.benefit > ul > button {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefit > ul > button > img:first-child {
+  width: 7.125rem;
+}
+
+.benefit > ul > button > p {
+  color: #191a1a;
+  flex-grow: 1;
+  font-weight: 600;
+  line-height: 1.125rem;
+  margin: 0 1rem;
+}
+
+.desktoplist {
+  margin: 2rem 0;
+}
+
+.desktoplist > h3 {
+  margin: 2rem 0 4rem 0;
+}
+
+.header > section {
+  background-color: #ee3124;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  margin: -4rem var(--neg-side-margin) 0;
+  padding: 4rem var(--side-margin) 6rem;
+  z-index: 2;
+}
+
+.header > section > a {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  font-size: .9rem;
+  margin-bottom: 3rem;
+}
+
+.header > section > a > img {
+  height: 1rem;
+  opacity: 0.75;
+}
+
+.header > section > a >img:last-child { display: none; }
+
+.header > section > h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.header > section > p {
+ color: rgba(255, 255, 255, 0.75); 
+}
+
+.isloading > div:first-child {
+  display: block;
+  height: 2rem;
+  width: 25%;
+}
+
+.isloading > div:last-child {
+  display: grid;
+  gap: 1.125rem;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  margin-top: 1rem;
+}
+
+.isloading > div:last-child > span {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: block;
+  height: 9rem;
+  width: 100%;
+}
+
+.modal > ul {
+  margin-bottom: 1.1625rem;
+  max-height: 23.75rem;
+  overflow-y: auto;
+}
+
+.modal > ul > li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.modal > ul > li > div {
+  align-items: center;
+  display: flex;
+  height: 6rem;
+  margin-right: 1rem;
+  padding: 0.2rem;
+  width: 6rem;
+}
+
+.modal > ul > li > div > img{
+  margin: auto;
+  width: 100%;
+}
+
+.modal > ul > li > article {
+  color: #191a1a;
+  flex-grow: 1;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+  width: 13.5rem;
+}
+
+.modal > ul > li > article > ul > li {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+}
+
+.modal > header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto;
+}
+
+.modal > header > h1 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.modal > header > button { margin: -0.5rem -0.5rem 0 0; }
+
+.modal > header > button > img { height: 2.5rem; }modal > article {
+  margin-bottom: 1.1625rem;
+  max-height: 23.75rem;
+  overflow-y: auto;
+}
+
+.modal > button {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.tnc > ol > li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+} 
+
+@media only screen and (max-width: 48em) {
+  .benefit {
+      margin-top: -4.25rem;
+  }
+  .benefit > h3 {
+    color: #ffffff;
+    letter-spacing: 0.0625rem;
+    margin: 1rem 0 0 0;
+  }
+  .benefit > ul {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    margin: 1rem 0 1.625rem 0;
+  }
+  .header > section {
+    height: 14.0625rem;
+    margin: -1rem;
+    padding: 1rem;
+    z-index: -2;
+  }
+  .header > section > a {
+    color: transparent;
+    font-size: 0;
+    margin: 1.25rem 0 0.8rem 0;
+  }
+  .header > section > a > img:first-child {
+    display: block;
+    height: 1.5rem;
+  }
+  .header > section > a > img:last-child { display: none; }
+  .header > section > h1 {
+    color: #ffffff;
+    line-height: 1.875rem;
+    font-size: 1.5rem;
+  }
+  .header > section > p {
+    color: #ffffff;
+    font-size: 0.8125rem;
+    font-weight: lighter;
+    margin-top: 0.5625rem;
+  }
+  .isloading > div:first-child {
+    display: block;
+    height: 2rem;
+    width: 100%;
+  }
+  .isloading > div:last-child {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    margin: 1rem 0 1.625rem 0;
+  }
+  .modal > header > h1 { font-size: 1.25rem; }
+  .modal > header > button > img { height: 2rem; }
+  .modal > ul { max-height: 24.5rem; }
+  .modal > ul > li > p { font-size: 0.813rem; }
+  .tnc > ol > li  {
+    font-size: 0.813rem;
+  }
+}

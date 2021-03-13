@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ModalLogin render 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={false}
+>
+  <header>
+    <img
+      alt="login"
+      src="/assets/grfx_login.svg"
+    />
+    <IconButton
+      className=""
+      name="close_red"
+      onClick={[Function]}
+      title=""
+      to=""
+      type="button"
+    />
+  </header>
+  <h1>
+    Login or Register to Continue
+  </h1>
+  <p>
+    Login or create account to continue the purchase process. This will only take a few minutes
+  </p>
+  <footer>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/login"
+      type="button"
+      variant="bordered"
+    >
+      Login
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/register"
+      type="button"
+      variant="red"
+    >
+      Register
+    </Button>
+  </footer>
+</Modal>
+`;

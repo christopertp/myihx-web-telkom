@@ -1,0 +1,36 @@
+.review-image {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+.reupload {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.reupload > * {
+  flex: 1
+}
+
+.reupload > *:first-child {
+  margin-right: 1rem;
+}
+
+.verify-button {
+  margin-top: 2rem;  
+}
+
+@media only screen and (max-width: 48em) {
+  .verify-button {
+    margin: auto 0 1.5rem;
+  }
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="prefix__b" x1="0%" x2="100%" y1="5.283%" y2="94.717%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <filter id="prefix__c" width="143.6%" height="342.4%" x="-21.8%" y="-121.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+        </filter>
+        <path id="prefix__a" d="M42.39 72.625C68.847 75.75 77.031 59.5 77.031 50.637c0-19.411-16.371-20.245-25.862-27.833C44.021 17.088 41.402.75 24.755.75 8.048.75-.34 11.333.699 31.226 1.738 51.119 15.933 69.5 42.39 72.625z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H100V100H0z"/>
+        <g transform="translate(5.625 19.25)">
+            <use fill="url(#prefix__b)" fill-rule="nonzero" xlink:href="#prefix__a"/>
+        </g>
+        <path fill-rule="nonzero" stroke="#FFB166" stroke-linecap="round" stroke-linejoin="round" stroke-width=".625" d="M17.955 78.886L13.977 80.682 15.774 76.705 13.977 72.727 17.955 74.524 21.932 72.727 20.136 76.705 21.932 80.682z" transform="rotate(45 17.955 76.705)"/>
+        <path fill-rule="nonzero" stroke="#FFB166" stroke-linecap="round" stroke-linejoin="round" stroke-width=".625" d="M63.277 73.379L61.951 73.977 62.55 72.652 61.951 71.326 63.277 71.925 64.602 71.326 64.004 72.652 64.602 73.977z" transform="rotate(45 63.277 72.652)"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M35.518 21.627L35.09 22.317 35.206 21.514 34.435 21.768 35.041 21.227 34.287 20.926 35.098 20.9 34.714 20.185 35.352 20.687 35.518 19.893 35.684 20.687 36.321 20.185 35.937 20.9 36.749 20.926 35.995 21.227 36.6 21.768 35.829 21.514 35.945 22.317z" transform="rotate(45 35.518 21.143)"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M76.143 72.877L75.715 73.567 75.831 72.764 75.06 73.018 75.666 72.477 74.912 72.176 75.723 72.15 75.339 71.435 75.977 71.937 76.143 71.143 76.309 71.937 76.946 71.435 76.562 72.15 77.374 72.176 76.62 72.477 77.225 73.018 76.454 72.764 76.57 73.567z" transform="rotate(45 76.143 72.393)"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M41.143 86.002L40.715 86.692 40.831 85.889 40.06 86.143 40.666 85.602 39.912 85.301 40.723 85.275 40.339 84.56 40.977 85.062 41.143 84.268 41.309 85.062 41.946 84.56 41.562 85.275 42.374 85.301 41.62 85.602 42.225 86.143 41.454 85.889 41.57 86.692z" transform="rotate(45 41.143 85.518)"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M86.402 44.629L85.76 45.664 85.934 44.459 84.778 44.839 85.686 44.028 84.555 43.576 85.772 43.538 85.196 42.465 86.153 43.219 86.402 42.027 86.65 43.219 87.607 42.465 87.031 43.538 88.248 43.576 87.118 44.028 88.025 44.839 86.869 44.459 87.043 45.664z" transform="rotate(45 86.402 43.902)"/>
+        <path fill-rule="nonzero" stroke="#FFB166" stroke-linecap="round" stroke-linejoin="round" stroke-width=".625" d="M61.094 24.942L59.547 25.64 60.246 24.094 59.547 22.547 61.094 23.246 62.64 22.547 61.942 24.094 62.64 25.64z" transform="rotate(45 61.094 24.094)"/>
+        <ellipse cx="49.375" cy="71.188" fill="#062430" fill-rule="nonzero" filter="url(#prefix__c)" opacity=".3" rx="34.375" ry="6.188"/>
+        <g fill-rule="nonzero" transform="translate(21.897 34)">
+            <rect width="56" height="38" fill="#9EE0CB" opacity=".9" rx="4"/>
+            <path fill="#FFF" d="M6 19.54H50V23.54H6zM6 27.54H30V31.54H6zM6 5H16V15H6z"/>
+        </g>
+    </g>
+</svg>

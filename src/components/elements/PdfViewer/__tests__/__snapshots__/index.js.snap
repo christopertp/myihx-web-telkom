@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/PdfViewer render 1`] = `
+<div
+  className="loading"
+/>
+`;

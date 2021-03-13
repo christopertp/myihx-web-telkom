@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <radialGradient id="prefix__c" cx="0%" cy="0%" r="221.012%" fx="0%" fy="0%" gradientTransform="matrix(.45246 .45246 -.89178 .22957 0 0)">
+            <stop offset="0%" stop-color="#470C08"/>
+            <stop offset="66.884%" stop-color="#B21F15"/>
+            <stop offset="100%" stop-color="#BE3C1C"/>
+        </radialGradient>
+        <radialGradient id="prefix__f" cx="0%" cy="0%" r="309.46%" fx="0%" fy="0%" gradientTransform="matrix(.32314 .32314 -.11034 .94635 0 0)">
+            <stop offset="0%" stop-color="#470C08"/>
+            <stop offset="66.884%" stop-color="#B21F15"/>
+            <stop offset="100%" stop-color="#BE3C1C"/>
+        </radialGradient>
+        <radialGradient id="prefix__g" cx="0%" cy="0%" r="246.221%" fx="0%" fy="0%" gradientTransform="scale(1 .44444) rotate(66.038)">
+            <stop offset="0%" stop-color="#470C08"/>
+            <stop offset="66.884%" stop-color="#B21F15"/>
+            <stop offset="100%" stop-color="#BE3C1C"/>
+        </radialGradient>
+        <radialGradient id="prefix__h" cx="50%" cy="0%" r="323.154%" fx="50%" fy="0%" gradientTransform="matrix(.10349 .44206 -.99463 .046 .448 -.221)">
+            <stop offset="0%" stop-color="#470C08"/>
+            <stop offset="66.884%" stop-color="#B21F15"/>
+            <stop offset="100%" stop-color="#BE3C1C"/>
+        </radialGradient>
+        <linearGradient id="prefix__e" x1="50%" x2="50%" y1="38.58%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#9FBDC9"/>
+        </linearGradient>
+        <filter id="prefix__a" width="133.3%" height="271.4%" x="-16.7%" y="-85.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+        </filter>
+        <path id="prefix__b" d="M8.776 2.673L41.196.039l3.712 4.651C45.615 5.576 46 6.676 46 7.81V35c0 2.761-2.239 5-5 5H9.153c-1.638 0-3.171-.802-4.106-2.146L.958 31.973 4.223 7.008C4.53 4.67 6.426 2.864 8.776 2.673z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H100V100H0z"/>
+        <g transform="translate(11 12)">
+            <ellipse cx="29.063" cy="63.537" fill="#080C10" fill-rule="nonzero" filter="url(#prefix__a)" opacity=".3" rx="18" ry="3.5"/>
+            <g transform="rotate(15 3.213 48.287)">
+                <g transform="translate(0 5)">
+                    <mask id="prefix__d" fill="#fff">
+                        <use xlink:href="#prefix__b"/>
+                    </mask>
+                    <use fill="#709CAE" fill-rule="nonzero" xlink:href="#prefix__b"/>
+                    <path fill="url(#prefix__c)" fill-rule="nonzero" d="M41.896 13.157L46.127 16.422 46.127 4.684 40.443 -1 37.288 -1z" mask="url(#prefix__d)"/>
+                </g>
+                <rect width="41" height="37" x="1" y="4" fill="url(#prefix__e)" fill-rule="nonzero" rx="5"/>
+                <path fill="url(#prefix__f)" fill-rule="nonzero" d="M5 4h33c2.21 0 4 1.79 4 4v10H1V8c0-2.21 1.79-4 4-4z"/>
+                <g fill-rule="nonzero" transform="translate(7)">
+                    <rect width="4" height="9" fill="url(#prefix__g)" rx="2"/>
+                    <rect width="4" height="9" x="23" fill="url(#prefix__h)" rx="2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

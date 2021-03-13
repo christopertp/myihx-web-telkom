@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Payment List 1`] = `
+Array [
+  <Card
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    variant="bordered"
+  >
+    <img
+      alt="LinkAja"
+      src=""
+    />
+    <strong>
+      LinkAja
+    </strong>
+    <small>
+      Pay with LinkAja
+    </small>
+    <img
+      alt="chevron_red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>,
+  <Card
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    variant="bordered"
+  >
+    <img
+      alt="DebitCC"
+      src=""
+    />
+    <strong>
+      DebitCC
+    </strong>
+    <small>
+      Pay with DebitCC
+    </small>
+    <img
+      alt="chevron_red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>,
+  <Card
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    variant="bordered"
+  >
+    <img
+      alt="TMoney"
+      src=""
+    />
+    <strong>
+      TMoney
+    </strong>
+    <small>
+      Pay with TMONEY
+    </small>
+    <img
+      alt="chevron_red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>,
+  <Card
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    variant="bordered"
+  >
+    <img
+      alt="LinkAja"
+      src=""
+    />
+    <strong>
+      LinkAja
+    </strong>
+    <small>
+      Pay with Bank Transfer
+    </small>
+    <img
+      alt="chevron_red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>,
+]
+`;
+
+exports[`src/pages/Payment Method 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon=""
+  size="medium"
+  subtitle=""
+  title="Payment"
+>
+  <div>
+    <h3>
+      Payment Due
+    </h3>
+    <h2>
+      Rp
+      396.525
+    </h2>
+    <p>
+      Includes PPn 10%
+    </p>
+    <h3>
+      Payment Code
+    </h3>
+    <h2>
+      MYIRX-986401919709
+    </h2>
+  </div>
+  <List />
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Payment NotExist 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon="warning"
+  size="medium"
+  subtitle=""
+  title="Payment does not exist"
+>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/"
+    type="button"
+    variant="red"
+  >
+    Back to home
+  </Button>
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Payment Timer 1`] = `
+<div>
+  <img
+    alt="time"
+    src="/assets/ic_timer.svg"
+  />
+  <span>
+    
+    :
+    
+  </span>
+</div>
+`;
+
+exports[`src/pages/Payment render 1`] = `<NotExist />`;

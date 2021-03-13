@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Receipt Failed 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon="status_failed"
+  size="large"
+  subtitle="Try refreshing the page or comeback later."
+  title="Something went wrong."
+>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/history/bill"
+    type="button"
+    variant="red"
+  >
+    Back to History
+  </Button>
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Receipt List 1`] = `
+<ul>
+  <li>
+    <span>
+      BIAYA INDIHOME
+    </span>
+    <span>
+      Rp35.000
+    </span>
+  </li>
+  <li>
+    <span>
+      PAJAK
+    </span>
+    <span>
+      Rp5.000
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`src/pages/Receipt ReceiptCard 1`] = `
+<section>
+  <IconButton
+    className=""
+    name="back_red"
+    onClick={[Function]}
+    title=""
+    to="/history/bill"
+    type="button"
+  />
+  <header>
+    <img
+      alt="success"
+      src="/assets/grfx_success.svg"
+    />
+    <h1>
+      Transaction Successful
+    </h1>
+    <p>
+      dddd, Do MMMM YYYY
+    </p>
+    <p>
+      Transaction ID 
+      954001805220
+    </p>
+  </header>
+  <article>
+    <h3>
+      Payment Details
+    </h3>
+    <section>
+      <article>
+        <h4>
+          Billing Period
+        </h4>
+        <p>
+          MMMM YYYY
+        </p>
+      </article>
+      <article>
+        <h4>
+          Payment Method
+        </h4>
+        <p>
+          FPC FINNET KOPEGTEL
+        </p>
+      </article>
+    </section>
+    <h3>
+      Bill Details
+    </h3>
+    <List />
+    <h3>
+      Total Paid
+    </h3>
+    <p>
+      Rp
+      45.000
+    </p>
+    <p>
+      Includes 10% Tax
+    </p>
+  </article>
+</section>
+`;
+
+exports[`src/pages/Receipt render 1`] = `<ReceiptCard />`;

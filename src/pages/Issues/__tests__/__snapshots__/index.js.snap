@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Issues Action 1`] = `
+<footer>
+  <small>
+    Is your problem solved?
+  </small>
+  <Button
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="bordered"
+  >
+    No
+  </Button>
+  <Button
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="red"
+  >
+    Yes
+  </Button>
+</footer>
+`;
+
+exports[`src/pages/Issues AddComment 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Add Comments
+  </Heading>
+  <button
+    onClick={[Function]}
+  >
+    <img
+      alt="comment"
+      src="/assets/ic_comment.svg"
+    />
+    <div>
+      <h4>
+        Additional Comments
+      </h4>
+      <p>
+        Have any additional comments regarding this ticket? Add comment.
+      </p>
+    </div>
+    <img
+      alt=""
+      src="/assets/ic_chevron_white.svg"
+    />
+  </button>
+</section>
+`;
+
+exports[`src/pages/Issues Comments 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Comment History
+  </Heading>
+  <ul>
+    <li>
+      <small>
+        1/01/2020
+      </small>
+      <p>
+        comment
+      </p>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`src/pages/Issues Detail 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle=""
+  title="Issue Report"
+>
+  <IssuesDetailStatus />
+  <AddComment />
+  <Comments />
+  <Action />
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <img
+      alt=""
+      src="/assets/grfx_warning.svg"
+    />
+    <h3>
+      Ticket not found
+    </h3>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/issues"
+      type="button"
+      variant="red"
+    >
+      Browse Ticket History
+    </Button>
+  </Modal>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <h3>
+      Add Comment
+    </h3>
+    <p>
+      Have any other issues regarding this ticket?
+    </p>
+    <ReduxForm
+      destroyOnUnmount={true}
+      enableReinitialize={false}
+      forceUnregisterOnUnmount={false}
+      form="issuesComment"
+      getFormState={[Function]}
+      initialValues={
+        Object {
+          "message": "",
+        }
+      }
+      keepDirtyOnReinitialize={false}
+      onSubmit={[Function]}
+      persistentSubmitErrors={false}
+      pure={true}
+      shouldAsyncValidate={[Function]}
+      shouldError={[Function]}
+      shouldValidate={[Function]}
+      shouldWarn={[Function]}
+      submitAsSideEffect={false}
+      touchOnBlur={true}
+      touchOnChange={false}
+      updateUnregisteredFields={false}
+      validate={[Function]}
+    />
+  </Modal>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <img
+      alt=""
+      src="/assets/grfx_rate.svg"
+    />
+    <h3>
+      Issue Solved!
+    </h3>
+    <p>
+      We’re glad your issue is solved! Please take a few seconds to rate your technician
+    </p>
+    <Card
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      variant="hover"
+    >
+      <Avatar
+        className=""
+        src="/assets/av_blank.svg"
+      />
+      <h4>
+        Telkom
+      </h4>
+      <div>
+        <Rate
+          fill="#e5e6e6"
+          onClick={null}
+          size={40}
+        />
+        <Rate
+          fill="#e5e6e6"
+          onClick={null}
+          size={40}
+        />
+        <Rate
+          fill="#e5e6e6"
+          onClick={null}
+          size={40}
+        />
+        <Rate
+          fill="#e5e6e6"
+          onClick={null}
+          size={40}
+        />
+        <Rate
+          fill="#e5e6e6"
+          onClick={null}
+          size={40}
+        />
+      </div>
+    </Card>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/issues"
+      type="button"
+      variant="red"
+    >
+      Done
+    </Button>
+  </Modal>
+</WhiteCardPlain>
+`;

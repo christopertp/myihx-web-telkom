@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <linearGradient id="prefix__a" x1="0%" x2="100%" y1="49.5%" y2="50.5%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__b" x1="0%" x2="100%" y1="48.477%" y2="51.523%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__c" x1="0%" x2="100%" y1="6.446%" y2="93.554%">
+            <stop offset="0%" stop-color="#6A120C"/>
+            <stop offset="43.781%" stop-color="#B21F15"/>
+            <stop offset="79.575%" stop-color="#EE4C24"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H48V48H0z"/>
+        <rect width="30" height="3" x="8" y="32" fill="url(#prefix__a)" fill-rule="nonzero" rx="1.5"/>
+        <path fill="url(#prefix__b)" fill-rule="nonzero" d="M25.746 20.6h13.562c.829 0 1.5.672 1.5 1.5v.3c0 .828-.671 1.5-1.5 1.5H25.74c-.218 0-.434-.048-.633-.14l-2.05-.955c-.3-.14-.431-.497-.291-.797.059-.127.16-.229.286-.289l2.05-.974c.202-.095.422-.145.644-.145z" transform="rotate(-45 31.354 22.25)"/>
+        <path fill="url(#prefix__c)" fill-rule="nonzero" d="M12.868 19.52c.035.082.075.201.113.36.141.585.192 1.365.196 2.71v1.772l.007.542c.015.664.05 1.11.123 1.59.218 1.443.772 2.454 2.04 2.73 1.577.345 2.478-.241 3.15-1.537.412.746 1.108 1.283 2.157 1.532.806.19 1.615-.308 1.806-1.114.19-.806-.308-1.614-1.114-1.805-.273-.065-.288-.09-.32-.535l-.007-.144-.005-.287-.004-.51c-.009-.444-.04-.682-.144-1.01-.275-.861-1.002-1.43-1.96-1.43-1.424 0-1.914.704-2.492 2.38l-.208.623-.018-.416-.012-.705-.001-2.043-.011-.644c-.028-1.011-.103-1.724-.266-2.403-.387-1.602-1.327-2.676-2.909-2.676-3.33 0-4.852 4.2-5.485 12.384-.063.826.555 1.548 1.38 1.612.826.063 1.548-.555 1.612-1.38l.065-.79c.492-5.528 1.458-8.406 2.252-8.783l.055-.022z"/>
+    </g>
+</svg>

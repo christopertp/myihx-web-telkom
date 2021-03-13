@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/RegisterUser render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "NAMA LENGKAP",
+        "placeholder": "Masukkan nama lengkap",
+        "type": undefined,
+      }
+    }
+    name="fullName"
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "NOMOR PONSEL",
+        "placeholder": "E.g 081xxxxx or 62xxxxx",
+        "type": "tel",
+      }
+    }
+    name="mobileNumber"
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "EMAIL",
+        "placeholder": "Masukkan alamat email",
+        "type": "email",
+      }
+    }
+    name="email"
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "KATA SANDI",
+        "placeholder": "Buat kata sandi baru",
+        "type": "password",
+      }
+    }
+    name="password"
+  />
+  <section>
+    <Field
+      component={[Function]}
+      inputProps={
+        Object {
+          "label": "Punya kode referral? Masukkan kode referral dan dapatkan hadiah spesial untuk Anda dan teman, serta agen kami!",
+          "placeholder": "Masukkan kode referral",
+          "type": undefined,
+        }
+      }
+      name="referralCode"
+    />
+  </section>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Daftar Sekarang
+  </Button>
+</form>
+`;

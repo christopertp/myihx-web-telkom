@@ -1,0 +1,11 @@
+.root > button {
+  margin-top: 2.3rem;
+  width: 100%;
+}
+
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}

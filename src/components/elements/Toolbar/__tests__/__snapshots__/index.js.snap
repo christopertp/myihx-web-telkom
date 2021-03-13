@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Toolbar Item 1`] = `
+<Link
+  onClick={[Function]}
+  to="/"
+>
+  #ee3124
+</Link>
+`;
+
+exports[`src/components/elements/Toolbar render 1`] = `
+<nav>
+  <Item
+    active={0}
+    idx={0}
+    item={
+      Object {
+        "icon": [Function],
+        "text": "Home",
+        "to": "/",
+      }
+    }
+    onClickLogin={[Function]}
+    user={
+      Object {
+        "profilePicture": "tes",
+      }
+    }
+  />
+  <Item
+    active={0}
+    idx={1}
+    item={
+      Object {
+        "icon": [Function],
+        "text": "History",
+        "to": "/history/bill",
+      }
+    }
+    onClickLogin={[Function]}
+    user={
+      Object {
+        "profilePicture": "tes",
+      }
+    }
+  />
+  <Item
+    active={0}
+    idx={2}
+    item={
+      Object {
+        "icon": [Function],
+        "text": "Shop",
+        "to": "/shop",
+      }
+    }
+    onClickLogin={[Function]}
+    user={
+      Object {
+        "profilePicture": "tes",
+      }
+    }
+  />
+  <Item
+    active={0}
+    idx={3}
+    item={
+      Object {
+        "icon": [Function],
+        "text": "Bantuan",
+        "to": "/help",
+      }
+    }
+    onClickLogin={[Function]}
+    user={
+      Object {
+        "profilePicture": "tes",
+      }
+    }
+  />
+  <Item
+    active={0}
+    idx={4}
+    item={
+      Object {
+        "icon": [Function],
+        "text": "Profile",
+        "to": "/profile",
+      }
+    }
+    onClickLogin={[Function]}
+    user={
+      Object {
+        "profilePicture": "tes",
+      }
+    }
+  />
+</nav>
+`;

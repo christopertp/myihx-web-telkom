@@ -1,0 +1,52 @@
+
+.root > h4 {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0.0625rem;
+  margin: 1.5rem 0 1rem;
+  text-transform: uppercase;
+}
+
+.root > ul {
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.root > ul > li, .root > ul > img {
+  border-radius: 0.5rem;
+  display: inline-block;
+  height: 10rem;
+  margin-right: 1rem;
+}
+
+.root > ul > li {
+  width: 22rem;
+}
+
+.root > ul > img {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  scroll-snap-align: start;
+}
+
+.root > ul > *:last-child {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > h4 { font-size: 0.75rem; }
+  .root > ul { margin-bottom: 0.25rem; }
+  .root > ul > li {
+    height: 8.75rem;
+    margin-right: 0.75rem;
+    width: 13.75rem;
+  }
+  .root > ul > img {
+    height: 8.75rem;
+    margin-right: 0.75rem;
+  }
+}

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ShopMoreHboGo ActionSeries 1`] = `
+<section>
+  <ul />
+</section>
+`;
+
+exports[`src/components/fragments/ShopMoreHboGo DramaSeries 1`] = `
+<section>
+  <ul />
+</section>
+`;
+
+exports[`src/components/fragments/ShopMoreHboGo HowToUse 1`] = `<ul />`;
+
+exports[`src/components/fragments/ShopMoreHboGo OriginalSeries 1`] = `
+<section>
+  <h4>
+    Original Series
+  </h4>
+  <ul />
+</section>
+`;
+
+exports[`src/components/fragments/ShopMoreHboGo render 1`] = `
+<React.Fragment>
+  <section>
+    <img
+      src=""
+    />
+    <OriginalSeries />
+    <section>
+      <h4>
+        About This Service
+      </h4>
+      <p>
+        
+      </p>
+      <a
+        href="#"
+      >
+        Learn More
+      </a>
+    </section>
+    <section>
+      <h4>
+        Benefits
+      </h4>
+      <ul />
+    </section>
+    <section>
+      <h4>
+        Popular
+      </h4>
+      <h1>
+        Drama
+      </h1>
+      <DramaSeries />
+    </section>
+    <section>
+      <h4>
+        Thrilling
+      </h4>
+      <h1>
+        Action
+      </h1>
+      <ActionSeries />
+    </section>
+    <section>
+      <h4>
+        How to use it
+      </h4>
+      <HowToUse />
+    </section>
+    <ModalLogin
+      onClose={[Function]}
+      open={false}
+    />
+  </section>
+  <StickyPrice
+    appearOn={17.25}
+    className=""
+    isLoading={
+      Object {
+        "data": true,
+        "submit": false,
+      }
+    }
+    onClickDetail={[Function]}
+    onClickSubscribe={[Function]}
+    price={60000}
+  />
+</React.Fragment>
+`;

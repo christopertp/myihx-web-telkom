@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/PackageDetail ModalChannels 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={false}
+>
+  <h3>
+    Channel List
+  </h3>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    style={
+      Object {
+        "height": "3.5rem",
+      }
+    }
+    to=""
+    variant="bordered"
+  >
+    <header
+      onClick={[Function]}
+    >
+      <h6>
+        tes
+      </h6>
+      <p>
+        1
+         channels
+      </p>
+      <IconButton
+        className=""
+        name="chevron_red_down"
+        onClick={[Function]}
+        title=""
+        to=""
+        type="button"
+      />
+    </header>
+    <ul>
+      <img />
+    </ul>
+  </Card>
+</Modal>
+`;
+
+exports[`src/pages/PackageDetail SliderSection 1`] = `
+<ul>
+  <img />
+</ul>
+`;
+
+exports[`src/pages/PackageDetail render 1`] = `
+<React.Fragment>
+  <PackageDetailMenu
+    onClickDetail={[Function]}
+    onClickSubscribe={[Function]}
+  />
+  <section
+    id="package-detail"
+  >
+    <div>
+      <p>
+        Your Channel
+      </p>
+      <Button
+        className=""
+        disabled={false}
+        onClick={[Function]}
+        to=""
+        type="button"
+        variant="text"
+      >
+        View All
+      </Button>
+    </div>
+    <SliderSection
+      name="channels"
+    />
+    <p>
+      Watch Free On Iflix
+    </p>
+    <SliderSection
+      name="iflix"
+    />
+    <p>
+      Watch Free On Hooq
+    </p>
+    <SliderSection
+      name="hooq"
+    />
+  </section>
+  <StickyPrice
+    appearOn={17.125}
+    className=""
+    isLoading={
+      Object {
+        "data": false,
+      }
+    }
+    onClickDetail={[Function]}
+    onClickSubscribe={[Function]}
+    price={null}
+  />
+  <ModalChannels
+    onClose={[Function]}
+    open={false}
+  />
+  <ModalLogin
+    onClose={[Function]}
+    open={false}
+  />
+  <ModalPricingDetail
+    data={
+      Object {
+        "channelsByCat": Object {
+          "tes": Array [
+            Object {},
+          ],
+        },
+        "tes": Array [
+          Object {},
+        ],
+      }
+    }
+    onClickSubscribe={[Function]}
+    onClose={[Function]}
+    open={false}
+  />
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <img
+      alt=""
+      src="/assets/grfx_warning.svg"
+    />
+    <h3>
+      You are already subscribed!
+    </h3>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Close
+    </Button>
+  </Modal>
+</React.Fragment>
+`;

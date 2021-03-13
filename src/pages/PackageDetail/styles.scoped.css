@@ -1,0 +1,202 @@
+.channels, .iflix, .hooq {
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.channels > li, .iflix > li, .hooq > li {
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.channels > li {
+  height: 4.5rem;
+  width: 9rem;
+}
+
+.iflix > li, .hooq > li {
+  height: 24rem;
+  width: 16.25rem;
+}
+
+.channels { margin-bottom: 3rem; }
+
+.channels > img {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 1, 0.075);
+  display: inline-block;
+  margin-right: 1rem;
+  scroll-snap-align: start;
+  width: 9rem;
+}
+
+.channels > img:last-child, .hooq > img:last-child, .iflix > img:last-child,
+.channels > li:last-child, .hooq > li:last-child, .iflix > li:last-child { margin-right: 0; }
+
+.hooq {
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+}
+
+.hooq > img, .iflix > img {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  margin-right: 1rem;
+  scroll-snap-align: start;
+  width: 16.375rem;
+}
+
+.iflix { margin-bottom: 4rem; }
+
+.channel-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.875rem;
+}
+
+.channel-card {
+  height: 3.5rem;
+  margin-top: 1rem;;
+  overflow-y: hidden;
+  transition: height 0.25s ease-in-out;
+}
+
+.channel-card > header {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin: -1rem;
+  padding: 1rem;
+}
+
+.channel-card > header > h6 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-right: auto;
+}
+
+.channel-card > header > p {
+  color: #b2b4b5;
+  margin-right: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.channel-card > header > button.open {
+  transform: rotateZ(180deg);
+  transition: transform 0.25s ease-in-out;
+}
+
+.channel-card > ul {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 2rem;
+}
+
+.channel-card > ul > img {
+  border: 0.0625rem solid #e5e6e6;
+  border-radius: 0.125rem;
+  width: 100%;
+}
+
+.modal-409 > button { width: 100%; }
+.modal-409 > img { height: 6.25rem; }
+.modal-409 > h3 { margin-bottom: 1rem; }
+
+.package-detail {
+  background-color: #f2f2f2;
+  margin: -4.75rem var(--neg-side-margin) 0;
+  padding: 7.25rem var(--side-margin) 0;
+  z-index: 1;
+}
+
+.package-detail > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.package-detail > div > p, .package-detail > p {
+  color: #999999;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.package-detail > div > button {
+  padding: 0 !important;
+}
+
+.package-detail > div > a, .package-detail > div > p, .package-detail > p { letter-spacing: 0.0625rem; }
+
+.package-detail > p { margin-bottom: 1rem; }
+
+.sticky-price {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 -0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: grid;
+  grid-template-columns: 1fr 11rem;
+  grid-template-rows: auto auto;
+  margin: -4.75rem var(--neg-side-margin) 0;
+  padding: 1rem var(--side-margin);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 0.25s;
+  z-index: 2;
+}
+
+.sticky-price > h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.sticky-price > h3 > small {
+  color: #999999;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+.sticky-price > a {
+  align-items: center;
+  color: #ee3124;
+  display: flex;
+  grid-column: 1;
+}
+
+.sticky-price > a > img { height: 1rem; }
+
+.sticky-price > button {
+  font-size: 0.9rem;
+  grid-column: 2;
+  grid-row: 1/3;
+  height: fit-content;
+  width: 100%;
+}
+
+.sticky-price.appear { transform: translateY(0); }
+
+@media only screen and (max-width: 48em) {
+  .channels > li {
+    height: 3.625rem;
+    width: 7.25rem;
+  }
+  
+  .channels, .iflix { margin-bottom: 1rem; }
+  .iflix > li, .hooq > li {
+    height: 10.625rem;
+    width: 7.25rem;
+  }
+  
+  .channels > img { width: 6.25rem; }
+
+  .package-detail > div > p, .package-detail > p { font-size: 0.8rem; }
+  .package-detail > div > a { font-size: 0.85rem; }
+  .package-detail > ul > img { width: 7.25rem; }
+}

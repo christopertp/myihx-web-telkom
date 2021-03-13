@@ -1,0 +1,59 @@
+.root {
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  height: fit-content;
+  padding: 1rem 2rem;
+  width: 33.33%;
+}
+
+.root > a {
+  align-items: center;
+  color: #333435;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+
+.root > a > span {
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+
+.root > a.active, .root > a:hover {
+  color: var(--primary-color);
+  transition: color 0.25s;
+}
+
+.root > a > img { height: 1.4rem; }
+
+@media only screen and (max-width: 48em) {
+  .root {
+    border-radius: 0;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 1, 0.075);
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+    scroll-snap-type: x mandatory;
+    width: 100vw;
+    z-index: 1;
+  }
+  .root > a {
+    flex: 1;
+    padding: 1rem 0;
+  }
+  .root > a.active, .root > a:hover {
+    box-shadow: inset 0 -0.25rem 0 -0.0625rem var(--primary-color);
+    color: #333435;
+    transition: color 0.25s;
+  }
+  .root > a > span {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: auto;
+  }
+  .root > a.active > span { font-weight: 800; }
+  .root > a > img {
+    display: none;
+  }
+}

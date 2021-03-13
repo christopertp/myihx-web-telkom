@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ManageSubscriptionsDeviceName render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h3>
+    Change device name
+  </h3>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "autoFocus": true,
+        "label": "DEVICE NAME",
+        "placeholder": "Masukkan Nama Device",
+      }
+    }
+    name="deviceName"
+  />
+  
+  <footer>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="submit"
+      variant="bordered"
+    >
+      Cancel
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="submit"
+      variant="red"
+    >
+      Save
+    </Button>
+  </footer>
+</form>
+`;

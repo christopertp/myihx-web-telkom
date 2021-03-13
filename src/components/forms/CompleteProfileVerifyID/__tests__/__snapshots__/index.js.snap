@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/CompleteProfileVerifyID render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "ID NUMBERS",
+        "placeholder": "Enter your ID number",
+      }
+    }
+    name="idNumber"
+  />
+  
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Next
+  </Button>
+</form>
+`;

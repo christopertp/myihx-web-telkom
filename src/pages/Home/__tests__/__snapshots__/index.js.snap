@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Home HomePage 1`] = `
+<React.Fragment>
+  <Welcome />
+  <HomePrimaryActions />
+  <NotificationCards
+    isLoading={false}
+    notif={Object {}}
+  />
+  <ActivityCards
+    cards={Object {}}
+    fullWidth={false}
+    heading="Upcoming"
+    isLoading={false}
+  />
+  <HomeRecommended />
+  <HomeLatest />
+  <HomeSubscribe />
+</React.Fragment>
+`;
+
+exports[`src/pages/Home Shop 1`] = `
+<React.Fragment>
+  <UpgradeBanner />
+  <HomeShopMenu />
+  <HomeRecommended />
+  <HomeLatest />
+  <HomeSubscribe />
+  <PackageFinderLink
+    className=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/Home UpgradeBanner 1`] = `
+<section>
+  <h2>
+    Have a need for speed?
+  </h2>
+  <p>
+    Upgrade your speed for 10% off
+  </p>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="#"
+    type="button"
+    variant="white"
+  >
+    Upgrade Package
+  </Button>
+</section>
+`;
+
+exports[`src/pages/Home Welcome 1`] = `
+<Link
+  to="/profile"
+>
+  <figure
+    style={
+      Object {
+        "backgroundImage": "url(tes.jpg)",
+      }
+    }
+  />
+  <span>
+    Selamat Datang
+  </span>
+  <span>
+    telkom
+  </span>
+  <span>
+    0 pts
+  </span>
+</Link>
+`;
+
+exports[`src/pages/Home render 1`] = `
+<Provider
+  value={Object {}}
+>
+  <HomePage />
+</Provider>
+`;

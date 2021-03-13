@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ShopInternetWifiExtender render 1`] = `
+<React.Fragment>
+  <section>
+    <h2>
+      Complete coverage with wifi extender
+    </h2>
+    <p>
+      Use wifi extender for a stronger internet connection in your house/office
+    </p>
+    <img
+      alt="wifi extender"
+      src="/assets/bnr_internet_wifiextender.png"
+    />
+  </section>
+  <section>
+    <h5>
+      About this product
+    </h5>
+    <p>
+      Mau internetan dengan jaringan wifi yang lebih luas di rumah Anda? IndiHome kini menyediakan perangkat Wifi Extender untuk memperkuat pemancaran sinyal wifi di setiap area sudut rumah Anda tanpa harus menyediakan kabel tambahan.
+    </p>
+    <p>
+      Dengan Wifi Extender dari IndiHome, internetan di setiap sudut rumah jadi semakin leluasa. Hanya 
+      <b>
+        Rp35.000/bulan
+      </b>
+      .
+    </p>
+  </section>
+  <section>
+    <section>
+      <h5>
+        Features
+      </h5>
+      <ul>
+        <li>
+          <img
+            alt="hybrid box"
+            src="/assets/grfx_line_hybridbox_1.png"
+          />
+          <h5>
+            Unlimited high speed internet
+          </h5>
+          <p>
+            Unlimited high speed internet
+          </p>
+        </li>
+        <li>
+          <img
+            alt="hybrid box"
+            src="/assets/grfx_line_hybridbox_1.png"
+          />
+          <h5>
+            Automatic seamless connection
+          </h5>
+          <p>
+            Connect autimatically when your device is in range of a hotspot
+          </p>
+        </li>
+        <li>
+          <img
+            alt="hybrid box"
+            src="/assets/grfx_line_hybridbox_1.png"
+          />
+          <h5>
+            Connect up to 5 devices
+          </h5>
+          <p>
+            Use the same username for up to 5 devices
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h5>
+        How to activate
+      </h5>
+      <ul>
+        <li>
+          <Bullet
+            className=""
+            color={
+              Array [
+                "#ee3124",
+                "#cccccc",
+              ]
+            }
+            connect={true}
+            size="0.75rem"
+          />
+          <h5>
+            Datang ke Plasa Telkom terdekat
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet 1
+          </p>
+        </li>
+        <li>
+          <Bullet
+            className=""
+            color={
+              Array [
+                "#ee3124",
+                "#cccccc",
+              ]
+            }
+            connect={true}
+            size="0.75rem"
+          />
+          <h5>
+            Daftar dengan nomor IndiHome Anda
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet 2
+          </p>
+        </li>
+        <li>
+          <Bullet
+            className=""
+            color={
+              Array [
+                "#ee3124",
+                "#cccccc",
+              ]
+            }
+            connect={false}
+            size="0.75rem"
+          />
+          <h5>
+            Teknisi kami akan datang untuk memasang wifi extender Anda
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet 3
+          </p>
+        </li>
+      </ul>
+      <Button
+        className=""
+        disabled={false}
+        onClick={[Function]}
+        to=""
+        type="button"
+        variant="red"
+      >
+        Activate
+      </Button>
+    </section>
+  </section>
+  <StickyPrice
+    appearOn={17.25}
+    className=""
+    isLoading={
+      Object {
+        "data": false,
+        "submit": false,
+      }
+    }
+    onClickDetail={[Function]}
+    onClickSubscribe={[Function]}
+    price={35000}
+  />
+  <ModalLogin
+    onClose={[Function]}
+    open={false}
+  />
+</React.Fragment>
+`;

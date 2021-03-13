@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/HomeShopMenu render 1`] = `
+<section>
+  <ul>
+    <li>
+      <Link
+        to="/shop/internet"
+      >
+        <img
+          alt="Internet"
+          src="/assets/ic_shop_internet_white.png"
+        />
+        <h5>
+          Internet
+        </h5>
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="#"
+      >
+        <img
+          alt="TV"
+          src="/assets/ic_shop_tv_white.png"
+        />
+        <h5>
+          TV
+        </h5>
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="#"
+      >
+        <img
+          alt="Call"
+          src="/assets/ic_shop_call_white.png"
+        />
+        <h5>
+          Call
+        </h5>
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/shop/more"
+      >
+        <img
+          alt="Other"
+          src="/assets/ic_shop_more_white.png"
+        />
+        <h5>
+          Other
+        </h5>
+      </Link>
+    </li>
+  </ul>
+</section>
+`;

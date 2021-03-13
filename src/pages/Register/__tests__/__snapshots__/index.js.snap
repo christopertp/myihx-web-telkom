@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Register IndihomeNumber 1`] = `
+<WhiteCard
+  back="/register/verify"
+  icon="wifi"
+  subtitle=""
+  title="Apakah Anda sudah berlangganan layanan IndiHome?"
+>
+  <Card
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    variant="bordered"
+  >
+    <div>
+      <span>
+        Ya
+      </span>
+    </div>
+    <div
+      className=""
+    >
+      <label>
+        Nomor Indihome
+      </label>
+      <input
+        maxLength="12"
+        onChange={[Function]}
+        placeholder="Masukkan nomor Indihome Anda di sini"
+        type="text"
+      />
+    </div>
+  </Card>
+  <Card
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    variant="bordered"
+  >
+    <div>
+      <span>
+        Tidak
+      </span>
+    </div>
+  </Card>
+  <Button
+    className=""
+    disabled={true}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="red"
+  >
+    Lanjut
+  </Button>
+</WhiteCard>
+`;
+
+exports[`src/pages/Register Request 1`] = `
+<WhiteCard
+  back="/register"
+  icon="verify"
+  subtitle=""
+  title="Pilih Metode Verifikasi"
+>
+  <OtpRequest
+    isLoading={false}
+    message=""
+    mobile=""
+    onClick={[Function]}
+    type=""
+  />
+</WhiteCard>
+`;
+
+exports[`src/pages/Register Success 1`] = `
+<WhiteCardSuccess
+  icon="success"
+  subtitle="Kini Anda dapat menikmati berbagai layanan kebutuhan IndiHome, penawaran, serta informasi menarik dari IndiHome!"
+  title="Hore! Pendaftaran Anda berhasil!"
+>
+  <Button
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="red"
+  >
+    Yuk, Mulai Menjelajahi
+  </Button>
+</WhiteCardSuccess>
+`;
+
+exports[`src/pages/Register Verify 1`] = `
+<WhiteCard
+  back="/register/request"
+  icon="verify"
+  subtitle="Masukkan 4 digit kode verifikasi yang telah kami kirim ke nomor  "
+  title="Masuk Menggunakan Nomor Ponsel"
+>
+  <OtpInput
+    className=""
+    disabled={false}
+    error=""
+    onSubmit={[Function]}
+  />
+  <p>
+    Kirim ulang kode dalam 
+    
+    :
+    
+  </p>
+</WhiteCard>
+`;
+
+exports[`src/pages/Register render 1`] = `
+<Provider
+  value={
+    Object {
+      "mobileNumber": "",
+      "setMobileNumber": [MockFunction],
+      "setVerifyType": [MockFunction],
+      "verifyType": "",
+    }
+  }
+>
+  <User />
+</Provider>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/HelpReportIssues render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "CATEGORY",
+        "placeholder": "Choose one",
+      }
+    }
+    name="type"
+    options={Array []}
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "disabled": true,
+        "label": "ISSUE",
+        "placeholder": "Choose one",
+      }
+    }
+    name="issueId"
+    options={Array []}
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "MESSAGE/COMMENT",
+        "placeholder": "Enter Message",
+      }
+    }
+    name="message"
+  />
+  
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Report Issue
+  </Button>
+</form>
+`;

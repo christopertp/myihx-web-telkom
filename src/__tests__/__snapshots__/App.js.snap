@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/App MainPages 1`] = `
+<MainBase>
+  <Switch>
+    <Route
+      exact={true}
+      path="/about"
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/activate-rewards",
+          "/activate-rewards/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path="/bill"
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/complete-profile",
+          "/complete-profile/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path="/draft-contract"
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/history",
+          "/history/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/inbox",
+          "/inbox/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/issues",
+          "/issues/:id",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/linkaja",
+          "/linkaja/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/manage-subscriptions",
+          "/manage-subscriptions/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/manage-users",
+          "/manage-users/:id",
+          "/manage-users/:id/:action",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/notification-settings",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/installation",
+          "/installation/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/order/:page",
+          "/order/:page/:subpage",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/payment-:code/:method",
+          "/payment-:code/:method/:detail",
+          "/payment-:code/:method/:detail/:bank",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/personal-data",
+          "/personal-data/:page",
+          "/personal-data/:page/:subpage",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/profile",
+          "/profile/:page",
+          "/profile/:page/:subpage",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/promo/:name",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path="/receipt/:period"
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/rewards/:page",
+          "/rewards/:page/:id",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/schedule-:type",
+          "/schedule-:type/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path="/send-feedback"
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/tmoney",
+          "/tmoney/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/check-coverage",
+          "/check-coverage/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path="/dummy-nps"
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/help",
+          "/help/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/shop/internet/package/category",
+          "/shop/internet/package/category/:category",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path="/shop/internet/package/:productId"
+    />
+    <Route
+      exact={true}
+      path="/search"
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/shop/internet",
+          "/shop/internet/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/shop/more",
+          "/shop/more/:page",
+        ]
+      }
+    />
+    <Route
+      exact={true}
+      path={
+        Array [
+          "/",
+          "/shop",
+        ]
+      }
+    />
+    <Route />
+  </Switch>
+</MainBase>
+`;
+
+exports[`src/App render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [MockFunction],
+      "subscribe": [MockFunction],
+    }
+  }
+>
+  <Router
+    history={Object {}}
+  >
+    <ErrorBoundary>
+      <ContextProvider>
+        <Switch>
+          <Route
+            exact={true}
+            path={
+              Array [
+                "/forgot-password",
+                "/forgot-password/:page",
+              ]
+            }
+          />
+          <Route
+            component="login"
+            exact={true}
+            path={
+              Array [
+                "/login",
+                "/login/:page",
+              ]
+            }
+          />
+          <Route
+            component={[Function]}
+          />
+        </Switch>
+      </ContextProvider>
+    </ErrorBoundary>
+  </Router>
+</Provider>
+`;

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ForgotPassword New 1`] = `
+<WhiteCard
+  back="/forgot-password/recovery-code"
+  icon="password"
+  subtitle="Create a new password to protect your account"
+  title="New Password"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="forgotPasswordNew"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "password": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCard>
+`;
+
+exports[`src/pages/ForgotPassword RecoveryCode 1`] = `
+<WhiteCard
+  back="/forgot-password"
+  icon="verify"
+  subtitle="Enter the recovery code we sent to your mobile number ••••••5678"
+  title="Enter Recovery Code"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="forgotPasswordRecoveryCode"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "code": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCard>
+`;
+
+exports[`src/pages/ForgotPassword User 1`] = `
+<WhiteCard
+  back="/login"
+  icon="password"
+  subtitle="We got you covered! Receive password recovery code in your registered email"
+  title="Forgot Password"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="forgotPasswordUser"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "user": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCard>
+`;
+
+exports[`src/pages/ForgotPassword render 1`] = `
+<Provider
+  value={
+    Object {
+      "setUser": [MockFunction],
+      "user": "",
+    }
+  }
+>
+  <User />
+</Provider>
+`;

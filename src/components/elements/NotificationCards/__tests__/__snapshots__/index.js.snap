@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/NotificationCards render 1`] = `
+<section>
+  <Link
+    to="/bill"
+  >
+    <img
+      alt=""
+      src="/assets/grfx_warning.svg"
+    />
+    <div>
+      <h4>
+        Sorry, you have an outstanding bill
+      </h4>
+      <p>
+        In order to use your service, please complete the payment
+      </p>
+    </div>
+    <img
+      alt=""
+      src="/assets/ic_chevron_white.svg"
+    />
+  </Link>
+</section>
+`;

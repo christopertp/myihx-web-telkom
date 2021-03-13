@@ -1,0 +1,38 @@
+.root {
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto auto;
+  padding: 1.25rem 1rem;
+}
+
+.root > img {
+  grid-column: 1;
+  grid-row: 1/4;
+  margin: auto 1rem auto 0;
+  width: 3.5rem;
+}
+
+.root > span:first-of-type, .root > span:last-of-type {
+  color: #66686a;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.0625rem;
+  line-height: 1.6;
+}
+
+.root > span:first-of-type { text-transform: uppercase; }
+
+.root > span:nth-of-type(2) {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > img { width: 3rem; }
+  .root > span:first-of-type, .root > span:last-of-type { font-size: 0.75rem; }
+  .root > span:nth-of-type(2) { font-size: 1.25rem; }
+}

@@ -1,0 +1,4 @@
+.root > label:nth-of-type(2), .root > div:last-child { margin-top: 1.5rem; }
+.root > div:last-child { display: flex; }
+.root > div:last-child > * { flex: 1; }
+.root > div:last-child > *:first-child { margin-right: 1rem; }

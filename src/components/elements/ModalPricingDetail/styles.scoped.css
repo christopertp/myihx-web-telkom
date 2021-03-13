@@ -1,0 +1,64 @@
+.root > section:first-child {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  margin-bottom: 2rem;
+}
+
+.root > section:first-child > h3 {
+  font-size: 1.575rem;
+  line-height: 1.2;
+}
+
+.root > section:first-child > h3 > small {
+  color: #999999;
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.root > section:first-child > p {
+  color: #ee3124;
+  grid-column: 1;
+}
+
+.root > section:first-child > button {
+  grid-column: 2;
+  grid-row: 1/3;
+  height: fit-content;
+}
+
+.root > section:last-child {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto auto;
+}
+
+.root > section:last-child > p {
+  margin-bottom: 0.5rem;
+}
+
+.root > section:last-child > p:nth-child(1),
+.root > section:last-child > p:nth-child(3),
+.root > section:last-child > p:nth-child(5) {
+  color: #999999;
+  font-size: 90%;
+}
+
+.root > section:last-child > p:nth-child(2),
+.root > section:last-child > p:nth-child(4) {
+  color: #333435;
+  justify-self: end;
+}
+
+.root > section:last-child > p:nth-child(6) {
+  color: #ee3124; 
+  justify-self: end;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > section:first-child > h3 { font-size: 1.5rem; }
+  .root > section:first-child > h3 > small { font-size: 60%; }
+  .root > section:first-child > p { font-size: 0.8rem; }
+  .root > section > button { padding: 0.75rem 1rem; }
+}

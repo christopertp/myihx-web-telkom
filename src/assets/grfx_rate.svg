@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <linearGradient id="prefix__b" x1="0%" x2="100%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#080C10"/>
+            <stop offset="100%" stop-color="#115B79"/>
+        </linearGradient>
+        <linearGradient id="prefix__f" x1="6.645%" x2="81.838%" y1="4.775%" y2="91.939%">
+            <stop offset="0%" stop-color="#FFB500"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__g" x1="6.645%" x2="81.838%" y1="4.775%" y2="91.939%">
+            <stop offset="0%" stop-color="#FFB500"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__h" x1="6.645%" x2="81.838%" y1="4.775%" y2="91.939%">
+            <stop offset="0%" stop-color="#FFB500"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <linearGradient id="prefix__i" x1="6.645%" x2="81.838%" y1="4.775%" y2="91.939%">
+            <stop offset="0%" stop-color="#FFB500"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+        <filter id="prefix__d" width="127.3%" height="212.1%" x="-13.7%" y="-56.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3.704"/>
+        </filter>
+        <filter id="prefix__e" width="134%" height="265.7%" x="-17%" y="-82.8%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3.704"/>
+        </filter>
+        <circle id="prefix__a" cx="67.267" cy="67.267" r="67.267"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 2H160.16V162.16H0z" transform="translate(0 -2)"/>
+        <g transform="translate(0 -2) translate(3.203 .398)">
+            <g transform="translate(9.61 16.016)">
+                <mask id="prefix__c" fill="#fff">
+                    <use xlink:href="#prefix__a"/>
+                </mask>
+                <use fill="url(#prefix__b)" fill-rule="nonzero" xlink:href="#prefix__a"/>
+                <g fill-rule="nonzero" mask="url(#prefix__c)">
+                    <g transform="translate(9.61 -1.602)">
+                        <ellipse cx="40.641" cy="72.372" fill="#062430" filter="url(#prefix__d)" opacity=".3" rx="40.641" ry="9.91"/>
+                        <path stroke="#FFB166" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M15.944 95.913L9.574 98.791 12.451 92.42 9.574 86.05 15.944 88.928 22.314 86.05 19.437 92.42 22.314 98.791z" transform="rotate(45 15.944 92.42)"/>
+                        <path stroke="#FFB166" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M88.531 87.093L86.408 88.052 87.367 85.929 86.408 83.805 88.531 84.764 90.655 83.805 89.695 85.929 90.655 88.052z" transform="rotate(45 88.531 85.929)"/>
+                        <path fill="#FFF" d="M44.115 4.226L43.43 5.331 43.616 4.044 42.381 4.451 43.351 3.584 42.144 3.102 43.443 3.061 42.828 1.916 43.85 2.72 44.115 1.448 44.381 2.72 45.402 1.916 44.787 3.061 46.087 3.102 44.88 3.584 45.849 4.451 44.614 4.044 44.8 5.331z" transform="rotate(45 44.115 3.39)"/>
+                        <path fill="#FFF" d="M109.18 86.308L108.496 87.413 108.681 86.126 107.446 86.533 108.416 85.666 107.209 85.184 108.508 85.144 107.893 83.998 108.915 84.802 109.18 83.53 109.446 84.802 110.467 83.998 109.852 85.144 111.152 85.184 109.945 85.666 110.914 86.533 109.679 86.126 109.865 87.413z" transform="rotate(45 109.18 85.471)"/>
+                        <path fill="#FFF" d="M53.124 107.329L52.439 108.434 52.625 107.147 51.39 107.554 52.36 106.687 51.153 106.205 52.452 106.165 51.837 105.019 52.859 105.823 53.124 104.551 53.39 105.823 54.411 105.019 53.796 106.165 55.096 106.205 53.889 106.687 54.858 107.554 53.623 107.147 53.809 108.434z" transform="rotate(45 53.124 106.492)"/>
+                        <path fill="#FFF" d="M125.632 41.073L124.605 42.731 124.884 40.801 123.032 41.411 124.486 40.111 122.675 39.388 124.624 39.327 123.702 37.609 125.234 38.815 125.632 36.906 126.03 38.815 127.563 37.609 126.641 39.327 128.59 39.388 126.779 40.111 128.233 41.411 126.381 40.801 126.659 42.731z" transform="rotate(45 125.632 39.818)"/>
+                        <path stroke="#FFB166" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M97.848 31.939L95.37 33.058 96.489 30.58 95.37 28.103 97.848 29.222 100.325 28.103 99.206 30.58 100.325 33.058z" transform="rotate(45 97.848 30.58)"/>
+                    </g>
+                </g>
+            </g>
+            <ellipse cx="107.908" cy="134.835" fill="#062430" fill-rule="nonzero" filter="url(#prefix__e)" opacity=".3" rx="32.633" ry="6.707"/>
+            <path fill="url(#prefix__f)" fill-rule="nonzero" d="M57.209 80.442L28.967 95.289 34.361 63.841 11.512 41.57 43.088 36.982 57.209 8.37 71.33 36.982 102.905 41.57 80.057 63.841 85.451 95.289z" transform="rotate(11 57.209 51.83)"/>
+            <path fill="url(#prefix__g)" fill-rule="nonzero" d="M123.983 133.283L107.979 141.696 111.036 123.876 98.088 111.255 115.981 108.655 123.983 92.442 131.985 108.655 149.878 111.255 136.93 123.876 139.987 141.696z" transform="rotate(-10 123.983 117.07)"/>
+            <path fill="url(#prefix__h)" fill-rule="nonzero" d="M97.227 30.605L89.225 34.812 90.753 25.902 84.279 19.592 93.226 18.292 97.227 10.185 101.228 18.292 110.174 19.592 103.7 25.902 105.229 34.812z" transform="rotate(-10 97.227 22.499)"/>
+            <path fill="url(#prefix__h)" fill-rule="nonzero" d="M28.358 137.913L20.356 142.119 21.884 133.209 15.411 126.899 24.357 125.599 28.358 117.492 32.359 125.599 41.305 126.899 34.832 133.209 36.36 142.119z" transform="rotate(-10 28.358 129.806)"/>
+            <path fill="url(#prefix__i)" fill-rule="nonzero" d="M135.525 27.649L130.347 30.371 131.336 24.606 127.147 20.523 132.936 19.682 135.525 14.436 138.113 19.682 143.902 20.523 139.713 24.606 140.702 30.371z" transform="rotate(13 135.525 22.404)"/>
+        </g>
+    </g>
+</svg>

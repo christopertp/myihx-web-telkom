@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="228" viewBox="0 0 360 228">
+    <defs>
+        <path id="a" d="M4 0h360v228H4z"/>
+        <linearGradient id="b" x1="81.091%" x2="7.184%" y1="44.139%" y2="65.067%">
+            <stop offset="0%" stop-color="#FFB484"/>
+            <stop offset="100%" stop-color="#9F0218"/>
+        </linearGradient>
+        <linearGradient id="d" x1="26.836%" x2="69.776%" y1="47.414%" y2="59.028%">
+            <stop offset="0%" stop-color="#F8091E"/>
+            <stop offset="100%" stop-color="#A9085A"/>
+        </linearGradient>
+        <filter id="e" width="116%" height="129.3%" x="-8%" y="-14.6%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+        </filter>
+        <linearGradient id="f" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F8091E"/>
+            <stop offset="100%" stop-color="#A9085A"/>
+        </linearGradient>
+        <filter id="g" width="141%" height="189.2%" x="-20.5%" y="-44.6%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+        </filter>
+        <linearGradient id="h" x1="0%" x2="84.508%" y1="58.122%" y2="39.799%">
+            <stop offset="0%" stop-color="#7A0046"/>
+            <stop offset="51.055%" stop-color="#D12300"/>
+            <stop offset="100%" stop-color="#FF7E00"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-4)">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path fill="url(#b)" fill-rule="nonzero" d="M4-12l419.235-3L364 25.819c-24.235 2.204-45.128 6.64-62.677 13.306-55.805 21.2-66.28 55.647-92.983 61.248C141.738 114.342 191.459 174 119.129 174 71.709 174 33.333 185.333 4 208V-12z" mask="url(#c)" opacity=".5"/>
+        <path fill="url(#d)" fill-rule="nonzero" d="M-11.6-3h375.03l-36.88 3c-59.665 49.982-91.542 79.482-95.629 88.5-6.13 13.527-64.81 18.736-80.487 25.5-17.41 7.512 5.709 32.009-16.185 40.093-28.502 10.524-19.8 7.144-53.54 15.027C26.187 181.86.617 192.799 4 201.937L-11.6-3z" filter="url(#e)" mask="url(#c)" opacity=".8"/>
+        <path fill="url(#f)" fill-rule="nonzero" d="M4 201c30.187-20.605 67.368-33.033 111.54-37.286 66.26-6.378 28.359-37.716-32.316-28.215C42.774 141.833 16.365 149.647 4 158.94V201z" filter="url(#g)" mask="url(#c)" opacity=".8"/>
+        <path fill="url(#h)" fill-rule="nonzero" d="M4-15h419.235C472.335 9.787 452.59 22.787 364 24c-132.884 1.819-112.23 73.884-180 80.848-20.515 2.108-15.155 18.924-18.312 28.872-3.157 9.948-7.5 26.552-46.021 29.746C76.24 162.17 37.685 171.682 4 192V-15z" mask="url(#c)"/>
+    </g>
+</svg>

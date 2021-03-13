@@ -1,0 +1,17 @@
+.root {
+  position: relative;
+}
+
+.root > span {
+  height: 100%;
+  left: 46%;
+  position: absolute;
+  width: 8%;
+}
+
+.root > div {
+  border-radius: 50%;
+  height: 0.75rem;
+  position: inherit;
+  width: 0.75rem;
+}

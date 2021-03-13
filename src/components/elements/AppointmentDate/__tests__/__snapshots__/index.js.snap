@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/AppointmentDate render 1`] = `
+<section
+  className=""
+>
+  <Heading
+    className=""
+  >
+    Available Dates
+  </Heading>
+  <div>
+    <label>
+      <input
+        name="date"
+        onChange={[Function]}
+        type="checkbox"
+        value="0"
+      />
+      <span>
+        ddd
+      </span>
+      <h4>
+        D
+      </h4>
+      <span>
+        MMM
+      </span>
+    </label>
+    <label
+      className=""
+    >
+      <input
+        name="date"
+        onChange={[Function]}
+        type="checkbox"
+        value="1"
+      />
+      <span>
+        ddd
+      </span>
+      <h4>
+        D
+      </h4>
+      <span>
+        MMM
+      </span>
+    </label>
+  </div>
+  <Heading
+    className=""
+  >
+    Estimated Arrival
+  </Heading>
+  <div
+    className=""
+  >
+    <label
+      disabled={false}
+    >
+      <input
+        checked={true}
+        name="arrival"
+        onChange={[Function]}
+        type="radio"
+        value="0"
+      />
+      <h4>
+        08:00 - 10:00
+      </h4>
+    </label>
+    <label
+      className=""
+      disabled={false}
+    >
+      <input
+        checked={false}
+        name="arrival"
+        onChange={[Function]}
+        type="radio"
+        value="1"
+      />
+      <h4>
+        10:00 - 12:00
+      </h4>
+    </label>
+  </div>
+  <p>
+    Time range is the estimated arrival time. You will receive a notification when the technician is heading to your location.
+  </p>
+</section>
+`;

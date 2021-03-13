@@ -1,0 +1,25 @@
+.root {
+  background-color: #d8d8d8;
+  max-height: 37.5rem;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.root:empty {
+  height: 20rem;
+}
+
+.root > canvas {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.root > canvas:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 48em) {
+  .root {
+    width: 100%;
+  }
+}

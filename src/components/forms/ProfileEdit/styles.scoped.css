@@ -1,0 +1,50 @@
+.root > .half {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.root > button {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.half > div { width: 100%; }
+
+.half > div:first-child {
+  display: block;
+  margin-right: 1rem;
+}
+
+.choose-gender > label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  color: #999999;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.image {
+  border-radius: 50%;
+  height: 4rem;
+  margin-bottom: 1.5rem;
+  width: 4rem;
+}
+
+.radio-toolbar {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.radio-toolbar > label:first-of-type { margin-right: 1rem; }
+
+@media only screen and (max-width: 48em) {
+  .root > a { font-size: 0.9rem; }
+  .root > button { margin-top: 5rem; }
+  .root > .half { display: block; }
+  .half > div { margin-bottom: 1rem; }
+}

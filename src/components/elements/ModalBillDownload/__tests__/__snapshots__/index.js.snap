@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ModalBillDownload render 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={true}
+>
+  <header>
+    <h1>
+      Email bill history
+    </h1>
+    <IconButton
+      className=""
+      name="close_red"
+      onClick={[Function]}
+      title=""
+      to=""
+      type="button"
+    />
+  </header>
+  <article>
+    <label>
+      June 2020
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </label>
+  </article>
+  <Button
+    className=""
+    disabled={true}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="red"
+  >
+    Send Email
+  </Button>
+</Modal>
+`;

@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/PersonalDataSummary Confirm 1`] = `
+<React.Fragment>
+  <h3>
+    Identity
+  </h3>
+  <figure
+    style={
+      Object {
+        "backgroundImage": "url('undefined')",
+      }
+    }
+  >
+    <div />
+    <div>
+      <Link
+        to="/personal-data/undefined/edit"
+      >
+        Edit Info
+      </Link>
+      <button>
+        Retake
+      </button>
+    </div>
+  </figure>
+  <div>
+    <h6>
+       number
+    </h6>
+    <p />
+    <h6>
+      Mother's Maiden Name
+    </h6>
+    <p />
+  </div>
+  <h3>
+    Selfie with ID
+  </h3>
+  <figure
+    style={
+      Object {
+        "backgroundImage": "url('undefined')",
+      }
+    }
+  >
+    <div />
+    <button>
+      Retake
+    </button>
+  </figure>
+  <h3>
+    Signature
+  </h3>
+  <figure
+    style={
+      Object {
+        "backgroundImage": "url('undefined')",
+      }
+    }
+  >
+    <div />
+    <button>
+      Retake
+    </button>
+  </figure>
+  <Button
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    to=""
+    type="button"
+    variant="red"
+  >
+    Next
+  </Button>
+</React.Fragment>
+`;
+
+exports[`src/components/fragments/PersonalDataSummary Summary 1`] = `
+<React.Fragment>
+  <section>
+    <h3>
+      Required Documents
+    </h3>
+    <Card
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      variant="bordered"
+    >
+      <img
+        alt="upload"
+        src="/assets/ic_selection_kyc_id.svg"
+      />
+      <div>
+        <h6>
+          Identity
+        </h6>
+        <p>
+          e-KTP, KTP, Passport or driver's license
+        </p>
+      </div>
+      <img
+        alt=""
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Card>
+    <Card
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      variant="bordered"
+    >
+      <img
+        alt="upload"
+        src="/assets/ic_selection_kyc_selfie.svg"
+      />
+      <div>
+        <h6>
+          Selfie with ID
+        </h6>
+        <p>
+          Take a selfie with your document
+        </p>
+      </div>
+      <img
+        alt=""
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Card>
+    <Card
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      variant="bordered"
+    >
+      <img
+        alt="upload"
+        src="/assets/ic_selection_kyc_sign.svg"
+      />
+      <div>
+        <h6>
+          Signature
+        </h6>
+        <p>
+          Digital sign or take signature picture
+        </p>
+      </div>
+      <img
+        alt=""
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Card>
+  </section>
+  <Button
+    className=""
+    disabled={true}
+    onClick={null}
+    to="/personal-data/confirm"
+    type="button"
+    variant="red"
+  >
+    Review Documents
+  </Button>
+</React.Fragment>
+`;
+
+exports[`src/components/fragments/PersonalDataSummary render 1`] = `
+<React.Fragment>
+  <WhiteCardPlain
+    back=""
+    close=""
+    help={true}
+    icon="kyc"
+    size="large"
+    subtitle="Please verify your identity to confirm &amp; secure your account. This will only take a few minutes."
+    title="Verify Identity"
+  >
+    <CompleteBy
+      className=""
+      initTime={0}
+    />
+    <Summary
+      onClickCard={[Function]}
+    />
+  </WhiteCardPlain>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <Card
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      variant="bordered"
+    >
+      <h6>
+        e-KTP
+      </h6>
+      <img
+        alt=""
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Card>
+    <Card
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      variant="bordered"
+    >
+      <h6>
+        KTP
+      </h6>
+      <img
+        alt=""
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Card>
+    <Card
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      variant="bordered"
+    >
+      <h6>
+        Passport
+      </h6>
+      <img
+        alt=""
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Card>
+    <Card
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      variant="bordered"
+    >
+      <h6>
+        SIM
+      </h6>
+      <img
+        alt=""
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Card>
+  </Modal>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={true}
+  >
+    <img
+      alt=""
+      src="/assets/grfx_warning.svg"
+    />
+    <h1>
+      Reserve not found
+    </h1>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/shop/internet"
+      type="button"
+      variant="red"
+    >
+      Browse package
+    </Button>
+  </Modal>
+  <input
+    accept="image/png, image/jpeg, image/jpg"
+    onChange={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="file"
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/HistoryInboxMenu render 1`] = `
+<nav>
+  <Link
+    to="/history/bill"
+  >
+    <span>
+      Bill
+    </span>
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Link>
+</nav>
+`;

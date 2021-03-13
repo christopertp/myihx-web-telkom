@@ -1,0 +1,67 @@
+.back {
+  height: 3rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.cardroot {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  color: #333435;
+  margin: auto;
+  max-width: 45rem;
+  padding: 1.5rem;
+}
+
+.headerDetail {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.headerDetail > h1 {
+  font-size: 1.5rem;
+}
+
+.headerDetail > p {
+  font-size: 1rem;
+}
+
+.img {
+  width: 10rem;
+}
+
+.nextSchedule {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .cardroot {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 1.75rem;
+    min-width: 100%;
+    padding: 0;
+  }
+
+  .headerDetail {
+    margin: 2rem 0;
+  }
+
+  .headerDetail > h1 {
+    font-size: 1.5rem;
+  }
+
+  .headerDetail > p {
+    font-size: 0.7rem;
+    line-height: 1.125rem;
+  }
+
+  .img {
+    margin-bottom: 1rem;
+    width: 6.25rem;
+  }
+
+  .nextSchedule {
+    margin-top: 1rem;
+  }
+}

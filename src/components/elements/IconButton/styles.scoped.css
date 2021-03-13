@@ -1,0 +1,12 @@
+.root {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 1.5rem;
+}
+
+.root > img {
+  display: block;
+  height: 100%;
+}

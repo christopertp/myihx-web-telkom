@@ -1,0 +1,14 @@
+.root > a {
+  color: var(--primary-color);
+  display: block;
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.root > button:last-of-type {
+  margin-top: 2rem;
+  width: 100%;
+}

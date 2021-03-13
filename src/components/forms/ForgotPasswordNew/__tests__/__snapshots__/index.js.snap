@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ForgotPasswordNew render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "NEW PASSWORD",
+        "placeholder": "Enter your new password",
+      }
+    }
+    name="password"
+  />
+  <small>
+    Min. 6 characters with a mix of letters and numbers
+  </small>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Create new password
+  </Button>
+</form>
+`;

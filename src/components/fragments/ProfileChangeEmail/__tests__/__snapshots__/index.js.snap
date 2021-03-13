@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ProfieChangeEmail New 1`] = `
+<WhiteCardPlain
+  back="/profile"
+  close=""
+  help={true}
+  icon="email"
+  size="medium"
+  subtitle=""
+  title="Change Email"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="profileChangeEM"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "email": "",
+        "mobile": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/ProfieChangeEmail Verify 1`] = `
+<WhiteCardPlain
+  back="/profile/change-email"
+  close=""
+  help={true}
+  icon="email"
+  size="medium"
+  subtitle="Please enter verification code sent to your previous email"
+  title="Verify Email"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="profileRecoveryCode"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "recoveryCode": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onResend={[Function]}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/ProfieChangeEmail render 1`] = `
+<Provider
+  value={
+    Object {
+      "emailUser": "test@telkom.co.id",
+      "setEmailUser": [MockFunction],
+    }
+  }
+>
+  <New />
+</Provider>
+`;

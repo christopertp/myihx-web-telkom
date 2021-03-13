@@ -1,0 +1,107 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  margin-top: 2rem;
+}
+
+.grid > a > img {
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.header > a {
+  align-items: center;
+  color: rgba(51, 52, 53, 0.5);
+  display: inline-flex;
+  font-size: .9rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  transition: color 0.25s;
+}
+
+.header > a:hover {
+  color: #ee3124;
+  transition: color 0.25s;
+}
+
+.header {
+  color: #333333;
+}
+
+.header > h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header > h4 {
+  color: #191a1a;
+  font-weight: 400;
+}
+
+.header > a > svg {
+  height: 1rem;
+  opacity: 0.75;
+}
+
+.header > a > svg:last-child { display: none; }
+
+.isloading > div:first-child {
+  display: block;
+  height: 2rem;
+  width: 25%;
+}
+
+.isloading > div:last-child {
+  display: grid;
+  gap: 1.125rem;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  margin-top: 1rem;
+}
+
+.isloading > div:last-child > span {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: block;
+  height: 9rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 48em) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    margin: 1.625rem 0;
+  }
+
+  .header > a {
+    color: transparent; 
+    line-height: 0; 
+    margin: 1.25rem 0 1rem 0;
+  }
+
+  .header > a > svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .header > h1 {
+    margin: 0.5rem 0;
+  }
+
+  .isloading > div:first-child {
+    display: block;
+    width: 100%;
+    height: 2rem;
+  }
+
+  .isloading > div:last-child {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    margin: 1rem 0 1.625rem 0;
+  }
+}

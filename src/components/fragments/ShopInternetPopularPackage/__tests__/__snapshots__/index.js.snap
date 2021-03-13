@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ShopInternetPopularPackage Articles 1`] = `
+<article>
+  <h3 />
+  <h3>
+    
+  </h3>
+  <h3
+    className=""
+  >
+    Rp
+    0
+    <small>
+       / month
+    </small>
+  </h3>
+  <strike>
+    
+  </strike>
+  <p />
+  <p>
+    Bonus Subscriptions
+  </p>
+  <p />
+  <img
+    alt="logo add ons"
+  />
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/shop/internet/package/undefined"
+    type="button"
+    variant="red"
+  >
+    Details
+  </Button>
+</article>
+`;
+
+exports[`src/components/fragments/ShopInternetPopularPackage DesktopList 1`] = `
+<ul>
+  <li>
+    <Headers
+      data={
+        Array [
+          Object {},
+        ]
+      }
+    />
+    <Articles
+      data={
+        Object {
+          "productInfo": Array [
+            Object {},
+          ],
+        }
+      }
+      specialBonus={Object {}}
+    />
+  </li>
+</ul>
+`;
+
+exports[`src/components/fragments/ShopInternetPopularPackage Headers 1`] = `
+<header>
+  <li>
+    <h1 />
+    <p />
+  </li>
+</header>
+`;
+
+exports[`src/components/fragments/ShopInternetPopularPackage MobileList 1`] = `
+<ul>
+  <li>
+    <header>
+      <figure>
+        <h1 />
+        <p />
+      </figure>
+      <h3 />
+      <p />
+    </header>
+    <footer>
+      <h4>
+        
+      </h4>
+      <h3
+        className=""
+      >
+        Rp
+        0
+        <small>
+           / month
+        </small>
+      </h3>
+      <strike>
+        
+      </strike>
+      <Button
+        className=""
+        disabled={false}
+        onClick={null}
+        to="/shop/internet/package/undefined"
+        type="button"
+        variant="red"
+      >
+        Details
+      </Button>
+    </footer>
+  </li>
+</ul>
+`;
+
+exports[`src/components/fragments/ShopInternetPopularPackage render 1`] = `
+<section>
+  <h2>
+    Produk paling populer
+  </h2>
+  <DesktopList />
+  <p>
+    Belum menemukan yang Anda cari?
+  </p>
+  <Link
+    to="/shop/internet/package/category"
+  >
+    Lihat semua paket 
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Link>
+</section>
+`;

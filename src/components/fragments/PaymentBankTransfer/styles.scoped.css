@@ -1,0 +1,241 @@
+.accordion {
+  margin-bottom: 1rem;
+}
+
+.account {
+  box-shadow: 0 0 1rem rgba(0, 0, 1, 0.15);
+  border-radius: 0.5rem 0.5rem 0 0;
+  background: linear-gradient(0deg, #f3f3f3 0%, #fff 65%);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.account > input, .account > input:focus{
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 900;
+  outline: none;
+}
+
+.account > button {
+  border-radius: 0.25rem;
+  grid-row: 1/3;
+  grid-column: 2;
+  margin: auto 0 auto auto;
+}
+
+.account > h4 {
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+}
+
+.account > small {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.amount {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  border-radius: 0 0 0.5rem 0.5rem;
+  display: grid;
+  padding: 1rem;
+}
+
+.amount > strong:first-of-type {
+  margin-bottom: 1rem;
+}
+
+.back {
+  height: 3rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.cardroot {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  color: #333435;
+  margin: auto;
+  max-width: 45rem;
+  padding: 1.5rem;
+}
+
+.channel-card {
+  height: 3.5rem;
+  margin-top: 1rem;;
+  overflow-y: hidden;
+  transition: height 0.25s ease-in-out;
+}
+
+.channel-card > header {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin: -1rem;
+  padding: 1rem;
+}
+
+.channel-card > header > h6 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-right: auto;
+}
+
+.channel-card > header > p {
+  color: #b2b4b5;
+  margin-right: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.channel-card > header > button.open {
+  transform: rotateZ(180deg);
+  transition: transform 0.25s ease-in-out;
+}
+
+.channel-card > ul {
+  margin-top: 1rem;
+}
+
+.channel-card > ul > li {
+  display: grid;
+  grid-template-columns: 2rem auto;
+  grid-template-rows: auto auto;
+  max-width: 36rem;
+}
+.channel-card > ul > li > div {
+  grid-row: 1/3;
+  margin-right: auto;
+  padding-top: 0.5rem;
+}
+.channel-card > ul > li > h5 {
+  font-size: 1rem;
+}
+.channel-card > ul > li > p {
+  color: #66686a;
+  font-size: 0.8rem;
+  padding-bottom: 0.75rem;
+}
+
+.loading {
+  border-radius: 0.5rem;
+  display: block;
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo > img {
+  width: 15rem;
+}
+
+.root {
+  padding: 1.5rem 0;
+}
+
+.root > section {
+  align-items: center;
+  border-bottom: 1px solid #e5e6e6;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.root > section > strong {
+  color: #333435;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.root > section > img { height: 1.3rem; }
+
+.timer {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto auto;
+  margin: 1.5rem 0;
+  padding: 1.25rem 1rem;
+}
+
+.timer > img {
+  grid-column: 1;
+  grid-row: 1/4;
+  margin: auto 1rem auto 0;
+  width: 3.5rem;
+}
+
+.timer > span:first-of-type, .timer > span:last-of-type, .summary-required > h3, .confirm {
+  color: #66686a;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.0625rem;
+  line-height: 1.6;
+}
+
+.timer > span:first-of-type, .summary-required > h3, .confirm { text-transform: uppercase; }
+
+.timer > span:nth-of-type(2) {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 48em) {
+
+  .account > button {
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .amount {
+    background-color: #fff;
+  }
+
+  .cardroot {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 1.75rem;
+    min-width: 100%;
+    padding: 0;
+  }
+
+  .channel-card > ul > li > h5 {
+    font-size: 1em;
+    margin-top: 0.3rem;
+  }
+  .channel-card > ul > li > p {
+    font-size: 0.7rem;
+  }
+
+  .logo > img {
+    width: 10rem;
+  }
+
+  .root {
+    margin: 0 -1rem -1rem;
+    padding: 3rem 1rem;
+  }
+  .root > a {
+    border-bottom: 1px solid #ededed;
+    padding: 0.75rem 0.5rem 0.75rem 0;
+  }
+  .root > a > span { font-size: 1rem; }
+  .root > a > img { height: 1.2rem; }
+
+  .timer > img, .summary-required > button > img:first-child {
+    width: 3rem;
+  }
+
+  .timer > span:first-of-type, .timer > span:last-of-type, .summary-required > h3, .summary-required > button > p {
+    font-size: 0.75rem;
+  }
+    
+  .timer > span:nth-of-type(2) {
+    font-size: 1.25rem;
+  }
+}

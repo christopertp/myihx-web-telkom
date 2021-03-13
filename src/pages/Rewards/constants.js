@@ -1,0 +1,11 @@
+export const COPIED = 'Rewards/copied';
+export const DETAIL_FETCHED = 'Rewards/detail-fetched';
+export const FAILED = 'Rewards/failed';
+export const FETCHED = 'Rewards/fetched';
+export const FETCHED_REWARDS = 'Rewards/fetched-rewards';
+export const FETCHED_STPOINT = 'Rewards/fetched-stpoint';
+export const LOADING = 'Rewards/loading';
+export const POPULAR_FETCHED = 'Rewards/Popular-fetched';
+export const REDEEM_FETCHED = 'Rewards/Redeem-fetched';
+export const RECOMMEND_FILTER = 'Rewards/Recommend-filter';
+export const SEARCH_FETCHED = 'Rewards/search-fetched';

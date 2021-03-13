@@ -1,0 +1,155 @@
+.card {
+  border: 0.0625rem solid #cccccc;
+  border-radius: 0.5rem;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  padding-left: 3.5rem;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  transition: all 0.35s ease-in-out;
+}
+
+.card > input[type="checkbox"] {
+  display: none;
+}
+
+.card::before {
+  background: #ffffff;
+  border: 0.0625rem solid #b2b4b5;
+  border-radius: 0.1875rem;
+  content: "";
+  cursor: pointer;
+  height: 1rem;
+  left: 1.25rem;
+  margin-top: 0.1375rem;
+  position: absolute;
+  width: 1rem;
+}
+
+.card.checked::before {
+  background-color: #ee3124;
+  border: 0.0625rem solid #ee3124;
+}
+
+.card.checked::after {
+  content: "";
+  border: solid #ffffff;
+  border-width: 0 0.125rem 0.125rem 0;
+  display: block;
+  height: 0.313rem;
+  left: 1.25rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 0.1875rem;
+}
+
+.error {
+  color: #ee4c24;
+  font-size: 0.75rem;
+}
+
+.modal-rating {
+  color: #333333;
+  text-align: center;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.modal-rating > button {
+  display: block;
+  width: 100%;
+}
+
+.modal-rating > img { height: 12.5rem; }
+
+.modal-rating > h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.modal-rating > div {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  margin: 1rem 0 3rem;
+}
+
+.modal-rating > div > figure {
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.modal-rating > div > h4 {
+  font-size: 1.35rem;
+  margin: auto auto auto 0;
+}
+
+.modal-rating > div > div {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  grid-column: 1/3;
+  justify-content: space-around;
+}
+
+.modal-rating > div > div > svg {
+  cursor: pointer;
+  flex: 1;
+}
+.modal-rating > div > div > svg > path { transition: fill 0.15s ease-in-out; }
+.modal-rating > div > div > svg:hover > path,
+.modal-rating > div > div > svg:hover ~ svg > path {
+  fill: #FF9733;
+}
+
+.question {
+  color: var(--slate-grey);
+  font-size: 0.5rem;
+  font-weight: normal;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 48em) {
+  .card {
+    font-size: 0.9rem;
+  }
+
+  .card::before {
+    height: 0.8rem;
+    margin-top: 0;
+    width: 0.8rem;
+  }
+  
+  .card.checked::after {
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+  }
+
+  .modal-rating > img { height: 10em; }
+  .modal-rating > p { 
+    font-size: 0.8rem; 
+    line-height: 1.5;
+  }
+  .modal-rating > div { margin: 2rem 0; }
+  .modal-rating > div > figure {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .modal-rating > div > h4 { font-size: 1rem; }
+
+  .question {
+    font-size: 0.65rem;
+  }
+}

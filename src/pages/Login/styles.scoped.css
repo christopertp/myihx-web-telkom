@@ -1,0 +1,37 @@
+.modal-user {
+  text-align: center;
+}
+
+.modal-user > h4 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.modal-user > p {
+  margin: auto;
+  max-width: 25rem;
+}
+
+.modal-user > div:last-child {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.modal-user > div:last-child > * { flex: 1; }
+.modal-user > div:last-child > *:last-child { margin-left: 0.5rem; }
+
+.verify-timer {
+  color: #b2b4b5;
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin-top: 2.625rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.verify-resend {
+  margin: 2.625rem auto 0;
+}

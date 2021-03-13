@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/PaymentSuccess render 1`] = `
+<section>
+  <IconButton
+    className=""
+    name="close_red"
+    onClick={[Function]}
+    title=""
+    to="/"
+    type="button"
+  />
+  <header>
+    <img
+      alt="success"
+      src="/assets/grfx_success.svg"
+    />
+    <h1>
+      Payment Success
+    </h1>
+    <p>
+      Friday, 5th June 2020
+    </p>
+    <p>
+      Order ID 
+      MYIRX-null
+    </p>
+  </header>
+  <article>
+    <Heading
+      className=""
+    >
+      Package
+    </Heading>
+    <section>
+      <article>
+        <span>
+          <h4>
+            50
+          </h4>
+          <p>
+            Mbps
+          </p>
+        </span>
+        <h4>
+          Indihome Fiber Triple Play Prestige
+        </h4>
+        <small>
+          50 Mbps, UseeTV Essential, Free Local SLJJ 1000 menit, wifi.id Seamless, Cloud Storage 8Gb, Movin Phone, HOOQ, Iflix
+        </small>
+      </article>
+      <article>
+        <h4>
+          Rp
+          907.500
+          <small>
+            /month
+          </small>
+        </h4>
+        <small>
+          Billing starts the month after installation
+        </small>
+      </article>
+    </section>
+    <Heading
+      className=""
+    >
+      Your Information
+    </Heading>
+    <section>
+      <article>
+        <h4>
+          Name
+        </h4>
+        <p>
+          squad4test2
+        </p>
+      </article>
+      <article>
+        <h4>
+          KTP Number
+        </h4>
+        <p>
+          123123
+        </p>
+      </article>
+      <article>
+        <h4>
+          Installation Address
+        </h4>
+        <p>
+          Jl. Bintaro Puspita Raya Blok A No.9, RT.9/RW.2, Pesanggrahan, Kec. Pesanggrahan, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12320, Indonesia
+        </p>
+      </article>
+    </section>
+  </article>
+  <article>
+    <h4>
+      Next, schedule your internet installation below
+    </h4>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/installation"
+      type="button"
+      variant="red"
+    >
+      SCHEDULE INSTALLATION
+    </Button>
+  </article>
+</section>
+`;

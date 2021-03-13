@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/layouts/WhiteCardPlain render 1`] = `
+<section
+  className=""
+>
+  <header>
+    <IconButton
+      className=""
+      name="back_red"
+      onClick={[Function]}
+      title=""
+      to=""
+      type="button"
+    />
+  </header>
+  
+  <div>
+    <h1>
+      
+    </h1>
+    
+  </div>
+</section>
+`;
+
+exports[`src/components/layouts/WhiteCardPlain render with complete props 1`] = `
+<section
+  className=""
+>
+  <header>
+    <IconButton
+      className=""
+      name="back_red"
+      onClick={[Function]}
+      title=""
+      to="/"
+      type="button"
+    />
+    <IconButton
+      className=""
+      name="help_red"
+      onClick={[Function]}
+      title=""
+      to="/help"
+      type="button"
+    />
+  </header>
+  <img
+    alt="test"
+    src="/assets/grfx_test.svg"
+  />
+  <div>
+    <h1>
+      
+    </h1>
+    <p>
+      subs
+    </p>
+  </div>
+</section>
+`;

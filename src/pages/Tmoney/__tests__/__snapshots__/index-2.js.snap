@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Tmoney-2 Home 1`] = `
+<WhiteCardPlain
+  back="/profile"
+  close=""
+  help={false}
+  icon=""
+  size="medium"
+  subtitle=""
+  title=""
+>
+  <div>
+    <h3>
+      Saldo
+    </h3>
+    <h2>
+      Rp
+      10.000.000
+    </h2>
+    <section>
+      <IconButton
+        className=""
+        name="saldo_reset"
+        onClick={[Function]}
+        title=""
+        to=""
+        type="button"
+      />
+      <span>
+        Reset PIN
+      </span>
+      <IconButton
+        className=""
+        name="saldo_change"
+        onClick={[Function]}
+        title=""
+        to=""
+        type="button"
+      />
+      <span>
+        Change PIN
+      </span>
+      <IconButton
+        className=""
+        name="saldo_trf"
+        onClick={[Function]}
+        title=""
+        to=""
+        type="button"
+      />
+      <span>
+        Transfer to LinkAja
+      </span>
+    </section>
+    <h3>
+      Balance History
+    </h3>
+    <History />
+  </div>
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Tmoney-2 Link 1`] = `
+<WhiteCardPlain
+  back="/profile"
+  close=""
+  help={false}
+  icon="verify"
+  size="medium"
+  subtitle="This will link your T-Money Account to Indihome wallet. Enter your T-Money PIN to authorize this transaction."
+  title="Enter Wallet PIN"
+>
+  <div>
+    <InputPin
+      className=""
+      disabled={false}
+      error=""
+      length={6}
+      onSubmit={[Function]}
+    />
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="text"
+    >
+      I Forgot My PIN
+    </Button>
+  </div>
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Tmoney-2 NoHistory 1`] = `
+<React.Fragment>
+  <img
+    alt="blank_default"
+    src="/assets/grfx_blank_default.svg"
+  />
+  <p>
+    Your balance history will show here when you
+    <br />
+    have a Saldo Transaction
+  </p>
+</React.Fragment>
+`;
+
+exports[`src/pages/Tmoney-2 Reset 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={false}
+>
+  <h1>
+    Reset PIN?
+  </h1>
+  <p>
+    Are you sure you want to reset your PIN? Your new PIN will be sent to your email and mobile number
+  </p>
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      No
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Yes
+    </Button>
+  </div>
+</Modal>
+`;

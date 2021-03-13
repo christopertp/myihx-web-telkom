@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/layouts/WhiteCardSuccessPlain render 1`] = `
+<section>
+  
+  <img
+    alt="check"
+    src="/assets/grfx_.svg"
+  />
+  <div>
+    <h1>
+      
+    </h1>
+    <p>
+      
+    </p>
+  </div>
+</section>
+`;

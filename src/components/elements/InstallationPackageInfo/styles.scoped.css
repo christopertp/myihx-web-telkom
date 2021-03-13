@@ -1,0 +1,128 @@
+.address { margin-bottom: 1.25rem; }
+.package { margin-bottom: 1.5rem; }
+
+.address > h3, .package > h3 {
+  margin-bottom: 0.5rem;
+}
+
+.address > span {
+  display: block;
+  height: 1rem;
+  width: 20rem;
+}
+
+.package > a {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: block;
+  overflow: hidden;
+}
+
+.package > a > header {
+  background: linear-gradient(0deg, #f2f2f2 0%, #ffffff 100%);
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+}
+
+.package > a > header > figure, .package > a > header > span:first-child {
+  align-items: center;
+  background: linear-gradient(135deg, #6a120c, #b21f15, #ee4c24, #ff7e00);
+  border-radius: 0.5rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/3;
+  height: 5.375rem;
+  justify-content: center;
+  margin-right: 0.75rem;
+  width: 5.375rem;
+}
+
+.package > a > header > figure > h1 { font-size: 2rem; }
+.package > a > header > figure > p { font-size: 0.8rem; }
+.package > a:hover > header > h3 { color: var(--primary-color); }
+
+.package > a > header > h3 {
+  font-size: 1.25rem;
+  margin: auto 0 0.25rem;
+  transition: color 0.25s;
+}
+
+.package > a > header > p {
+  font-size: 1rem;
+  margin-bottom: auto;
+}
+
+.package > a > header > span:nth-child(2) {
+  height: 1.5rem;
+  margin: auto 0 1rem;
+  width: 12rem;
+}
+
+.package > a > header > span:nth-child(3) {
+  height: 1.25rem;
+  margin-bottom: auto;
+  width: 20rem;
+}
+
+.package > a > footer { padding: 0.5rem 1rem; }
+
+.package > a > footer > h3 { font-size: 1.5rem; }
+.package > a > footer > h3 > small {
+  color: #b2b4b5;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.package > a > footer > p { color: #66686a; }
+
+.package > a > footer > span:nth-child(1) {
+  display: block;
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+  width: 12rem;
+}
+.package > a > footer > span:nth-child(2) {
+  display: block;
+  height: 1rem;
+  width: 20rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .address > span { width: 90%; }
+  .address > p { font-size: 0.8rem; }
+  .package > a > header > figure, .package > a > header > span:first-child {
+    height: 3.75rem;
+    width: 3.75rem;
+  }
+  .package > a > header > figure > h1 { font-size: 1.75rem; }
+  .package > a > header > figure > p { font-size: 0.75rem; }
+  .package > a > header > h3 { font-size: 1rem; }
+  .package > a > header > p { font-size: 0.75rem; }
+  .package > a > header > span:nth-child(2) {
+    height: 1rem;
+    margin: auto 0 0.25rem;
+    width: 8rem;
+  }
+  .package > a > header > span:nth-child(3) {
+    height: 1rem;
+    width: 11rem;
+  }
+  .package > a > footer > h3 { font-size: 1.25rem; }
+  .package > a > footer > h3 > small { font-size: 0.75rem; }
+  .package > a > footer > p {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+  }
+  .package > a > footer > span:nth-child(1) {
+    height: 1.25rem;
+    margin-bottom: 0.25rem;
+    width: 8rem;
+  }
+  .package > a > footer > span:nth-child(2) {
+    height: 0.75rem;
+    width: 12rem;
+  }
+}

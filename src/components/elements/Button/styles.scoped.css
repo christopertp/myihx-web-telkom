@@ -1,0 +1,65 @@
+.bordered, .red, .text, .white {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.red[disabled], .text[disabled] {
+  color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+}
+
+.bordered[disabled] {
+  color: rgba(51, 52, 53, 0.5);
+  pointer-events: none;
+}
+
+.bordered {
+  background-color: transparent;
+  border: 0.0625rem solid var(--primary-color);
+  border-radius: 0.5rem;
+  color: #333435;
+}
+
+.bordered:not(:disabled):hover {
+  border-color: #db1e11;
+  cursor: pointer;
+}
+
+.red {
+  background-color: var(--primary-color);
+  border: 0.0625rem solid var(--primary-color);
+  border-radius: 0.5rem;
+  color: #ffffff;
+}
+
+.red:not(:disabled):hover {
+  background-color: #db1e11;
+  border-color: #cf1c10;
+  cursor: pointer;
+}
+
+.white {
+  color: #191919;
+  background-color: #fafafa;
+  border-color: #fafafa;
+  border-radius: 0.5rem;
+}
+.white:hover {
+  background-color: #e7e7e7;
+  border-color: #e1e1e1;
+}
+
+.text {
+  background-color: transparent;
+  border: none;
+  color: var(--primary-color);
+}
+
+.text:not(:disabled):hover {
+  cursor: pointer;
+}

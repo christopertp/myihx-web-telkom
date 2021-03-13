@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ShopInternet CheckAvailability 1`] = `
+<section>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/check-coverage"
+    variant="bordered"
+  >
+    <img
+      alt="address"
+      src="/assets/ic_location_red.svg"
+    />
+    <h3>
+      street
+    </h3>
+    <p>
+      desc
+    </p>
+    <p>
+      district
+      , 
+      city
+      , 
+      province
+       
+      zip
+    </p>
+    <p>
+      Change Location
+    </p>
+    <img
+      alt=""
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+</section>
+`;
+
+exports[`src/pages/ShopInternet Package 1`] = `
+<React.Fragment>
+  <CheckAvailability />
+  <section>
+    <h2>
+      Paket Internet yang sesuai kebutuhan Anda
+    </h2>
+    <p>
+      Nikmati kemudahan memilih aneka paket internet yang dapat disesuaikan untuk apa pun kebutuhan Anda. Atur semua mulai dari anggaran, sampai jenis paket internet. Untuk bekerja,keluarga, atau bermain game. Semua hanya dalam satu klik!
+    </p>
+    <ul>
+      <li>
+        <h5>
+          Unlimited Internet Quota
+          <img
+            alt="chevron white"
+            src="/assets/ic_chevron_white.svg"
+          />
+        </h5>
+        <p>
+          Enjoy unlimited internet for all your internet needs!
+        </p>
+      </li>
+      <li>
+        <h5>
+          TV On Demand
+          <img
+            alt="chevron white"
+            src="/assets/ic_chevron_white.svg"
+          />
+        </h5>
+        <p>
+          Watch TV shows on demand. Missed a show? No Problem!
+        </p>
+      </li>
+      <li>
+        <h5>
+          Free Quota & Bonuses
+          <img
+            alt="chevron white"
+            src="/assets/ic_chevron_white.svg"
+          />
+        </h5>
+        <p>
+          Get free quota for call & lots of extra bonuses
+        </p>
+      </li>
+    </ul>
+  </section>
+  <ShopInternetPopularPackage />
+  <PackageFinderLink
+    className=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/ShopInternet render 1`] = `
+<Provider>
+  <ShopCategoryMenu
+    links={
+      Array [
+        Object {
+          "page": "",
+          "text": "Paket",
+          "to": "/shop/internet",
+        },
+        Object {
+          "page": "speed-on-demand",
+          "text": "Speed on Demand",
+          "to": "#",
+        },
+        Object {
+          "page": "upgrade-speed",
+          "text": "Upgrade Speed",
+          "to": "#",
+        },
+        Object {
+          "page": "wifi-extender",
+          "text": "Wifi Extender",
+          "to": "/shop/internet/wifi-extender",
+        },
+        Object {
+          "page": "cloud",
+          "text": "Cloud",
+          "to": "#",
+        },
+        Object {
+          "page": "indihome-study",
+          "text": "Indihome Study",
+          "to": "#",
+        },
+      ]
+    }
+    subtitle="Nikmati aneka paket internet dengan layanan tambahan yang lengkap mulai dari Rp.150.000 per bulan*!"
+    title="Internet"
+  />
+  <Package />
+</Provider>
+`;

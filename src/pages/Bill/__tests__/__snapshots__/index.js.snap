@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Bill Detail 1`] = `
+Array [
+  <div>
+    <strong>
+      MATERAI
+    </strong>
+    <p>
+      Rp
+      3.000
+    </p>
+    <small>
+      FINNET SUBCA - BIMASAKTI
+    </small>
+  </div>,
+]
+`;
+
+exports[`src/pages/Bill Failed 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon="warning"
+  size="medium"
+  subtitle=""
+  title="Bill not found"
+>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/"
+    type="button"
+    variant="red"
+  >
+    Back to home
+  </Button>
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/Bill render 1`] = `
+<WhiteCardPlain
+  back="/"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle="Make sure your billing detail is correct"
+  title="Your Bill"
+>
+  <section>
+    <small>
+      Billing Period
+    </small>
+    <small>
+      Due Date
+    </small>
+    <strong>
+      June 2020
+    </strong>
+    <strong>
+      1 June 2020
+    </strong>
+  </section>
+  <section>
+    <h4>
+      Total
+    </h4>
+    <strong>
+      Rp
+      396.525
+    </strong>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ee3124",
+        }
+      }
+    >
+      Belum
+       Dibayar
+    </div>
+    <small>
+      includes 10% tax
+    </small>
+  </section>
+  <section>
+    <h4>
+      Bill Detail
+    </h4>
+    <Detail />
+  </section>
+  <section>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/payment/postpaid"
+      type="button"
+      variant="red"
+    >
+      PAY
+    </Button>
+    <small>
+      Have questions about this bill?
+    </small>
+    <Link
+      to="/help"
+    >
+      GET HELP
+    </Link>
+  </section>
+</WhiteCardPlain>
+`;

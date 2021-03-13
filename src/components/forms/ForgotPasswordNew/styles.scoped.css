@@ -1,0 +1,11 @@
+.root > button {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.info {
+  color: #66686a;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}

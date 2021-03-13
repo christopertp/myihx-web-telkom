@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/LoginPassword render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "autoFocus": true,
+        "label": "KATA SANDI",
+        "placeholder": "Masukkan kata sandi Anda",
+      }
+    }
+    name="password"
+  />
+  <Link
+    to="/forgot-password"
+  >
+    Lupa kata sandi
+  </Link>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Lanjut
+  </Button>
+</form>
+`;

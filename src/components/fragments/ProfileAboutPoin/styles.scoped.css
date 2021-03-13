@@ -1,0 +1,48 @@
+.contentAbout {
+  margin-top: 1rem;
+}
+
+.contentAbout > div > p {
+  font-size: 1rem;
+  color: #333435;
+}
+
+.howToGet {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+}
+
+.howToGet > span {
+  border: 0.063rem solid #e5e6e6;
+  border-radius: 0.5rem;
+  display: inline-grid;
+  margin: 0.5rem;
+  padding: 0.75rem;
+}
+
+.howToGet > span > small {
+  color: #333333;
+}
+
+.root {
+  display: grid;
+}
+
+.root > small {
+  font-size: 1rem;
+  color: #333435;
+}
+
+.root > strong {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .howToGet { margin-top: 0.5rem; }
+  .howToGet > span { padding: 0.3rem; }
+  .howToGet > span > strong { font-size: 0.8rem; }
+  .howToGet > span > small { font-size: 0.7rem; }
+  .root { margin-top: 6rem; }
+  .root > small { margin-top: 0.3rem; }
+}

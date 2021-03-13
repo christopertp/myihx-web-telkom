@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>884CFB2B-744A-4A4D-8E69-D152EAE2A24D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="40.8163265%" x2="100%" y2="59.1836735%" id="linearGradient-1">
+            <stop stop-color="#284050" offset="0%"></stop>
+            <stop stop-color="#0EB37E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="30.679328%" y1="0%" x2="69.320672%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#284050" offset="0%"></stop>
+            <stop stop-color="#0EB37E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="11---Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11.10.1-Movin" transform="translate(-24.000000, -153.000000)">
+            <g id="List/Selection-with-Icon-and-captions" transform="translate(16.000000, 141.000000)">
+                <g id="Form/Selection-with-Icon-and-captions">
+                    <g id="Icon/ic_selection_device_phone_g" transform="translate(8.000000, 12.000000)">
+                        <g id="Icon/ic_wifi_normal" transform="translate(2.000000, 0.000000)">
+                            <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                        </g>
+                        <g id="Group-2" transform="translate(21.000000, 36.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                            <rect id="Rectangle" x="0" y="0" width="7" height="3" rx="1.5"></rect>
+                        </g>
+                        <rect id="Rectangle" stroke="url(#linearGradient-2)" stroke-width="3" x="13" y="6" width="23" height="37" rx="4.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

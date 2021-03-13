@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/InstallationPackageInfo render 1`] = `
+<React.Fragment>
+  <section>
+    <Heading
+      className=""
+    >
+      Package
+    </Heading>
+    <Link
+      to="/shop/internet/package/undefined"
+    >
+      <header>
+        <figure>
+          <h1 />
+          <p>
+            MBPS
+          </p>
+        </figure>
+        <h3>
+          product
+        </h3>
+        <p />
+      </header>
+      <footer>
+        <h3>
+          Rp
+          <small>
+             /month
+          </small>
+        </h3>
+        <p>
+          Billing starts the month after installation
+        </p>
+      </footer>
+    </Link>
+  </section>
+  <section>
+    <Heading
+      className=""
+    >
+      Installation Address
+    </Heading>
+    <p>
+      
+    </p>
+  </section>
+</React.Fragment>
+`;

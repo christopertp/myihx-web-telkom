@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/OtpInput render 1`] = `
+<div
+  className=""
+>
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    type="tel"
+    value=""
+  />
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    type="tel"
+    value=""
+  />
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    type="tel"
+    value=""
+  />
+  <input
+    disabled={false}
+    maxLength={1}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    type="tel"
+    value=""
+  />
+  
+</div>
+`;

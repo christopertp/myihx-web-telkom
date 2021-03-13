@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/OtpRequest render 1`] = `
+<React.Fragment>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    variant="bordered"
+  >
+    <img
+      alt="wa.png"
+      src="/assets/ic_form_wa.png"
+    />
+    <span>
+      Melalui 
+      Whatsapp
+       
+      
+    </span>
+    <img
+      alt="send"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    variant="bordered"
+  >
+    <img
+      alt="sms.svg"
+      src="/assets/ic_form_sms.svg"
+    />
+    <span>
+      Melalui 
+      SMS
+       
+      
+    </span>
+    <img
+      alt="send"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+  
+</React.Fragment>
+`;

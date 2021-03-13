@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/CheckCoverage Address 1`] = `
+<WhiteCardPlain
+  back="/check-coverage"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle="Make sure you have entered the right address and location pin point."
+  title="Enter Installation Address"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="checkCoverageAddress"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "addressDescription": "",
+        "cityCode": "",
+        "districtCode": "",
+        "postalCode": "",
+        "provinceCode": "",
+        "rtRw": "",
+        "streetCode": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/CheckCoverage MapSelect 1`] = `
+<section>
+  <header>
+    <IconButton
+      className=""
+      name="back_red"
+      onClick={[Function]}
+      title=""
+      to="/shop/internet"
+      type="button"
+    />
+    <h1>
+      Place Pin Point
+    </h1>
+  </header>
+  <div />
+  <section>
+    <input
+      onBlur={[Function]}
+      onFocus={[Function]}
+    />
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/check-coverage/address"
+      type="button"
+      variant="red"
+    >
+      Confirm
+    </Button>
+  </section>
+</section>
+`;
+
+exports[`src/pages/CheckCoverage ModalPT2 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={false}
+>
+  <h2>
+    Location is a bit far...
+  </h2>
+  <p>
+    Your address is far from IndiHome area coverage, you may have to wait up to 14 days for installation
+  </p>
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      Cancel
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/shop/internet"
+      type="button"
+      variant="red"
+    >
+      Continue
+    </Button>
+  </div>
+</Modal>
+`;
+
+exports[`src/pages/CheckCoverage PT1 1`] = `
+<WhiteCardSuccessPlain
+  close=""
+  icon="check"
+  subtitle="Congratulation! Your location is within IndiHome area coverage. Browse packages and activate it in a few easy steps!"
+  title="IndiHome service is available in your area!"
+>
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Next
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/shop/internet"
+      type="button"
+      variant="text"
+    >
+      Find the best package for me
+    </Button>
+  </div>
+</WhiteCardSuccessPlain>
+`;
+
+exports[`src/pages/CheckCoverage PT3 1`] = `
+<WhiteCardSuccessPlain
+  close=""
+  icon="status_failed"
+  subtitle="We will contact you when it’s available!"
+  title="Sorry, IndiHome is not yet available in your area"
+>
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/check-coverage"
+      type="button"
+      variant="red"
+    >
+      Check Other address
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/"
+      type="button"
+      variant="text"
+    >
+      Back to Home
+    </Button>
+  </div>
+</WhiteCardSuccessPlain>
+`;
+
+exports[`src/pages/CheckCoverage render 1`] = `
+<Provider
+  value={
+    Object {
+      "address": "",
+      "coord": Object {
+        "lat": -6.1801091,
+        "lng": 106.8263765,
+      },
+      "setAddress": [MockFunction],
+      "setCoord": [MockFunction],
+      "setModalLogin": [MockFunction],
+    }
+  }
+>
+  <MapSelect />
+  <ModalPT2 />
+  <ModalLogin
+    onClose={[Function]}
+    open={false}
+  />
+</Provider>
+`;

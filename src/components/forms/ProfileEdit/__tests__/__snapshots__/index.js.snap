@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ProfileEdit render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div>
+    <Field
+      component={[Function]}
+      name="profilePicture"
+    />
+  </div>
+  <section>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "label": "fullname",
+            "placeholder": "Enter fullname",
+            "type": undefined,
+          }
+        }
+        name="fullName"
+      />
+    </div>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "label": "address",
+            "placeholder": "Enter address",
+            "type": undefined,
+          }
+        }
+        name="address"
+      />
+    </div>
+  </section>
+  <section>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "label": "birthdate",
+            "placeholder": "Enter birthdate",
+            "type": "date",
+          }
+        }
+        name="dateOfBirth"
+      />
+    </div>
+    <div>
+      <label>
+        Gender
+      </label>
+      <div>
+        <Field
+          component={[Function]}
+          data={
+            Object {
+              "text": "Male",
+              "value": "male",
+            }
+          }
+          name="gender"
+        />
+        <Field
+          component={[Function]}
+          data={
+            Object {
+              "text": "Female",
+              "value": "female",
+            }
+          }
+          name="gender"
+        />
+      </div>
+    </div>
+  </section>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    save changes
+  </Button>
+</form>
+`;

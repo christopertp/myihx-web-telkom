@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ActivateRewards render activateRewards 1`] = `
+<Provider
+  value={
+    Object {
+      "category": Array [],
+      "setCategory": [MockFunction],
+      "setUserMobile": [MockFunction],
+      "setVerifyType": [MockFunction],
+      "userMobile": "",
+      "verifyType": "sms",
+    }
+  }
+>
+  <ActivateRewardsCard />
+</Provider>
+`;
+
+exports[`src/pages/ActivateRewards render activateRewards request 1`] = `
+<Provider
+  value={
+    Object {
+      "category": Array [],
+      "setCategory": [MockFunction],
+      "setUserMobile": [MockFunction],
+      "setVerifyType": [MockFunction],
+      "userMobile": "",
+      "verifyType": "sms",
+    }
+  }
+>
+  <ActivateRewardsCard />
+</Provider>
+`;
+
+exports[`src/pages/ActivateRewards render activateRewards success 1`] = `
+<Provider
+  value={
+    Object {
+      "category": Array [],
+      "setCategory": [MockFunction],
+      "setUserMobile": [MockFunction],
+      "setVerifyType": [MockFunction],
+      "userMobile": "",
+      "verifyType": "sms",
+    }
+  }
+>
+  <ActivateRewardsCard />
+</Provider>
+`;
+
+exports[`src/pages/ActivateRewards render activateRewards verify 1`] = `
+<Provider
+  value={
+    Object {
+      "category": Array [],
+      "setCategory": [MockFunction],
+      "setUserMobile": [MockFunction],
+      "setVerifyType": [MockFunction],
+      "userMobile": "",
+      "verifyType": "sms",
+    }
+  }
+>
+  <ActivateRewardsCard />
+</Provider>
+`;
+
+exports[`src/pages/ActivateRewards render activateRewards verify 2`] = `
+<Provider
+  value={
+    Object {
+      "category": Array [],
+      "setCategory": [MockFunction],
+      "setUserMobile": [MockFunction],
+      "setVerifyType": [MockFunction],
+      "userMobile": "",
+      "verifyType": "sms",
+    }
+  }
+>
+  <ActivateRewardsCard />
+</Provider>
+`;

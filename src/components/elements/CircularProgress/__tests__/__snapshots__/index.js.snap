@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/CircularProgress render 1`] = `
+<section>
+  <img
+    alt="chevron red"
+    src="/assets/ic_selection_wifi.svg"
+  />
+  <svg
+    height={130}
+    strokeLinecap="round"
+    width={130}
+  >
+    <circle
+      cx={65}
+      cy={65}
+      r={61.5}
+      stroke="#f2f2f2"
+      strokeWidth={7}
+    />
+    <circle
+      cx={65}
+      cy={65}
+      r={61.5}
+      stroke="#ee3124"
+      strokeDasharray={386.41589639154455}
+      strokeDashoffset={-386.41589639154455}
+      strokeWidth={7}
+    />
+  </svg>
+</section>
+`;

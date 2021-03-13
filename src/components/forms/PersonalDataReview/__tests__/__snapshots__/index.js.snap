@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/PersonalDataReview render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "E-KTP NUMBER",
+        "maxLength": 16,
+        "placeholder": "Enter e-KTP number",
+      }
+    }
+    name="idNumber"
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "NAME",
+        "placeholder": "Enter name according to e-KTP",
+      }
+    }
+    name="name"
+  />
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "MOTHER'S MAIDEN NAME",
+        "placeholder": "Enter mother's maiden name",
+      }
+    }
+    name="motherName"
+  />
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      Reupload
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="submit"
+      variant="red"
+    >
+      Confirm
+    </Button>
+  </div>
+</form>
+`;

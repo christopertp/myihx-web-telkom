@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ScheduleAppointmentContact Add 1`] = `
+<button
+  onClick={[Function]}
+>
+  <img
+    alt="address"
+    src="/assets/ic_location_red.svg"
+  />
+  <span>
+    <h4>
+      Add Secondary Contact
+    </h4>
+    <p>
+      Not home during the installation?
+    </p>
+    <p>
+      Add a second contact person.
+    </p>
+  </span>
+  <img
+    alt=""
+    src="/assets/ic_chevron_white.svg"
+  />
+</button>
+`;
+
+exports[`src/components/fragments/ScheduleAppointmentContact Edit 1`] = `
+<Card
+  className=""
+  disabled={false}
+  onClick={[Function]}
+  to=""
+  variant="bordered"
+>
+  <img
+    alt="address"
+    src="/assets/ic_location_red.svg"
+  />
+  <span>
+    <h4 />
+    <p />
+    <p>
+      Edit Contact
+    </p>
+  </span>
+  <img
+    alt=""
+    src="/assets/ic_chevron_red.svg"
+  />
+</Card>
+`;
+
+exports[`src/components/fragments/ScheduleAppointmentContact GoodToKnow 1`] = `
+<React.Fragment>
+  <h3>
+    Good to know
+  </h3>
+  <ul>
+    <li>
+      <span />
+      <span>
+        Installation will take at least 3 hours. Installation may take longer if there are complications. Make sure that you or a contact person is available during that time.
+      </span>
+    </li>
+    <li>
+      <span />
+      <span>
+        There may be additional charges once the installation begins. These charges will be confirmed to you beforehand.
+      </span>
+    </li>
+    <li>
+      <span />
+      <span>
+        If the installation is not successful, we will reschedule or issue a refund.
+      </span>
+    </li>
+  </ul>
+</React.Fragment>
+`;
+
+exports[`src/components/fragments/ScheduleAppointmentContact render 1`] = `
+<React.Fragment>
+  <section>
+    <Heading
+      className=""
+    >
+      Secondary Contact (Optional)
+    </Heading>
+    <Add
+      onClick={[Function]}
+    />
+    <GoodToKnow />
+  </section>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <h3>
+      Add a second contact person
+    </h3>
+    <p>
+      Our technician will contact this person if you’re not available.
+    </p>
+    <ReduxForm
+      data={null}
+      destroyOnUnmount={true}
+      enableReinitialize={false}
+      forceUnregisterOnUnmount={false}
+      form="scheduleAppointmentContact"
+      getFormState={[Function]}
+      initialValues={
+        Object {
+          "fullName": "",
+          "mobileNumber": "",
+        }
+      }
+      keepDirtyOnReinitialize={false}
+      onClose={[Function]}
+      onSubmit={[Function]}
+      persistentSubmitErrors={false}
+      pure={true}
+      shouldAsyncValidate={[Function]}
+      shouldError={[Function]}
+      shouldValidate={[Function]}
+      shouldWarn={[Function]}
+      submitAsSideEffect={false}
+      touchOnBlur={true}
+      touchOnChange={false}
+      updateUnregisteredFields={false}
+      validate={[Function]}
+    />
+  </Modal>
+</React.Fragment>
+`;

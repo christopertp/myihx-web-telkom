@@ -1,0 +1,53 @@
+.main {
+  background-color: #f2f2f2;
+  flex: 1;
+  padding: 8rem var(--side-margin) 0;
+}
+
+.main:not(.white)::after {
+  background: url('/assets/bg_home_default.svg') no-repeat;
+  background-size: contain;
+  content: '';
+  height: 34rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 0;
+}
+
+.main.white {
+  padding-bottom: 6rem;
+}
+
+.main.white::after {
+  background: url(/assets/bg_header_white_full.png) no-repeat;
+  background-size: cover;
+  content: '';
+  height: 25rem;
+  left: 0;
+  position: absolute;
+  top: 3.75rem;
+  width: 100%;
+  z-index: 0;
+}
+
+.main > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 48em) {
+  .main {
+    background-color: #ffffff;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .main.white {
+    padding-bottom: 1rem;
+  }  
+
+  .main.white::after {
+    top: -10rem;
+  }
+}

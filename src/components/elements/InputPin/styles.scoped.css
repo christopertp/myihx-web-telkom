@@ -1,0 +1,41 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 6.125rem;
+  position: relative;
+  width: 18.375rem;
+}
+
+.root > input {
+  background: none;
+  border: none;
+  border-bottom: 0.125rem solid transparent;
+  caret-color: transparent;
+  color: #333435;
+  font-size: 4.375rem;
+  font-weight: 400;
+  height: 3.75rem;
+  line-height: 3rem;
+  outline: none;
+  text-align: center;
+  width: 3.0625rem;
+}
+
+.root > input:focus {
+  border-bottom: 0.125rem solid var(--primary-color);
+}
+
+.root > input::placeholder {
+  color: #cccdce;
+}
+
+.root.error > small {
+  bottom: -1.75rem;
+  color: var(--primary-color);
+  display: block;
+  font-size: 0.75rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}

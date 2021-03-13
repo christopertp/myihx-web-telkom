@@ -1,0 +1,9 @@
+.root > button {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 48em) {
+  .root { margin-top: 2rem;}
+  .root > button { margin-top: 5rem; }
+}

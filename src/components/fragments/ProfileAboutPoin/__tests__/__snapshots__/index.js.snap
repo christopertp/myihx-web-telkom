@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ProfileAboutPoin render 1`] = `
+<WhiteCardPlain
+  back=""
+  close=""
+  help={false}
+  icon=""
+  size="medium"
+  subtitle="Learn more about points and rewards from myIndiHome!"
+  title="What is Poin myIndiHome?"
+>
+  <section>
+    <section>
+      <strong>
+        What is Poin myIndiHome?
+      </strong>
+      <div>
+        <p>
+          Poin myIndiHome is a loyalty program aimed for IndiHome Triple Play and Dual Play Package customers.
+        </p>
+        <section>
+          <span>
+            <strong>
+              10 poin / Rp 10.000
+            </strong>
+            <small>
+              Bill payment amount for Dual Play customers
+            </small>
+          </span>
+        </section>
+      </div>
+    </section>
+  </section>
+</WhiteCardPlain>
+`;

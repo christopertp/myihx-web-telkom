@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/HomeSubscribe render 1`] = `
+<section>
+  <React.Fragment>
+    <h4>
+      Subscribe & Watch
+    </h4>
+    <div>
+      <img
+        alt="vod"
+        src={Object {}}
+      />
+    </div>
+    <h2 />
+    <p />
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Subscribe
+    </Button>
+    <ul>
+      <img
+        alt=""
+        src={Object {}}
+      />
+    </ul>
+  </React.Fragment>
+</section>
+`;
+
+exports[`src/components/fragments/HomeSubscribe render loading 1`] = `
+<section>
+  true
+</section>
+`;

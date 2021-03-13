@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Autocomplete ItemText 1`] = `
+<React.Fragment>
+  
+  <span>
+    
+  </span>
+  
+</React.Fragment>
+`;
+
+exports[`src/components/fields/Autocomplete render 1`] = `
+<React.Fragment>
+  <label />
+  <input
+    className=""
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    type="hidden"
+  />
+  <div>
+    <ul
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <li
+        onClick={[Function]}
+      >
+        <ItemText
+          search=""
+          text=""
+        />
+      </li>
+    </ul>
+  </div>
+</React.Fragment>
+`;

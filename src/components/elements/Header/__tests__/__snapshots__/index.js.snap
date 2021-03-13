@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Header render 1`] = `
+<header
+  className=""
+>
+  <img
+    alt="IndiHome"
+    src="/assets/logo_indihome-dark.png"
+  />
+  <nav>
+    <Link
+      to="/"
+    >
+      Home
+    </Link>
+    <Link
+      to="/shop"
+    >
+      Shop
+    </Link>
+    <Link
+      to="/help"
+    >
+      Bantuan
+    </Link>
+    <IconButton
+      className=""
+      name="search_red"
+      onClick={[Function]}
+      title="Search for product"
+      to="/search"
+      type="button"
+    />
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Masuk/Daftar
+    </Button>
+    <Link
+      onClick={[Function]}
+      to="#"
+    >
+      ID
+    </Link>
+    <Link
+      onClick={[Function]}
+      to="#"
+    >
+      EN
+    </Link>
+  </nav>
+</header>
+`;

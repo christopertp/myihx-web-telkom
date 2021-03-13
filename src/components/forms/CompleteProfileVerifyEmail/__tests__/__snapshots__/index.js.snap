@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/CompleteProfileVerifyEmail render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "EMAIL VERIFICATION CODE",
+        "maxLength": 6,
+        "placeholder": "Enter the code sent to your email",
+      }
+    }
+    name="verificationCode"
+  />
+  
+  <span>
+    Resend Code In 
+    
+    :
+    
+  </span>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Next
+  </Button>
+</form>
+`;

@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/OrderWifiExtender Confirm 1`] = `
+<WhiteCardPlain
+  back="/shop/internet/wifi-extender"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle="Confirm your package selection and order"
+  title="Confirm order"
+>
+  <section>
+    <h3>
+      Product
+    </h3>
+    <Link
+      to="#"
+    >
+      <header>
+        <figure>
+          <img
+            src="/assets/ic_shop_internet_white.png"
+          />
+        </figure>
+        <h1>
+          Wifi Extender
+        </h1>
+        <p>
+          Complete coverage with wifi extender
+        </p>
+      </header>
+      <footer>
+        <h3>
+          Rp
+          35.000
+          <small>
+             /month
+          </small>
+        </h3>
+        <p>
+          This pricing will replace your internet package fee
+        </p>
+      </footer>
+    </Link>
+    <h3>
+      Total
+    </h3>
+    <h1>
+      Rp
+      35.000
+    </h1>
+    <p>
+      Amount will be charged to your next bill.
+      <br />
+      Includes 15% tax.
+    </p>
+    <label>
+      <input
+        checked={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      I agree to the 
+      <span>
+        Terms & Conditions
+      </span>
+       and 
+      <span>
+        Privacy Policy
+      </span>
+    </label>
+    <div>
+      <Button
+        className=""
+        disabled={false}
+        onClick={null}
+        to="/shop/internet/wifi-extender"
+        type="button"
+        variant="bordered"
+      >
+        Cancel
+      </Button>
+      <Button
+        className=""
+        disabled={true}
+        onClick={[Function]}
+        to=""
+        type="button"
+        variant="red"
+      >
+        Confirm
+      </Button>
+    </div>
+  </section>
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/OrderWifiExtender Otp 1`] = `
+<WhiteCardPlain
+  back="/order/wifi-extender"
+  close=""
+  help={false}
+  icon="verify"
+  size="large"
+  subtitle="Please enter 4-digit OTP code sent via SMS to "
+  title="Mobile Verification"
+>
+  <OtpInput
+    className=""
+    disabled={false}
+    error=""
+    onSubmit={[Function]}
+  />
+  <p>
+    Resend Code In 
+    00
+    :
+    59
+  </p>
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/OrderWifiExtender Success 1`] = `
+<WhiteCardSuccessPlain
+  close=""
+  icon="success"
+  subtitle="Our technician will contact you as soon as possible."
+  title="Your Wifi Extender has been successfully requested"
+>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/"
+    type="button"
+    variant="red"
+  >
+    Back to Home
+  </Button>
+</WhiteCardSuccessPlain>
+`;
+
+exports[`src/components/fragments/OrderWifiExtender render 1`] = `
+<Provider>
+  <Confirm />
+</Provider>
+`;

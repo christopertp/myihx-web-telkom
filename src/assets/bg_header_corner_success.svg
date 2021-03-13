@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="225px" viewBox="0 0 360 225" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59 (101010) - https://sketch.com -->
+    <title>E10D21DD-87AB-41D4-987E-35720E9A5706</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="360" height="200"></rect>
+        <linearGradient x1="0%" y1="58.6289212%" x2="100%" y2="41.3710788%" id="linearGradient-3">
+            <stop stop-color="#2BADB4" offset="0%"></stop>
+            <stop stop-color="#6ED1B1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="31.2000206%" y1="46.1127615%" x2="53.3586704%" y2="70.3758508%" id="linearGradient-4">
+            <stop stop-color="#4D4D4D" offset="0%"></stop>
+            <stop stop-color="#030303" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-6.9%" y="-11.7%" width="113.8%" height="123.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="9" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="0%" y1="58.0598019%" x2="100%" y2="41.9401981%" id="linearGradient-6">
+            <stop stop-color="#2BADB4" offset="0%"></stop>
+            <stop stop-color="#6ED1B1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="09---Bill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="9.0-Bill-Detail-3-paid">
+            <g id="Element/Header/1-Line-Light-with-icon">
+                <g id="Bg/bg_header_corner_success">
+                    <g id="Bg/bg_header_red_new">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <path d="M-41,-13 L319,-15 C313.233227,41.6666667 280.485402,74 220.756525,82 C131.16321,94 127.856044,124.999178 60.4149167,132.619832 C10.9230509,138.212271 -22.8819214,131.672327 -41,113 L-41,-13 Z" id="Rectangle-Copy-5" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.5" mask="url(#mask-2)"></path>
+                        <path d="M-40.5994838,-107 L334.430136,-107 L299.633295,-67.0869451 C309.604609,-30.7879003 313.264771,-1.7589186 310.61378,20 C306.637294,52.6383779 208.569931,74.6362095 166.961179,90 C138.458517,100.524443 94.3896104,101.971801 63.2141634,113 C13.4347102,130.609297 -26.6366776,127.609297 -57,104 L-40.5994838,-107 Z" id="Rectangle-Copy-4" fill="url(#linearGradient-4)" fill-rule="nonzero" opacity="0.5" filter="url(#filter-5)" mask="url(#mask-2)"></path>
+                        <path d="M-41,-13 L319,-15 C312.936553,33.6666667 280.040392,62 220.311515,70 C130.718199,82 133.685068,120.379346 66.2439405,128 C16.7520747,133.592439 -18.9959055,123.925772 -41,99 L-41,-13 Z" id="Rectangle-Copy-3" fill="url(#linearGradient-6)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

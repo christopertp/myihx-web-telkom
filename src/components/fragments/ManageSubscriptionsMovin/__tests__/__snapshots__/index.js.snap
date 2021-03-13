@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ManageSubscriptionsMovin render 1`] = `
+<WhiteCardPlain
+  back="/manage-subscriptions"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle=""
+  title="Manage your Movin'"
+>
+  <h3>
+    Your Device(s)
+  </h3>
+  <section />
+  <ModalConfirmation
+    onAccept={[Function]}
+    onClose={[Function]}
+    onRefuse={[Function]}
+    open={false}
+    reverseBtn={false}
+    subtitle="Are you sure you want to remove this device?
+        If you want to add this device again later, you will be billed again.
+        You can still login with this device until 1st of November 2019"
+    title="Are you sure you want to remove this device?"
+  />
+  <Overlay />
+</WhiteCardPlain>
+`;

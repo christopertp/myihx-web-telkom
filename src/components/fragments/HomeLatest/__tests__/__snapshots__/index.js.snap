@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/HomeLatest render 1`] = `
+<section>
+  <h4>
+    Penawaran terbaru
+  </h4>
+  <ul>
+    <li>
+      <img
+        alt=""
+      />
+      <p />
+      <Link
+        to="/shop/internet/package/undefined"
+      >
+        View Details
+      </Link>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`src/components/fragments/HomeLatest render loading 1`] = `
+<section>
+  <h4>
+    Penawaran terbaru
+  </h4>
+  <ul>
+    <li>
+      <span
+        className="loading"
+      />
+      <span
+        className="loading"
+      />
+      <span
+        className="loading"
+      />
+    </li>
+    <li>
+      <span
+        className="loading"
+      />
+      <span
+        className="loading"
+      />
+      <span
+        className="loading"
+      />
+    </li>
+  </ul>
+</section>
+`;

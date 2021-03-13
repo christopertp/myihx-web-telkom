@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/layouts/WhiteCardSuccess render 1`] = `
+<React.Fragment>
+  <nav>
+    <Link
+      to="/"
+    >
+      <img
+        alt="Indihome Logo"
+        src="/assets/logo_indihome-dark.png"
+      />
+    </Link>
+  </nav>
+  <main>
+    <img
+      alt=""
+      src="/assets/grfx_.svg"
+    />
+    <div>
+      <h1>
+        
+      </h1>
+      <p>
+        
+      </p>
+    </div>
+  </main>
+</React.Fragment>
+`;

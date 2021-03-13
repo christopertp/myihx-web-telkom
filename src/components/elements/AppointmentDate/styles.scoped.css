@@ -1,0 +1,134 @@
+.root > h3 {
+  margin-bottom: 0.5rem;
+}
+
+.arrival {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1rem;
+}
+
+.arrival > div, .arrival > label {
+  border: 0.0625rem solid #e5e6e6;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.arrival > div {
+  height: 7rem;
+}
+
+.arrival > label {
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 2rem 1rem;
+  transition: border 0.25s, box-shadow 0.25s;
+}
+
+.arrival > label[disabled] {
+  background-color: #e5e5e5 !important;
+  border: none !important;
+  box-shadow: none !important;
+  cursor: default !important;
+}
+
+.arrival > label.selected, .arrival > label:hover {
+  border: 0.0625rem solid #0eb37e;
+}
+
+.arrival > label.selected {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+}
+
+.arrival > label > input { display: none; }
+
+.arrival > label > h4 {
+  color: #191a1a;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.arrival > label > p, .arrival + p {
+  color: #66686a;
+  font-size: 0.9rem;
+}
+
+.arrival.mini > label.selected {
+  background-color: #0eb37e;
+}
+
+.arrival.mini > label > h4 {
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.arrival.mini > label.selected > h4 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.date {
+  color: var(--primary-color);
+  display: flex;
+  margin-bottom: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.date > div, .date > label {
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.date > div {
+  height: 7rem;
+  width: 8.25rem;
+}
+
+.date > label {
+  background-color: #ffffff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  cursor: pointer;
+  padding: 0.5rem 3rem;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.date > label.selected { background-color: var(--primary-color); }
+
+.date > label.selected > * { color: #ffffff !important; }
+
+.date > label:last-child { margin-right: 0; }
+
+.date > label > input { display: none; }
+
+.date > label > span {
+  font-size: 1rem;
+  color: #66686a;
+}
+
+.date > label > span:last-of-type { text-transform: uppercase; }
+
+.date > label > h4 {
+  color: #191a1a;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .arrival > div { height: 4.5rem; }  
+  .arrival > label { padding: 0.75rem 1rem; }
+  .arrival > label > h4 { font-size: 0.8rem; }
+  .arrival > label > p, .arrival + p { font-size: 0.7rem; }
+
+  .date { font-size: 0.8rem; }
+  .date > div {
+    height: 4.5rem;
+    width: 3.5rem;
+  }  
+  .date > label { padding: 0.25rem 1rem }
+  .date > label > span { font-size: 0.75rem; }
+  .date > label > h4 { font-size: 1.5rem; }
+}

@@ -1,0 +1,135 @@
+.root > header {
+  background: url(/assets/bnr_upgrade.jpg);
+  background-color: #f2f2f2;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -4rem var(--neg-side-margin) 0;
+  padding: 8rem var(--side-margin);
+}
+.root > header > img,
+.root > header > a > svg:last-child,
+.root > header > h1:first-of-type {
+  display: none;
+}
+.root > header > h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+  width: 34rem;
+}
+.root > header > p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.4rem;
+  width: 33rem;
+}
+.promo-offer {
+  background-color: white;
+  display: grid;
+  margin: 2rem var(--neg-side-margin);
+}
+.promo-offer {
+  background-color: white;
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem var(--neg-side-margin) -6rem var(--neg-side-margin);
+  padding: 4rem var(--side-margin);
+}
+.promo-offer > h1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.promo-offer > p {
+  font-size: 1rem;
+}
+.promo-offer > img {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1/4;
+  width: 100%;
+}
+.content-tabs {
+  padding: 3rem;
+}
+.content-tabs > p {
+  padding-top: 1.5rem;
+}
+.content-tabs > small {
+  color: #b2b4b5;
+}
+.content-tabs > p:first-child {
+  padding-top: 0rem;
+}
+.content-tabs > button {
+  margin-top: 1.5rem;
+}
+.tabs {
+  margin-bottom: 1rem;
+  margin-top: -1.5rem;
+}
+@media only screen and (max-width: 48em) {
+  .root > header {
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: -1rem -1rem 0;
+    padding: 1rem 1rem 0.75rem;
+  }
+  .root > header > a {
+    align-self: center;
+  }
+  .root > header > a > svg:last-child {
+    align-self: center;
+    display: block;
+    height: 1.5rem;
+  }
+  .root > header > p,
+  .root > header > h1:last-of-type {
+    display: none;
+  }
+  .root > header > img {
+    display: inherit;
+  }
+  .root > header > h1:first-of-type {
+    color: #000;
+    display: inherit;
+    font-size: 1.5rem;
+    grid-column: 2;
+    margin-bottom: 0rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .root > header > img {
+    grid-column: 1/3;
+    margin: 1rem 0rem 0rem;
+    width: 100%;
+  }
+  .content-tabs {
+    padding: 1.5rem 0rem 0rem;
+  }
+  .content-tabs > button {
+    width: 100%;
+  }
+  .tabs {
+    margin: 0 -1rem;
+  }
+  .promo-offer {
+    display: block;
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .promo-offer > h1,
+  .promo-offer > p {
+    margin-top: 1rem;
+  }
+  .promo-offer > img {
+    height: initial;
+    margin: 1rem 0rem;
+    width: 100%;
+  }
+  .promo-offer > button {
+    width: 100%;
+  }
+}

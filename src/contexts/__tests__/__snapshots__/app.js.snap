@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/contexts/app render 1`] = `
+<Provider
+  value={
+    Object {
+      "modal": null,
+      "notif": "",
+      "overlay": false,
+      "setModal": [MockFunction] {
+        "calls": Array [
+          Array [
+            null,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "setNotif": [MockFunction],
+      "setOverlay": [MockFunction],
+    }
+  }
+>
+  <div
+    className="modal"
+    onClick={[Function]}
+  />
+  <div
+    className="notif"
+    style={
+      Object {
+        "backgroundColor": "#0eb37e",
+      }
+    }
+  >
+    
+  </div>
+</Provider>
+`;

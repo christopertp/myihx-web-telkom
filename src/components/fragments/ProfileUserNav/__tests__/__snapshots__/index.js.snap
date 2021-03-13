@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ProfileUserNav TmoneyBalance 1`] = `
+<Provider
+  value={
+    Object {
+      "blocked": false,
+      "setBlocked": [MockFunction],
+    }
+  }
+>
+  <Link
+    onClick={[Function]}
+    to="#"
+  >
+    <img
+      alt="wallet"
+      src="/assets/ic_selection_wallet.svg"
+    />
+    <span>
+      Account Blocked
+    </span>
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Link>
+  <TmoneyBlocked />
+</Provider>
+`;
+
+exports[`src/components/fragments/ProfileUserNav TmoneyBlocked 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={false}
+>
+  <img
+    src="/assets/grfx_warning.svg"
+  />
+  <h1>
+    Account Blocked
+  </h1>
+  <p>
+    Your account has been blocked for your safety.
+    <br />
+    Please contact us to unblock your account.
+    <br />
+    Call 
+    <strong>
+      +62 21 3808888
+    </strong>
+     or
+    <br />
+    email customer 
+    <strong>
+      service@tmoney.co.id
+    </strong>
+    .
+  </p>
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      Close
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Mail
+    </Button>
+  </div>
+</Modal>
+`;
+
+exports[`src/components/fragments/ProfileUserNav render 1`] = `
+<React.Fragment>
+  <section>
+    <figure
+      style={
+        Object {
+          "backgroundImage": "url(",
+        }
+      }
+    />
+    <p />
+  </section>
+  <section>
+    <TmoneyBalance />
+    <Rewards />
+  </section>
+</React.Fragment>
+`;

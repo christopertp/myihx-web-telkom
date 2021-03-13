@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/PackageFinderLink render 1`] = `
+<section
+  className=""
+>
+  <Link
+    to="#"
+  >
+    <img
+      alt="grfx find"
+      src="/assets/grfx_find.png"
+    />
+    <span>
+      Perlu bantuan memilih paket internet? Coba package finder kami
+    </span>
+    <img
+      alt="chevron white"
+      src="/assets/ic_chevron_white.svg"
+    />
+  </Link>
+</section>
+`;

@@ -1,0 +1,77 @@
+.main {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  margin: 0 auto 3.75rem;
+  padding: 1.5rem;
+  width: 31.875rem;
+}
+
+.main > header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main > img {
+  margin-bottom: 1rem;
+  width: 6.25rem;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+}
+
+.title > h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.title > p {
+  line-height: 1.6;
+}
+
+.nav {
+  background-color: #ffffff;
+  height: 5.375rem;
+  padding: 2rem 0 1.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.nav > a > img {
+  height: 100%;
+}
+
+@media only screen and (max-width: 48em) {
+  .main {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 100vw;
+  }
+
+  .main::after {
+    background: url(/assets/bg_header_white_full.png) no-repeat;
+    background-color: #ffffff;
+    background-size: contain;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }  
+
+  .title > h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    display: none;
+  }
+}

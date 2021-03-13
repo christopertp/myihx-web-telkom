@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Help MainHelp 1`] = `
+<React.Fragment>
+  <header>
+    <Link
+      to="/"
+    >
+      <Arrow
+        fill="#000001"
+        size={14}
+      />
+      Home
+    </Link>
+    <h1>
+      Help
+    </h1>
+    <p>
+      Having problems? Report your issue and our team will be there to help you
+    </p>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Report Issues
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Reset Modem
+    </Button>
+  </header>
+  <ActivityCards
+    cards={
+      Object {
+        "description": undefined,
+        "issueId": undefined,
+        "status": "ASSURANCE_undefined",
+        "title": undefined,
+      }
+    }
+    fullWidth={true}
+    heading="Your Active Ticket"
+    isLoading={false}
+  />
+  <Link
+    onClick={[Function]}
+    to="#"
+  >
+    <img
+      alt=""
+      src="/assets/grfx_help.svg"
+    />
+    <span>
+      Having problems? Report your issue and our team will be there to help you!
+    </span>
+    <small>
+      Report Issues
+    </small>
+  </Link>
+  <Link
+    onClick={[Function]}
+    to="#"
+  >
+    <img
+      alt=""
+      src="/assets/grfx_acs.svg"
+    />
+    <span>
+      Problem with your connection? Try resetting your modem
+    </span>
+    <small>
+      Reset Modem
+    </small>
+  </Link>
+  <ModalLogin
+    onClose={[MockFunction]}
+    open={false}
+  />
+  <ModalReportIssues
+    onClose={[MockFunction]}
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/Help ModalReportIssues 1`] = `
+<Modal
+  className=""
+  onClose={[MockFunction]}
+  open={true}
+>
+  <IconButton
+    className=""
+    name="close_red"
+    onClick={[MockFunction]}
+    title=""
+    to=""
+    type="button"
+  />
+  <h1>
+    Report Issues
+  </h1>
+  <p>
+    We're sorry to hear that you're having difficulties. Report your issue here and our team will get in contact with you to fix it.
+  </p>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="helpReportIssues"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "issueId": "",
+        "message": "",
+        "type": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</Modal>
+`;
+
+exports[`src/pages/Help ResetModem 1`] = `
+<React.Fragment>
+  <WhiteCardSuccessPlain
+    close=""
+    icon="acs"
+    subtitle=""
+    title="Reset Modem"
+  >
+    <div>
+      <p>
+        If you're having issues with your connection, a modem reset may help.
+      </p>
+      <p>
+        You will be disconnected from all IndiHome services for a few minutes.
+      </p>
+    </div>
+    <small>
+      
+    </small>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      reset modem
+    </Button>
+  </WhiteCardSuccessPlain>
+  <Modal
+    className=""
+    onClose={[MockFunction]}
+    open={false}
+  >
+    <img
+      src="/assets/grfx_warning.svg"
+    />
+    <h1>
+      Reset Complete
+    </h1>
+    <p>
+      Our System 
+      discovered a problem in your connection. Tap the button below to submit report.
+    </p>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      Submit Report
+    </Button>
+  </Modal>
+  <ModalReportIssues
+    onClose={[MockFunction]}
+    open={false}
+  />
+</React.Fragment>
+`;

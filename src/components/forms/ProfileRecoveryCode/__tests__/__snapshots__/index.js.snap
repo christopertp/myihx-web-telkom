@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ProfileRecoveryCode render 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Field
+    component={[Function]}
+    inputProps={
+      Object {
+        "label": "Recovery Code",
+        "placeholder": "Enter Recovery Code",
+      }
+    }
+    name="recoveryCode"
+  />
+  <p>
+    Kirim ulang kode dalam 
+    
+    :
+    
+  </p>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    type="submit"
+    variant="red"
+  >
+    Next
+  </Button>
+</form>
+`;

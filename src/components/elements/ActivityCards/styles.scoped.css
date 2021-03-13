@@ -1,0 +1,59 @@
+.root > h4 {
+  color: #999999;
+  font-size: 0.875rem;
+  font-weight: normal;
+  letter-spacing: 0.0625rem;
+  margin: 1.5rem 0 1rem;
+  text-transform: uppercase;
+}
+
+.root > a, .root > div {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.root > div {
+  height: 6.625rem;
+  width: 25rem;
+}
+
+.root > a {
+  align-items: center;
+  background: url('/assets/bg_banner_wave.svg') center center no-repeat;
+  background-size: cover;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  display: inline-flex;
+  padding: 1rem;
+}
+
+.root > a > img:first-of-type { height: 4rem; }
+.root > a > img:last-of-type { height: 1.5rem; }
+
+.root > a > div {
+  color: #ffffff;
+  flex: 1;
+  margin: 0 1rem;
+  white-space: normal;
+}
+
+.root > a > div > small {
+  opacity: 0.7;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.root > a > div > h4 {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+
+.root > a > div > p { font-size: 0.75rem; }
+
+@media only screen and (max-width: 48em) {
+  .root > h4 { font-size: 0.75rem; }
+  .root > a, .root > div {
+    margin-bottom: 0.25rem;
+    width: 100%;
+  }
+  .root > a > img:first-of-type { height: 3rem; }
+}

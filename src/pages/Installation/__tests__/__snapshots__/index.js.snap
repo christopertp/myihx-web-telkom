@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Installation Detail 1`] = `
+<React.Fragment>
+  <WhiteCardPlain
+    back=""
+    close=""
+    help={false}
+    icon=""
+    size="large"
+    subtitle=""
+    title="Appointment Detail"
+  >
+    <InstallationSchedule
+      onClick={[Function]}
+    />
+    <Package />
+    
+    <GoodToKnow />
+    <footer>
+      <h5>
+        Need Help?
+      </h5>
+      <a
+        href="tel:147"
+      >
+        Contact Us
+      </a>
+    </footer>
+  </WhiteCardPlain>
+  <ModalReschedule
+    onClose={[Function]}
+    open={false}
+  />
+  <ModalMaxReschedule
+    onClose={[Function]}
+    open={false}
+  />
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <img
+      alt=""
+      src="/assets/grfx_warning.svg"
+    />
+    <h3>
+      No installation found
+    </h3>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to="/"
+      type="button"
+      variant="red"
+    >
+      Back to Home
+    </Button>
+  </Modal>
+  <ModalTechRating
+    code="NPS-TECH-RATING"
+    isLoading={
+      Object {
+        "n": false,
+      }
+    }
+    message=""
+    onClose={[Function]}
+    onSubmit={[Function]}
+    open={false}
+    questionnaires={Object {}}
+    technicianInfo={
+      Object {
+        "technician": undefined,
+      }
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/Installation GoodToKnow 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Good to know
+  </Heading>
+  <ul>
+    <li>
+      <Bullet
+        className=""
+        color={
+          Array [
+            "#ee3124",
+            "",
+          ]
+        }
+        connect={false}
+        size="0.5rem"
+      />
+      <p>
+        Installation will take at least 3 hours. Installation may take longer if there are complications. Make sure that you or a contact person is available during that time.
+      </p>
+    </li>
+    <li>
+      <Bullet
+        className=""
+        color={
+          Array [
+            "#ee3124",
+            "",
+          ]
+        }
+        connect={false}
+        size="0.5rem"
+      />
+      <p>
+        There may be additional charges once the installation begins. These charges will be confirmed to you beforehand.
+      </p>
+    </li>
+    <li>
+      <Bullet
+        className=""
+        color={
+          Array [
+            "#ee3124",
+            "",
+          ]
+        }
+        connect={false}
+        size="0.5rem"
+      />
+      <p>
+        If the installation is not successful, we will reschedule or issue a refund.
+      </p>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`src/pages/Installation Package 1`] = `
+<section>
+  <InstallationPackageInfo
+    address=""
+    isLoading={false}
+    product=""
+  />
+</section>
+`;
+
+exports[`src/pages/Installation RescheduleSuccess 1`] = `
+<WhiteCardSuccessPlain
+  close=""
+  icon="success"
+  subtitle="Your new installation schedule is"
+  title="Reschedule Success!"
+>
+  <div>
+    <h3>
+      dddd, D MMMM YYYY
+    </h3>
+    <p>
+      Estimated arrival time 
+    </p>
+  </div>
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/"
+    type="button"
+    variant="red"
+  >
+    Back to Home
+  </Button>
+</WhiteCardSuccessPlain>
+`;
+
+exports[`src/pages/Installation render 1`] = `
+<Provider
+  value={Object {}}
+>
+  <Detail />
+</Provider>
+`;

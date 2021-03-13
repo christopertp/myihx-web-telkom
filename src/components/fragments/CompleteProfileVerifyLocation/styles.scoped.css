@@ -1,0 +1,86 @@
+.desc-ip {
+  line-height: 1.6;
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 25rem;
+}
+.verify-ip {
+  text-align: center;
+  margin-top: 1rem;
+}
+.verify-ip > a:last-of-type,
+.verify-ip > a:last-of-type:hover {
+  background: none;
+  border: none;
+  color: #191a1a;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0;
+}
+.verify-ip-check > p {
+  text-align: center;
+}
+.verify-location > a {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 
+  "icon heading chevron"
+  "icon desc chevron"
+  ;
+  margin-top: 1rem;
+}
+.verify-location > a > img:first-child {
+  grid-area: icon;
+  margin: auto 1rem auto 0;
+  width: 3.5rem;
+}
+.verify-location > a > h6 {
+  grid-area: heading;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+.verify-location > a > p {
+  grid-area: desc;
+  color: #66686a;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.verify-location > a > *:last-child {
+  grid-area: chevron;
+  margin-left: auto;
+  width: 1.5rem;
+}
+.verify-resend {
+  margin: 2.625rem auto 0;
+}
+.verify-timer {
+  color: #b2b4b5;
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin-top: 2.625rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 48em) {
+  .verify-ip {
+    margin-top:auto;
+  }
+  .verify-ip > a:last-of-type,
+  .verify-ip > a:last-of-type:hover {
+    margin: 1.2rem 0;
+  }
+  .verify-ip-check > p {
+    margin-bottom: 3rem;
+  }
+  .verify-location > a > img:first-child {
+    width: 3rem;
+  }
+  .verify-location > h3,
+  .verify-location > a > p {
+    font-size: 0.75rem;
+  }
+}

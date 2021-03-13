@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ShopCategoryMenu render 1`] = `
+<header>
+  <section>
+    <Link
+      to="/shop"
+    >
+      <img
+        alt="back to shop"
+        src="/assets/ic_back_white.svg"
+      />
+      <img
+        alt="back to shop"
+        src="/assets/ic_back_red.svg"
+      />
+      Shop
+    </Link>
+    <h1>
+      
+    </h1>
+    <p>
+      
+    </p>
+  </section>
+  <nav>
+    <Link
+      className=""
+      to="/internet"
+    >
+      Internet
+    </Link>
+    <Link
+      className="active"
+      to="/"
+    >
+      
+    </Link>
+  </nav>
+</header>
+`;

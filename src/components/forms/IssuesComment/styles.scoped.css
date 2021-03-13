@@ -1,0 +1,16 @@
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+.root > label:nth-of-type(2),
+.root > label:nth-of-type(3) {
+  margin-top: 1rem;
+}
+
+.root > button {
+  margin-top: 2rem;
+  width: 100%;
+}

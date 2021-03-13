@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ManageSubscriptionsWifiId render 1`] = `
+<WhiteCardPlain
+  back="/manage-subscriptions"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle=""
+  title="Manage your wifi.id"
+>
+  <div>
+    <LoginInformation />
+    <Devices />
+    <HowToWifiId />
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="submit"
+      variant="red"
+    >
+      Add A New Device
+    </Button>
+    <Overlay />
+  </div>
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/ManageSubscriptionsWifiId render Devices 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Your device(s)
+  </Heading>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    variant="bordered"
+  >
+    <img
+      alt="chevron red"
+      src="/assets/ic_selection_device_computer_grey.svg"
+    />
+    <span>
+      You don't have any device
+    </span>
+    <p>
+      Add device to use wifi.id
+    </p>
+  </Card>
+</section>
+`;
+
+exports[`src/components/fragments/ManageSubscriptionsWifiId render HowToWifiId 1`] = `<section />`;
+
+exports[`src/components/fragments/ManageSubscriptionsWifiId render LoginInformation 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Your login information
+  </Heading>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    variant="hover"
+  >
+    <div>
+      <small>
+        Username
+      </small>
+      <p>
+        
+      </p>
+    </div>
+    <div>
+      <small>
+        Password
+      </small>
+      <input
+        name="password"
+        readOnly={true}
+        type="password"
+        value=""
+      />
+      <button
+        onClick={[Function]}
+      >
+        Show Password
+      </button>
+      <IconButton
+        className=""
+        name="edit"
+        onClick={[Function]}
+        title=""
+        to=""
+        type="button"
+      />
+    </div>
+  </Card>
+  <Modal
+    className=""
+    onClose={[Function]}
+    open={false}
+  >
+    <ReduxForm
+      destroyOnUnmount={true}
+      enableReinitialize={false}
+      forceUnregisterOnUnmount={false}
+      form="manageSubscriptionsPasswordWifiId"
+      getFormState={[Function]}
+      handleCancel={[Function]}
+      initialValues={
+        Object {
+          "passwordWifiId": "",
+        }
+      }
+      keepDirtyOnReinitialize={false}
+      message=""
+      onSubmit={[Function]}
+      persistentSubmitErrors={false}
+      pure={true}
+      shouldAsyncValidate={[Function]}
+      shouldError={[Function]}
+      shouldValidate={[Function]}
+      shouldWarn={[Function]}
+      submitAsSideEffect={false}
+      touchOnBlur={true}
+      touchOnChange={false}
+      updateUnregisteredFields={false}
+      validate={[Function]}
+    />
+  </Modal>
+</section>
+`;

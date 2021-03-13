@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/InputSlider render 1`] = `
+<div
+  className=""
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "block",
+        "left": "calc(NaN% - NaNrem)",
+      }
+    }
+  >
+    0
+  </div>
+  <input
+    onChange={null}
+    type="range"
+    value={0}
+  />
+</div>
+`;

@@ -1,0 +1,332 @@
+.root {
+  background-color: #000d13;
+  margin: -3rem var(--neg-side-margin) 0;
+  padding: 10rem 0rem 4rem var(--side-margin);
+}
+.root:before {
+  content: '';
+  background: url(/assets/img_more_banner_hbogo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 26rem;
+  z-index: -10;
+}
+.root > img {
+  width: 16rem;
+  margin-bottom: 1rem;
+}
+.root > h4 { 
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.slider > h4 {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: normal;
+  letter-spacing: 0.0625rem;
+  margin: 1.5rem 0 1rem;
+  text-transform: uppercase;
+}
+.slider > ul {
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
+  width: 100%;
+}
+.slider > ul > li, .slider > ul > img {
+  border-radius: 0.3rem;
+  display: inline-block;
+  height: 20rem;
+  margin-right: 1rem;
+}
+.slider > ul > li {
+  width: 22rem;
+}
+.slider > ul > img {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  scroll-snap-align: start;
+}
+.slider > ul > *:last-child {
+  margin-right: 0;
+}
+
+.about {
+  color: #ffffff;
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+.about > h4 {
+  opacity: 0.6;
+  font-weight: normal;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.about > p {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  line-height: 1.3125rem;
+  margin-bottom: 0.25rem;
+}
+.about > a {
+  font-weight: bold;
+  font-size: 0.8125rem;
+}
+
+.benefit {
+  color: #ffffff;
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+.benefit > h4 {
+  opacity: 0.6;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.benefit > ul > li {
+  display: grid;
+  grid-template-columns: fit-content(100%) auto;
+  grid-template-rows: auto auto;
+  max-width: 36rem;
+  margin-bottom: 0.75rem;
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 0.25rem;
+}
+.benefit > ul > li:first-child {
+  padding-top: 0;
+}
+.benefit > ul > li > img {
+  grid-row: 1/3;
+  width: 6rem;
+  margin: 0 0.5rem;
+} 
+.benefit > ul > li > h5 {
+  font-size: 0.8125rem;
+  margin: auto 0 0.3rem;
+}
+.benefit > ul > li > p {
+  font-size: 0.75rem;
+}
+
+.drama {
+  margin-top: 2.5rem;
+  padding-top: 4.8rem;
+  padding-left: var(--side-margin);
+  padding-bottom: 1.5rem;
+  color: #ffffff;
+  position: relative;
+  margin-left: var(--neg-side-margin);
+  overflow: hidden;
+}
+.drama:before {
+  content: '';
+  background: url(/assets/img_more_sample_hbogo_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 26rem;
+  z-index: -10;
+}
+.drama:after {
+  content: '';
+  background: linear-gradient(to top,black, rgba(255,255,255,0) 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 16rem;
+  z-index: -10;
+}
+.drama > h4 {
+  opacity: 0.6;
+  font-weight: normal;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+.drama > h1 {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 1.6875rem;
+}
+
+.action {
+  margin-top: 2.5rem;
+  padding-top: 4.8rem;
+  padding-left: var(--side-margin);
+  padding-bottom: 1.5rem;
+  color: #ffffff;
+  position: relative;
+  margin-left: var(--neg-side-margin);
+  overflow: hidden;
+}
+.action:before {
+  content: '';
+  background: url(/assets/img_more_sample_hbogo_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 26rem;
+  z-index: -10;
+}
+.action:after {
+  content: '';
+  background: linear-gradient(to top,black, rgba(255,255,255,0) 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 16rem;
+  z-index: -10;
+}
+.action > h4 {
+  opacity: 0.6;
+  font-weight: normal;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+.action > h1 {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 1.6875rem;
+}
+
+.howToUse {
+  color: #ffffff;
+}
+.howToUse > ul {
+  margin-top: 2rem;
+}
+.howToUse > ul > li {
+  display: grid;
+  grid-template-columns: fit-content(100%) auto;
+  grid-template-rows: auto auto;
+  max-width: 36rem;
+}
+.howToUse > ul > li > div {
+  grid-row: 1/3;
+  width: 2rem;
+  position: relative;
+  padding-top: 0.8rem;
+}
+.howToUse > ul > li:not(:last-child) > div:before {
+  content: "";
+  width: 0.06rem;
+  height: 100%;
+  background: #e5e6e6;
+  opacity: 20%;
+  position: absolute;
+  left: 0.55rem;
+}
+.howToUse > ul > li > div > div {
+  content: "";
+  background: #ffffff;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.4rem;
+}
+.howToUse > ul > li > h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.3rem 0;
+}
+.howToUse > ul > li > p {
+  font-size: 0.75rem;
+  padding-bottom: 1.75rem;
+  opacity: 60%;
+}
+
+@media only screen and (max-width: 48em) {
+  .root {
+    margin: -3rem -1rem 0;
+    padding: 9rem 0rem 2rem 1rem;
+  }
+  .root:before {
+    height: 16rem;
+    margin-top: 3rem;
+  }
+  .root > img {
+    width: 8.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .root > h4 {
+    font-size: 0.75rem;
+  }
+
+  .slider > h4 { font-size: 0.75rem; }
+  .slider > ul { margin-bottom: 0.25rem; }
+  .slider > ul > li {
+    height: 8.75rem;
+    width: 6.75rem;
+    margin-right: 0.75rem;
+  }
+  .slider > ul > img {
+    height: 8.75rem;
+    margin-right: 0.75rem;
+  }
+
+  .about {
+    color: #ffffff;
+    margin-top: 2rem;
+    padding-right: 1rem;
+  }
+  .about > h4 {
+    opacity: 0.6;
+    font-weight: normal;
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+  .about > p {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    line-height: 1.3125rem;
+    margin-bottom: 0.25rem;
+  }
+  .about > a {
+    font-weight: bold;
+    font-size: 0.8125rem;
+  }
+
+  .benefit > h4 {
+    margin-bottom: 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .drama {
+    padding-left: 1.25rem;
+    margin-left: -1.25rem;
+  }
+
+  .action {
+    padding-left: 1.25rem;
+    margin-left: -1.25rem;
+  }
+}

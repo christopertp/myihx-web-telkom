@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/HomePrimaryActions Bill 1`] = `
+<BillContainer>
+  <div>
+    <p>
+      Tagihan bulan ini
+    </p>
+    <span>
+      Belum Dibayar
+    </span>
+    <h2>
+      Rp
+      396.525
+    </h2>
+    <IconButton
+      className=""
+      name="chevron_red"
+      onClick={[Function]}
+      title=""
+      to=""
+      type="button"
+    />
+  </div>
+  <div>
+    <p>
+      Tagihan berikutnya
+    </p>
+    <h3>
+      1 Juni 2020
+    </h3>
+  </div>
+</BillContainer>
+`;
+
+exports[`src/components/fragments/HomePrimaryActions BillContainer 1`] = `
+<Link
+  to="/bill"
+/>
+`;
+
+exports[`src/components/fragments/HomePrimaryActions Browse 1`] = `
+<div>
+  <h2>
+    Unlimited connectivity with IndiHome. Get yours now
+  </h2>
+  <p>
+    Get unlimited internet from as low as
+    <span>
+       Rp320.000/mo
+    </span>
+  </p>
+  <img
+    alt="package"
+    src="/assets/ic_selection_wifi.svg"
+  />
+  <Button
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/shop/internet"
+    type="button"
+    variant="red"
+  >
+    Browse Package
+  </Button>
+</div>
+`;
+
+exports[`src/components/fragments/HomePrimaryActions Usage 1`] = `
+<Link
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+  to="#"
+/>
+`;
+
+exports[`src/components/fragments/HomePrimaryActions render 1`] = `
+<div>
+  <React.Fragment>
+    <Bill />
+    <Usage />
+  </React.Fragment>
+</div>
+`;

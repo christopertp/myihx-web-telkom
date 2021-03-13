@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/layouts/WhiteCard render 1`] = `
+<React.Fragment>
+  <nav>
+    <Link
+      to="/"
+    >
+      <img
+        alt="IndiHome Logo"
+        src="/assets/logo_indihome-dark.png"
+      />
+    </Link>
+  </nav>
+  <main>
+    <header>
+      <IconButton
+        className=""
+        name="back_red"
+        onClick={[Function]}
+        title=""
+        to=""
+        type="button"
+      />
+      <IconButton
+        className=""
+        name="help_red"
+        onClick={[Function]}
+        title=""
+        to="/help"
+        type="button"
+      />
+    </header>
+    <img
+      alt=""
+      src="/assets/grfx_.svg"
+    />
+    <div>
+      <h1>
+        
+      </h1>
+      <p>
+        
+      </p>
+    </div>
+  </main>
+</React.Fragment>
+`;

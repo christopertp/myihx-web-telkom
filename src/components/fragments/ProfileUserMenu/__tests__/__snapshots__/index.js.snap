@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ProfileUserMenu ModalLogout 1`] = `
+<Modal
+  className=""
+  onClose={[Function]}
+  open={false}
+>
+  <h3>
+    Are you want to log out from myIndiHome?
+  </h3>
+  <p>
+    You will need to login again next time you open myIndiHome app.
+  </p>
+  <div>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="bordered"
+    >
+      yes
+    </Button>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      no
+    </Button>
+  </div>
+</Modal>
+`;
+
+exports[`src/components/fragments/ProfileUserMenu render 1`] = `
+<React.Fragment>
+  <section>
+    <p>
+      Account
+    </p>
+    <Link
+      to="/profile/edit"
+    >
+      <span>
+        Edit Profile
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="/profile/change-password"
+    >
+      <span>
+        Change Password
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="/profile/change-mobile"
+    >
+      <span>
+        Change Phone Number
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="/profile/change-email"
+    >
+      <span>
+        Change Email
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="/manage-users"
+    >
+      <span>
+        Manage Users
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="#"
+    >
+      <span>
+        Manage Indihome Numbers
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <p>
+      Membership
+    </p>
+    <Link
+      to="/profile/about-point"
+    >
+      <span>
+        About Poin myIndiHome
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="#"
+    >
+      <span>
+        Point History
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="#"
+    >
+      <span>
+        Merchants & Benefits
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="/rewards/browse"
+    >
+      <span>
+        Browse Rewards
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="#"
+    >
+      <span>
+        My Vouchers
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <p>
+      Other
+    </p>
+    <Link
+      to="#"
+    >
+      <span>
+        Manage T-Money
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="/manage-subscriptions"
+    >
+      <span>
+        Manage Subscriptions
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="/notification-settings"
+    >
+      <span>
+        Notification Settings
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <div>
+      <span>
+        Switch Language
+      </span>
+      <Switch
+        className=""
+        inputProps={
+          Object {
+            "checked": true,
+            "id": "language",
+            "onChange": [Function],
+          }
+        }
+        text={
+          Array [
+            "ID",
+            "EN",
+          ]
+        }
+      />
+    </div>
+    <Link
+      to="/send-feedback"
+    >
+      <span>
+        Send Feedback
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Link
+      to="/about"
+    >
+      <span>
+        About the Application
+      </span>
+      <img
+        alt="chevron red"
+        src="/assets/ic_chevron_red.svg"
+      />
+    </Link>
+    <Button
+      className=""
+      disabled={false}
+      onClick={[Function]}
+      to=""
+      type="button"
+      variant="red"
+    >
+      logout
+    </Button>
+  </section>
+  <ModalLogOut
+    onClose={[Function]}
+    open={false}
+  />
+  <ModalConfirmation
+    onAccept={[Function]}
+    onClose={[Function]}
+    onRefuse={[Function]}
+    open={false}
+    reverseBtn={true}
+    subtitle="This process may take a few seconds."
+    title="Switch language to Bahasa Indonesia"
+  />
+</React.Fragment>
+`;

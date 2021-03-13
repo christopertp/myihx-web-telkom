@@ -1,0 +1,175 @@
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 1.5rem 0;
+}
+
+.buttons > button {
+  background: linear-gradient(130deg, #470c08 0%, #b21f15 67%, #be3c1c 100%);
+  border-radius: 1.5rem;
+  grid-row: 1;
+  height: 3.0625rem;
+  padding: 0.75rem;
+  width: 3.0625rem;
+}
+
+.buttons > span {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  grid-row: 2;
+  line-height: 1.0625rem;
+  margin-top: 0.3125rem;
+  text-align: center;
+}
+
+.change > button {
+  margin: 0 auto;
+}
+
+.dialog {
+  text-align: center;
+}
+
+.dialog > button {
+  margin-top: 1.3125rem;
+  width: 100%;
+}
+
+.dialog > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2.5625rem;
+}
+
+.dialog > div > button:first-child {
+  margin-right: 0.4375rem;
+}
+
+.dialog > div > button:last-child {
+  margin-left: 0.4375rem;
+}
+
+.dialog > h1 {
+  color: #191a1a;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.625rem;
+  margin-bottom: 0.5rem;
+}
+
+.dialog > p {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  line-height: 1.1875rem;
+}
+
+.home > h2 {
+  color: #333333;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.home > h3 {
+  color: #66686a;
+  font-size: 0.75rem;
+  font-weight: normal;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}
+
+.home > img {
+  display: block;
+  height: 10rem;
+  margin: 3.4375rem auto 0;
+}
+
+.home > p {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  line-height: 1.1875rem;
+  margin: 1.3125rem 0 3.4375rem;
+  text-align: center;
+}
+
+.home > span {
+  display: block;
+  height: 1.8rem;
+  width: 8rem;
+}
+
+.list {
+  border-bottom: 0.0625rem solid #e5e6e6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin-top: 0.25rem;
+  padding: 0.4375rem 0;
+}
+
+.list > h3 {
+  align-self: center;
+  color: #191a1a;
+  font-size: 0.9375rem;
+  grid-column: 2;
+  grid-row: 1/3;
+  line-height: 1.1875rem;
+  justify-self: end;
+}
+
+.list > h3.negative::before {
+  content: '-';
+}
+
+.list > h3.positive {
+  color: #0eb37e;
+}
+
+.list > h3.positive::before {
+  content: '+';
+}
+
+.list > p {
+  color: #333333;
+  font-size: 0.9375rem;
+  grid-row: 2;
+  line-height: 1.4375rem;
+}
+
+.list > small {
+  color: #66686a;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.loading > span {
+  display: block;
+  height: 2.5rem;
+  margin: 0.75rem 0 0.5rem 0;
+}
+
+.warning {
+  text-align: center;
+}
+
+.warning > button {
+  width: 100%;
+}
+
+.warning > h1 {
+  color: #191a1a;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  margin-bottom: 0.5rem;
+}
+
+.warning > img {
+  margin-bottom: 1rem;
+}
+
+.warning > p {
+  color: #191a1a;
+  font-size: 0.8125rem;
+  line-height: 1.1875rem;
+  margin-bottom: 2.5rem;
+}

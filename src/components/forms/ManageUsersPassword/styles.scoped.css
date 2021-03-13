@@ -1,0 +1,32 @@
+.root > button {
+  margin-top: 2rem;
+  width: 100%;
+}
+.root > h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+.root > a {
+  color: var(--primary-color);
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 48em) {
+  .root > h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}

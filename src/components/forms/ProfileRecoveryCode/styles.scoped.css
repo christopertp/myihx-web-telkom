@@ -1,0 +1,17 @@
+.root > button {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.verify-timer {
+  color: #b2b4b5;
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin-top: 2.625rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.verify-resend {
+  margin: 2.625rem auto 0;
+}

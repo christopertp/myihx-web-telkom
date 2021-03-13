@@ -1,0 +1,4 @@
+.root > button:last-of-type {
+  margin-top: 2rem;
+  width: 100%;
+}

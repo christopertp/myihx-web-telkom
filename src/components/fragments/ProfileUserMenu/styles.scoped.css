@@ -1,0 +1,131 @@
+.root {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 1, 0.15);
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+}
+
+.root > p {
+  color: #999999;
+  font-size: 0.9rem;
+  letter-spacing: 0.0625rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.root > p:first-of-type {
+  margin-top: 0;
+}
+
+.root > a {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+
+.root > a:hover > span {
+  color: var(--primary-color);
+}
+
+.root > a > span,
+.root > div > span {
+  color: #333435;
+  font-size: 1.125rem;
+  font-weight: 800;
+  transition: color 0.15s ease-in;
+}
+
+.root > a > img {
+  height: 1.3rem;
+}
+
+.root > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+
+.root > button {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.modal {
+  text-align: center;
+}
+
+.modal > h3 {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.modal > p {
+  color: #808080;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.modal > div {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.hide-desktop {
+  display: none !important;
+}
+
+.modal > div > button {
+  flex: 1;
+}
+
+.modal > div > button:first-child {
+  margin-right: 1.25rem;
+}
+
+.switch {
+  background-color: #115b79;
+}
+.switch:not(:checked) {
+  background-color: #115b79;
+}
+
+@media only screen and (max-width: 48em) {
+  .root {
+    margin: 0 -1rem -1rem;
+    padding: 1rem;
+  }
+  .root > p {
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+  }
+  .root > a {
+    border-bottom: 0.063rem solid #ededed;
+    padding: 0.75rem 0.5rem 0.75rem 0;
+  }
+  .root > a > span,
+  .root > div > span {
+    font-size: 1rem;
+  }
+  .root > a > img {
+    height: 1.2rem;
+  }
+
+  .root > div {
+    border-bottom: 0.063rem solid #ededed;
+    padding: 0.75rem 0.5rem 0.75rem 0;
+  }
+  .modal > h3 {
+    font-size: 1.25rem;
+  }
+  .modal > p {
+    font-size: 0.8rem;
+  }
+  .hide-desktop {
+    display: flex !important;
+  }
+}

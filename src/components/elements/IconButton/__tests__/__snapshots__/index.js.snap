@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/IconButton render 1`] = `
+<button
+  className=""
+  onClick={[Function]}
+  type="button"
+>
+  <img
+    alt=""
+    src="/assets/ic_.svg"
+  />
+</button>
+`;
+
+exports[`src/components/elements/IconButton render link 1`] = `
+<Link
+  className=""
+  title=""
+  to="/"
+>
+  <img
+    alt=""
+    src="/assets/ic_.svg"
+  />
+</Link>
+`;

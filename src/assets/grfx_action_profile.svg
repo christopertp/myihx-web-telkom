@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <linearGradient id="prefix__b" x1="10.414%" x2="10.414%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#E4E4E4"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="0%" x2="100%" y1=".063%" y2="99.937%">
+            <stop offset="0%" stop-color="#F8091E"/>
+            <stop offset="100%" stop-color="#A9085A"/>
+        </linearGradient>
+        <filter id="prefix__a" width="146.2%" height="357.1%" x="-23.1%" y="-128.6%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+        </filter>
+        <filter id="prefix__c" width="159.1%" height="342.4%" x="-29.6%" y="-121.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2.5"/>
+        </filter>
+        <radialGradient id="prefix__e" cx="0%" cy="0%" r="269.258%" fx="0%" fy="0%" gradientTransform="scale(.4 1) rotate(21.801)">
+            <stop offset="0%" stop-color="#470C08"/>
+            <stop offset="66.884%" stop-color="#B21F15"/>
+            <stop offset="100%" stop-color="#BE3C1C"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H100V100H0z"/>
+        <g transform="translate(16 8)">
+            <ellipse cx="26.5" cy="60.5" fill="#115B79" fill-rule="nonzero" filter="url(#prefix__a)" opacity=".45" rx="19.5" ry="3.5"/>
+            <g transform="rotate(-9 41.06 .588)">
+                <rect width="40" height="49" fill="url(#prefix__b)" rx="5"/>
+                <rect width="22" height="3" x="5" y="6" fill="#D4D8DC" fill-rule="nonzero" rx="1.5"/>
+                <rect width="14" height="3" x="5" y="13" fill="#D4D8DC" fill-rule="nonzero" rx="1.5"/>
+                <rect width="22" height="3" x="5" y="20" fill="#D4D8DC" fill-rule="nonzero" rx="1.5"/>
+                <rect width="30" height="3" x="5" y="27" fill="#D4D8DC" fill-rule="nonzero" rx="1.5"/>
+                <rect width="19" height="3" x="5" y="34" fill="#D4D8DC" fill-rule="nonzero" rx="1.5"/>
+                <rect width="19" height="3" x="5" y="41" fill="#D4D8DC" fill-rule="nonzero" rx="1.5"/>
+            </g>
+            <g fill-rule="nonzero" transform="translate(34 20)">
+                <ellipse cx="12.688" cy="22.594" fill="#062430" filter="url(#prefix__c)" opacity=".3" rx="12.688" ry="3.094"/>
+                <path fill="#A9B2B9" d="M2.85 18.88l3.65-.38-.093 3.804-3.744 1.682c-.504.227-1.096.002-1.322-.502-.111-.247-.117-.528-.017-.78L2.85 18.88z"/>
+                <path fill="url(#prefix__d)" d="M20.678 1l3.535 3.536L6.536 22.213l-.012-.011-.031.04c-.371.372-1.39-.038-2.328-.917l-.147-.143c-.977-.976-1.451-2.084-1.06-2.475.02-.02.042-.039.067-.054L20.678 1z"/>
+                <ellipse cx="22.375" cy="2.825" fill="url(#prefix__e)" rx="2.5" ry="1" transform="rotate(45 22.375 2.825)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ManageSubscriptions Menu 1`] = `
+<WhiteCardPlain
+  back="/profile"
+  close=""
+  help={false}
+  icon=""
+  size="large"
+  subtitle=""
+  title="Manage Subscriptions"
+>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to="/manage-subscriptions/wifi-id"
+    variant="hover"
+  >
+    <img
+      alt="WIFI_ID"
+      src="http://minio-myihx-dev-myihx-dev.vsan-apps.playcourt.id/assets/icons/ic_usage_wifi.png"
+    />
+    <span>
+      Wifi.idseamless
+    </span>
+    <small>
+      Managewifi.idaccount
+    </small>
+    <img
+      alt="chevron red"
+      src="/assets/ic_chevron_red.svg"
+    />
+  </Card>
+</WhiteCardPlain>
+`;
+
+exports[`src/pages/ManageSubscriptions render 1`] = `
+<Provider>
+  <Menu />
+</Provider>
+`;

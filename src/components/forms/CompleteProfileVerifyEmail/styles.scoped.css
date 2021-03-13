@@ -1,0 +1,24 @@
+.root > span {
+  color: #b2b4b5;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  margin-top: 2.7rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.root > button {
+  margin-top: 0.75rem;
+  width: 100%;
+}
+.root > button:first-of-type {
+  margin-top: 1.7rem;
+}
+
+.error {
+  color: #ee4c24;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}

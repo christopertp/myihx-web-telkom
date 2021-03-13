@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/IssuesDetailStatus Address 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Address
+  </Heading>
+  <p>
+    address
+  </p>
+</section>
+`;
+
+exports[`src/components/fragments/IssuesDetailStatus Appointment 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Your Appointment
+  </Heading>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    variant="hover"
+  >
+    <figure>
+      <React.Fragment>
+        <small>
+          ddd
+        </small>
+        <p>
+          D
+        </p>
+        <small>
+          MMMM
+        </small>
+      </React.Fragment>
+    </figure>
+    <h4>
+      Repair Request
+    </h4>
+    <p>
+      Estimated arrival time 
+      10.00
+    </p>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="button"
+      variant="text"
+    >
+      Reschedule
+    </Button>
+  </Card>
+</section>
+`;
+
+exports[`src/components/fragments/IssuesDetailStatus Steps 1`] = `
+<ul>
+  <li
+    className=""
+  >
+    <Bullet
+      className=""
+      color={
+        Array [
+          "#0eb37e",
+          "#0eb37e",
+        ]
+      }
+      connect={true}
+      size="0.75rem"
+    />
+    <h4>
+      Ticket Submitted
+    </h4>
+    <p>
+      Ticket has been submitted. Our team is currently processing your request
+    </p>
+  </li>
+  <li
+    className=""
+  >
+    <Bullet
+      className=""
+      color={
+        Array [
+          "#0eb37e",
+          "#0eb37e",
+        ]
+      }
+      connect={true}
+      size="0.75rem"
+    />
+    <h4>
+      Ticket Assigned
+    </h4>
+    <p>
+      We have assigned a technician to your request
+    </p>
+  </li>
+  <li
+    className=""
+  >
+    <Bullet
+      className=""
+      color={
+        Array [
+          "#0eb37e",
+          "#e5e6e6",
+        ]
+      }
+      connect={true}
+      size="0.75rem"
+    />
+    <h4>
+      Repair In Progress
+    </h4>
+    <p>
+      Our technician is arriving to your location
+    </p>
+  </li>
+  <li>
+    <Bullet
+      className=""
+      color={
+        Array [
+          "#e5e6e6",
+          "#e5e6e6",
+        ]
+      }
+      connect={false}
+      size="0.75rem"
+    />
+    <h4>
+      Repair Complete
+    </h4>
+    <p>
+      Issue has been resolved!
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`src/components/fragments/IssuesDetailStatus Technician 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Your Technician
+  </Heading>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    variant="hover"
+  >
+    <Avatar
+      className=""
+      src="/assets/av_blank.svg"
+    />
+    <h4>
+      Telkom
+    </h4>
+    <p />
+    <IconButton
+      className=""
+      name="chat"
+      onClick={[Function]}
+      title=""
+      to=""
+      type="button"
+    />
+    <IconButton
+      className=""
+      name="call"
+      onClick={[Function]}
+      title=""
+      to=""
+      type="button"
+    />
+  </Card>
+</section>
+`;
+
+exports[`src/components/fragments/IssuesDetailStatus Ticket 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Your 
+    Report
+  </Heading>
+  <Card
+    className=""
+    disabled={false}
+    onClick={null}
+    to=""
+    variant="hover"
+  >
+    <h4 />
+    Issue
+  </Card>
+</section>
+`;
+
+exports[`src/components/fragments/IssuesDetailStatus render 1`] = `
+<React.Fragment>
+  <Appointment />
+  <Ticket />
+  <Address />
+  <Technician />
+  <Steps />
+</React.Fragment>
+`;

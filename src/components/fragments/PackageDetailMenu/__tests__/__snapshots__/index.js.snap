@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/PackageDetailMenu render 1`] = `
+<header>
+  <section>
+    <Link
+      to="/shop/internet"
+    >
+      <img
+        alt="back white"
+        src="/assets/ic_back_white.svg"
+      />
+      Shop / Internet package
+    </Link>
+    <div>
+      <h1 />
+      <p />
+      <Link
+        to=""
+      >
+        Learn more about internet speed
+        <img
+          alt="chevron white"
+          src="/assets/ic_chevron_white.svg"
+        />
+      </Link>
+      <aside>
+        <h3>
+          Rp
+          0
+          <small>
+             /month
+          </small>
+        </h3>
+        <Link
+          onClick={[Function]}
+          to="#"
+        >
+          View Pricing Detail
+          <img
+            alt="chevron red"
+            src="/assets/ic_chevron_red.svg"
+          />
+        </Link>
+        <Button
+          className=""
+          disabled={false}
+          onClick={[Function]}
+          to=""
+          type="button"
+          variant="red"
+        >
+          Subscribe
+        </Button>
+      </aside>
+    </div>
+  </section>
+  <ul>
+    <li>
+      <aside>
+        <h3 />
+        <span />
+      </aside>
+      <h5>
+        nama
+      </h5>
+      <span>
+        desc
+      </span>
+    </li>
+  </ul>
+</header>
+`;

@@ -1,0 +1,112 @@
+.root {
+  position: relative;
+  z-index: 1;
+}
+
+.root > section:first-child {
+  background-color: #333435;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem var(--side-margin);
+}
+
+.left > h5, .middle > h5, .right > h5 {
+  color: #999999;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.left > a {
+  color: #ffffff;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.125rem;
+  padding: 0.25rem 0;
+}
+
+.middle > div:first-of-type > a {
+  display: inline-block;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+
+.middle > div:first-of-type > a > img {
+  display: block;
+  height: 100%;
+}
+
+.middle > div:last-child > a {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  display: inline-block;
+  height: 2rem;
+  margin-right: 0.75rem;
+  transition: background 0.25s ease-in-out;
+  width: 2rem;
+}
+
+.middle > div:last-child > a:nth-of-type(1):hover { background: #3c5a99; }
+.middle > div:last-child > a:nth-of-type(2):hover { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+.middle > div:last-child > a:nth-of-type(3):hover { background: #38a1f3; }
+.middle > div:last-child > a:nth-of-type(4):hover { background: #ffffff; }
+
+.right > img {
+  display: block;
+  margin: -2rem 0 2rem;
+  width: 11rem;
+}
+
+.root > section:last-child {
+  background-color: #191919;
+  color: #ffffff;
+  display: grid;
+  font-size: 0.9rem;
+  grid-template-columns: 1fr auto auto;
+  padding: 1.5rem var(--side-margin);
+}
+
+.root > section:last-child > p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.root > section:last-child > a:last-child {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .root > section:first-child {
+    display: block;
+    padding: 2rem 1rem;
+  }
+
+  .left > h5, .middle > h5, .right > h5 { margin-bottom: 0.5rem; }
+  .left, .middle { margin-bottom: 1.5rem; }
+  .left > a { font-size: 0.9rem; }
+  .right > img { margin: 0; width: 6.25rem; }
+  
+  .root > section:last-child {
+    font-size: 0.8rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding: 1rem 1rem 3.25rem;
+  }
+  
+  .root > section:last-child > p {
+    grid-column: 1/3;
+    grid-row: 2;
+    margin: 0.5rem auto 1rem;
+  }
+  
+  .root > section:last-child > a:nth-last-child(2) {
+    margin-right: 1rem;
+    text-align: right;
+  }
+
+  .root > section:last-child > a:last-child {
+    margin: 0;
+    text-align: left;
+  }
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/InstallationSchedule render 1`] = `
+<section>
+  <Heading
+    className=""
+  >
+    Your Appointment
+  </Heading>
+  <header>
+    <figure>
+      <p>
+        ddd
+      </p>
+      <h2>
+        11
+      </h2>
+      <p>
+        MMM
+      </p>
+    </figure>
+    <h3>
+      New Installation
+    </h3>
+    <p>
+      Estimated arrival time 
+      1
+    </p>
+    <Button
+      className=""
+      disabled={false}
+      onClick={null}
+      to=""
+      type="button"
+      variant="text"
+    >
+      Reschedule
+    </Button>
+  </header>
+</section>
+`;

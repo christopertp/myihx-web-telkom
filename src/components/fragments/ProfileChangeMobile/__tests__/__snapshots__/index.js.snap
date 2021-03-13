@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/ProfileChangeMobile New 1`] = `
+<WhiteCardPlain
+  back="/profile"
+  close=""
+  help={true}
+  icon="verify"
+  size="medium"
+  subtitle=""
+  title="Change Phone Number"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="profileChangeEM"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "email": "",
+        "mobile": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/ProfileChangeMobile Request 1`] = `
+<WhiteCardPlain
+  back="/profile/change-mobile"
+  close=""
+  help={true}
+  icon="verify"
+  size="medium"
+  subtitle="Choose one of available method to receive account activation code"
+  title="Choose Verification Method"
+>
+  <OtpRequest
+    isLoading={false}
+    message=""
+    mobile="0812345678890"
+    onClick={[Function]}
+    type="SMS"
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/ProfileChangeMobile Verify 1`] = `
+<WhiteCardPlain
+  back="/profile/change-mobile/request"
+  close=""
+  help={true}
+  icon="verify"
+  size="medium"
+  subtitle="Please enter the recovery code sent via SMS to •••••••••8890"
+  title="Verify Phone Number"
+>
+  <ReduxForm
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="profileRecoveryCode"
+    getFormState={[Function]}
+    initialValues={
+      Object {
+        "recoveryCode": "",
+      }
+    }
+    keepDirtyOnReinitialize={false}
+    onResend={[Function]}
+    onSubmit={[Function]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />
+</WhiteCardPlain>
+`;
+
+exports[`src/components/fragments/ProfileChangeMobile render 1`] = `
+<Provider
+  value={
+    Object {
+      "mobile": [MockFunction],
+      "setMobile": [MockFunction],
+      "setVerifyType": [MockFunction],
+      "verifyType": "",
+    }
+  }
+>
+  <New />
+</Provider>
+`;

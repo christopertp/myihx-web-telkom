@@ -1,0 +1,41 @@
+.root > header {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+
+.root > header > img:first-child { 
+  height: 6.25rem;
+  margin: 0 auto; 
+}
+
+.root > h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.root > p {
+  color: #808080;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.root > p > a {
+  color: #ee3124;
+}
+
+.root > footer {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.root > footer > a, .root > footer > button {
+  flex: 1;
+}
+
+.root > footer > button {
+  margin-right: 1.25rem;
+}

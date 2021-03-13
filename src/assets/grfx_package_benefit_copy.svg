@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="64" viewBox="0 0 114 64">
+    <defs>
+        <linearGradient id="prefix__a" x1="0%" x2="97.385%" y1="33.787%" y2="65.365%">
+            <stop offset="0%" stop-color="#BA397B"/>
+            <stop offset="56.351%" stop-color="#F16F4F"/>
+            <stop offset="100%" stop-color="#FFB166"/>
+        </linearGradient>
+        <linearGradient id="prefix__c" x1="0%" x2="100%" y1="66.426%" y2="33.574%">
+            <stop offset="0%" stop-color="#EE3124"/>
+            <stop offset="56.194%" stop-color="#F4837B"/>
+            <stop offset="100%" stop-color="#FFCB99"/>
+        </linearGradient>
+        <filter id="prefix__b" width="183.3%" height="246.3%" x="-41.7%" y="-73.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#prefix__a)" fill-rule="nonzero" d="M91 20c2.761 0 5 2.239 5 5v7.82c-.07-.003-.14-.004-.212-.004-3.866 0-7 3.134-7 7s3.134 7 7 7l.212-.004V56c0 2.761-2.239 5-5 5H29c-2.761 0-5-2.239-5-5v-9.012c3.595-.295 6.421-3.306 6.421-6.977 0-3.67-2.826-6.682-6.42-6.976L24 25c0-2.761 2.239-5 5-5h62z" filter="url(#prefix__b)" opacity=".7" transform="rotate(-11 60 40.5)"/>
+        <path fill="url(#prefix__c)" fill-rule="nonzero" d="M93 9c2.761 0 5 2.239 5 5v10c-4.418 0-8 3.582-8 8s3.582 8 8 8v11c0 2.761-2.239 5-5 5H21c-2.761 0-5-2.239-5-5V40c4.418 0 8-3.582 8-8s-3.582-8-8-8V14c0-2.761 2.239-5 5-5h72z" transform="rotate(-11 57 32.5)"/>
+        <text fill="#FFF" font-family="Ubuntu-Bold, Ubuntu" font-size="24" font-weight="bold" letter-spacing="-.001" transform="rotate(-11 55 32.5)">
+            <tspan x="48" y="41">5</tspan>
+        </text>
+        <text fill="#FFF" font-family="Ubuntu-Bold, Ubuntu" font-size="12" font-weight="bold" letter-spacing="0" transform="rotate(-11 75 28)">
+            <tspan x="64" y="34">MIL</tspan>
+        </text>
+        <text fill="#FFF" font-family="Ubuntu-Bold, Ubuntu" font-size="12" font-weight="bold" letter-spacing="0" transform="rotate(-11 38 34)">
+            <tspan x="30" y="40">Rp</tspan>
+        </text>
+    </g>
+</svg>

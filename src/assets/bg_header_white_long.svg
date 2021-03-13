@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="225" viewBox="0 0 360 225">
+    <defs>
+        <linearGradient id="prefix__b" x1="88.96%" x2="50%" y1="42.931%" y2="63.878%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#C5C7C8"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="44.899%" x2="67.129%" y1="50%" y2="63.683%">
+            <stop offset="0%" stop-color="#4D4D4D"/>
+            <stop offset="100%" stop-color="#030303" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="prefix__f" x1="95.489%" x2="70.67%" y1="50.607%" y2="63.664%">
+            <stop offset="0%" stop-color="#4D4D4D"/>
+            <stop offset="100%" stop-color="#030303" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="prefix__h" x1="42.607%" x2="42.607%" y1="86.755%" y2="14.495%">
+            <stop offset="0%" stop-color="#E8E8E8"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="prefix__e" width="112.5%" height="123.3%" x="-6.2%" y="-11.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="9"/>
+        </filter>
+        <filter id="prefix__g" width="112.5%" height="123.3%" x="-6.2%" y="-11.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="9"/>
+        </filter>
+        <path id="prefix__a" d="M0 0H360V225H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__c" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <path fill="url(#prefix__b)" fill-rule="nonzero" d="M0 3.059l359.43 6.706c26.699 129.3 20.383 195.379-18.947 198.235-43.698 3.173-93.59-19.103-120.614-19.103-92.37 0-92.013 24.102-159.454 31.723C10.923 226.212-22.882 219.672-41 201L0 3.059z" mask="url(#prefix__c)" opacity=".5"/>
+        <path fill="url(#prefix__d)" fill-rule="nonzero" d="M-40.6-15h375.03l-34.797 39.913C342.53 64.545 362.651 95.241 360 117c-2.372 19.466 36.8 75.254-.57 88-25.288 8.625-175.676-29.2-192.469-23-28.502 10.524-72.571 11.972-103.747 23-49.78 17.61-89.85 14.61-120.214-9l16.4-211z" filter="url(#prefix__e)" mask="url(#prefix__c)" opacity=".5"/>
+        <path fill="url(#prefix__f)" fill-rule="nonzero" d="M-40.6-15h375.03l-34.797 39.913C342.53 64.545 362.651 95.241 360 117c-2.372 19.466 36.8 75.254-.57 88-25.288 8.625-175.676-29.2-192.469-23-28.502 10.524-72.571 11.972-103.747 23-49.78 17.61-89.85 14.61-120.214-9l16.4-211z" filter="url(#prefix__g)" mask="url(#prefix__c)" opacity=".5"/>
+        <path fill="url(#prefix__h)" fill-rule="nonzero" d="M0-6l360-2c-.38 108.566-.57 173.88-.57 195.941 0 25.651-93.355 5.624-114.917 1-72.544-15.555-110.828 10.38-178.27 18-49.49 5.593-85.239-4.074-107.243-29L0-6z" mask="url(#prefix__c)"/>
+    </g>
+</svg>
